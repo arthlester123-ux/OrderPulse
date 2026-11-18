@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block title %}Orders{% endblock %}
+{% block content %}
+<div class="page-head">
+    <div><h1>Order records</h1><p>{{ total|num }} order{{ '' if total == 1 else 's' }} found · search, filter and sort the raw data behind the dashboard</p></div>
+    <div class="btn-row"><a class="btn" href="{{ url_for('export_orders', **fq) }}">⬇ Export filtered CSV</a></div>
+</div>
+{% if not has_data %}
+<div class="card hero-empty"><h2>No order data yet</h2><p>Upload a CSV or load the sample dataset first.</p><a class="btn primary" href="{{ url_for('upload') }}">Go to upload</a></div>
+{% else %}
+{% include '_filters.html' %}
+<form class="filters" method="get" action="{{ url_for('orders') }}" style="margin-top:-6px">
+    {% for k, v in fq.items() %}<input type="hidden" name="{{ k }}" value="{{ v }}">{% endfor %}
+    <label style="flex:1">Search order ID, customer or product
+        <input type="search" name="q" value="{{ q }}" placeholder="e.g. Cruz, Wireless Mouse, ORD00123" style="width:100%"></label>
+    <button class="btn primary" type="submit">Search</button>
+</form>
+<div class="card">
+    <div class="table-wrap"><table>
+        {% macro th(key, label, right=False) %}
+            {% set nd = 'asc' if (sort == key and direction == 'desc') else 'desc' %}
+            <th class="{{ 'r' if right }}"><a href="{{ url_for('orders', sort=key, dir=nd, q=q or None, **fq) }}">{{ label }}{% if sort == key %} {{ '▲' if direction == 'asc' else '▼' }}{% endif %}</a></th>
+        {% endmacro %}
+        <thead><tr>{{ th('order_id', 'Order ID') }}{{ th('date', 'Date') }}{{ th('customer', 'Customer') }}{{ th('product', 'Product') }}{{ th('category', 'Category') }}{{ th('quantity', 'Qty', True) }}{{ th('price', 'Price', True) }}{{ th('total', 'Total', True) }}{{ th('status', 'Status') }}</tr></thead>
+        <tbody>
+        {% for r in rows %}
+        <tr><td class="mono">{{ r.order_id }}</td><td class="num">{{ r.order_date }}</td><td>{{ r.customer }}</td><td>{{ r.product }}</td><td>{{ r.category }}</td>
+            <td class="r">{{ r.quantity }}</td><td class="r">{{ r.price|peso2 }}</td><td class="r"><strong>{{ r.line_total|peso2 }}</strong></td>
+            <td><span class="badge b-{{ r.status }}">{{ r.status }}</span></td></tr>
+        {% else %}<tr><td colspan="9" class="empty-row">No orders match your search.</td></tr>
+        {% endfor %}
+        </tbody></table></div>
+    {% if pages > 1 %}
+    <nav class="pagination" aria-label="Pagination">
+        {% if pg > 1 %}<a href="{{ url_for('orders', page=pg-1, sort=sort, dir=direction, q=q or None, **fq) }}">← Prev</a>{% endif %}
+        {% for p in range([1, pg-3]|max, [pages, pg+3]|min + 1) %}
+            {% if p == pg %}<span class="cur">{{ p }}</span>{% else %}<a href="{{ url_for('orders', page=p, sort=sort, dir=direction, q=q or None, **fq) }}">{{ p }}</a>{% endif %}
+        {% endfor %}
+        {% if pg < pages %}<a href="{{ url_for('orders', page=pg+1, sort=sort, dir=direction, q=q or None, **fq) }}">Next →</a>{% endif %}
+        <span style="border:0;background:none;color:var(--text-3)">Page {{ pg }} of {{ pages }}</span>
+    </nav>
+    {% endif %}
+</div>
+{% endif %}
+{% endblock %}

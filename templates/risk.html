@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+{% from '_icons.html' import icon %}
+{% block title %}Order Risk{% endblock %}
+{% block content %}
+{% set hide_status = True %}
+<div class="page-head">
+    <div><h1>Order Risk Detection <span class="tag adv" style="vertical-align:middle">Required enhancement</span></h1>
+    <p>Flags open orders that need attention, using order age, value, and cancellation history.
+       {% if summary %}Reference date: <strong>{{ summary.reference_date }}</strong> (newest order in the data).{% endif %}</p></div>
+    {% if has_data %}<div class="btn-row"><a class="btn" href="{{ url_for('export_risk', **fq) }}">⬇ Export risk report</a></div>{% endif %}
+</div>
+{% if not has_data %}
+<div class="card hero-empty"><h2>No order data yet</h2><p>Upload a CSV or load the sample dataset first.</p><a class="btn primary" href="{{ url_for('upload') }}">Go to upload</a></div>
+{% else %}
+{% include '_filters.html' %}
+
+<section class="kpis">
+    <div class="kpi k-blue"><div class="label">{{ icon('orders') }} Open orders</div><div class="value">{{ summary.open_orders|num }}</div><div class="sub">Pending + Processing + Shipped · {{ summary.open_value|peso }}</div></div>
+    <div class="kpi k-red"><div class="label">{{ icon('alert') }} High risk</div><div class="value">{{ summary.levels.High }}</div><div class="sub">Score ≥ {{ consts.high }} · {{ summary.value_at_risk|peso }} at stake</div></div>
+    <div class="kpi k-amber"><div class="label">{{ icon('pending') }} Medium risk</div><div class="value">{{ summary.levels.Medium }}</div><div class="sub">Score {{ consts.medium }}–{{ consts.high - 1 }}</div></div>
+    <div class="kpi k-green"><div class="label">{{ icon('delivered') }} Low risk</div><div class="value">{{ summary.levels.Low }}</div><div class="sub">On schedule</div></div>
+</section>
+
+<div class="grid g-1-1">
+    <div class="card"><h2>Open orders by risk level</h2><p class="hint">Share of open orders in each level</p>
+        <div class="chart-box short"><canvas id="riskLevelChart" role="img" aria-label="Doughnut chart of open orders by risk level"></canvas></div>
+        <table class="legend-table" style="margin-top:8px"><tbody>
+        {% for lv in ['High','Medium','Low'] %}<tr><td><span class="swatch" style="--c:var(--lv-{{ lv|lower }})"></span>{{ lv }} risk</td><td class="r">{{ summary.levels[lv] }}</td></tr>{% endfor %}
+        </tbody></table></div>
+    <div class="card"><h2>Age of open orders</h2><p class="hint">Days since the order was placed (older = more likely stuck)</p>
+        <div class="chart-box short"><canvas id="riskAgeChart" role="img" aria-label="Bar chart of open orders by age"></canvas></div></div>
+</div>
+
+<h2 class="section-title">Orders that need attention</h2>
+<div class="card">
+    <div class="pills" style="margin-bottom:12px">
+        {% for lv in ['', 'High', 'Medium', 'Low'] %}
+        <a class="chip {{ 'on' if level == lv }}" href="{{ url_for('risk', level=lv or None, **fq) }}" style="text-decoration:none">{{ lv or 'All' }}{% if lv %} ({{ summary.levels[lv] }}){% else %} ({{ summary.open_orders }}){% endif %}</a>
+        {% endfor %}
+    </div>
+    <div class="table-wrap" style="max-height:620px;overflow:auto"><table>
+        <thead><tr><th>Order</th><th>Customer</th><th>Product</th><th>Status</th><th class="r">Age</th><th class="r">Value</th><th>Risk score</th><th>Why flagged</th></tr></thead>
+        <tbody>
+        {% for r in rows %}
+        <tr><td class="mono">{{ r.order_id }}</td><td>{{ r.customer }}</td><td>{{ r.product }}</td>
+            <td><span class="badge b-{{ r.status }}">{{ r.status }}</span></td>
+            <td class="r">{{ r.age_days }} d</td><td class="r">{{ r.line_total|peso }}</td>
+            <td><div class="score" style="--c:var(--lv-{{ r.risk_level|lower }})"><div class="bar"><i style="width:{{ r.risk_score }}%"></i></div>
+                <span class="badge b-{{ r.risk_level }}">{{ r.risk_level }} · {{ r.risk_score }}</span></div></td>
+            <td class="reasons">{{ r.reasons }}</td></tr>
+        {% else %}<tr><td colspan="8" class="empty-row">No open orders in this view. 🎉</td></tr>{% endfor %}
+        </tbody></table></div>
+    {% if shown_total > 100 %}<p class="hint" style="margin-top:8px">Showing the 100 highest-risk of {{ shown_total }} - export the CSV for the full list.</p>{% endif %}
+</div>
+
+<div class="grid g-1-1" style="margin-top:16px">
+    <div class="card"><h2>Customers with repeated cancellations</h2><p class="hint">HAVING cancelled ≥ {{ consts.rc_min }}</p>
+        <div class="table-wrap"><table><thead><tr><th>Customer</th><th class="r">Orders</th><th class="r">Cancelled</th><th class="r">Rate</th></tr></thead><tbody>
+        {% for c in cust %}<tr><td>{{ c.customer }}</td><td class="r">{{ c.orders }}</td><td class="r">{{ c.cancelled }}</td><td class="r">{{ c.cancel_rate }}%</td></tr>
+        {% else %}<tr><td colspan="4" class="empty-row">None</td></tr>{% endfor %}</tbody></table></div></div>
+    <div class="card"><h2>Products with the highest cancellation rate</h2><p class="hint">Products with at least 10 orders</p>
+        <div class="table-wrap"><table><thead><tr><th>Product</th><th>Category</th><th class="r">Orders</th><th class="r">Cancelled</th><th class="r">Rate</th></tr></thead><tbody>
+        {% for p in prods %}<tr><td>{{ p.product }}</td><td>{{ p.category }}</td><td class="r">{{ p.orders }}</td><td class="r">{{ p.cancelled }}</td><td class="r">{{ p.cancel_rate }}%</td></tr>
+        {% else %}<tr><td colspan="5" class="empty-row">None</td></tr>{% endfor %}</tbody></table></div></div>
+</div>
+
+<h2 class="section-title">How the risk score works</h2>
+<div class="card">
+    <p style="color:var(--text-2);font-size:.9rem;margin-bottom:10px">Each <strong>open</strong> order starts at 0 and earns points from transparent, rule-based checks (capped at 100). It is a decision-support heuristic, not a statistical prediction.</p>
+    <div class="table-wrap"><table>
+        <thead><tr><th>Rule</th><th>Condition</th><th class="r">Points</th></tr></thead><tbody>
+        {% for st, rs in rules.items() %}{% for min_age, pts, label in rs %}
+        <tr><td>Order age ({{ st }})</td><td>{{ st }} for more than {{ min_age }} days <small>(highest matching tier counts)</small></td><td class="r">{{ pts }}</td></tr>
+        {% endfor %}{% endfor %}
+        <tr><td>High value</td><td>Order value in the top {{ 100 - consts.hv_pct }}% (≥ {{ summary.high_value_cut|peso }})</td><td class="r">+{{ consts.hv_pts }}</td></tr>
+        <tr><td>Customer history</td><td>Customer has {{ consts.rc_min }} or more cancelled orders</td><td class="r">+{{ consts.rc_pts }}</td></tr>
+        <tr><td>Product history</td><td>Product cancellation rate ≥ {{ consts.pc_factor }}× the overall rate (min. 10 orders)</td><td class="r">+{{ consts.pc_pts }}</td></tr>
+        </tbody></table></div>
+    <p class="hint" style="margin-top:10px">Levels: <strong>High</strong> ≥ {{ consts.high }} · <strong>Medium</strong> {{ consts.medium }}–{{ consts.high - 1 }} · <strong>Low</strong> &lt; {{ consts.medium }}.
+       Age is measured against the newest order date in the dataset so results stay meaningful for historical files.</p>
+</div>
+{% endif %}
+{% endblock %}

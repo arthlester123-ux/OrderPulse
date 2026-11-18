@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block title %}SQL Queries{% endblock %}
+{% block content %}
+<div class="page-head">
+    <div><h1>SQL queries behind the dashboard</h1>
+    <p>Every figure and chart is produced by one of these queries. Results below use the current filters; <code>?</code> marks bound parameters.</p></div>
+</div>
+{% if not has_data %}
+<div class="card hero-empty"><h2>No order data yet</h2><p>Upload a CSV or load the sample dataset first.</p><a class="btn primary" href="{{ url_for('upload') }}">Go to upload</a></div>
+{% else %}
+{% include '_filters.html' %}
+<div class="card" style="margin-bottom:16px">
+    <h2>Database design</h2>
+    <p class="hint">SQLite · table <code>orders</code> (one row per order line) · view <code>v_net_sales</code> · 5 indexes · table <code>upload_log</code></p>
+    <div class="sql" id="schemaBlock"><pre>CREATE TABLE orders (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    order_id TEXT NOT NULL UNIQUE,
+    customer TEXT NOT NULL,  product TEXT NOT NULL,  category TEXT NOT NULL,
+    quantity INTEGER NOT NULL CHECK (quantity &gt; 0),
+    price    REAL    NOT NULL CHECK (price &gt;= 0),
+    order_date TEXT NOT NULL,                              <span class="cm">-- ISO date</span>
+    status TEXT NOT NULL CHECK (status IN ('Pending','Processing','Shipped','Delivered','Cancelled')),
+    line_total REAL NOT NULL                               <span class="cm">-- quantity * price</span>
+);
+CREATE INDEX idx_orders_date ON orders(order_date);   <span class="cm">-- also: status, category, product, customer</span>
+CREATE VIEW v_net_sales AS SELECT * FROM orders WHERE status &lt;&gt; 'Cancelled';</pre></div>
+</div>
+{% for q in results %}
+<article class="card" style="margin-bottom:16px" id="q-{{ q.key }}">
+    <div class="card-head"><div><h2>Query {{ loop.index }} · {{ q.title }}</h2><p class="hint">{{ q.purpose }}</p></div>
+        <span class="tag {{ 'adv' if q.group == 'Advanced' }}">{{ q.group }}</span></div>
+    <div class="sql"><button class="copy" type="button">Copy</button><pre class="sql-text">{{ q.shown_sql }}</pre></div>
+    {% if q.params %}<div class="q-meta"><span class="tag">Parameters: {{ q.params|join(', ') }}</span></div>{% endif %}
+    <details><summary>Execution plan (EXPLAIN QUERY PLAN)</summary>
+        <ul class="plan mono">{% for p in q.plan %}<li>{{ p }}</li>{% endfor %}</ul></details>
+    <div class="table-wrap" style="max-height:300px;overflow:auto"><table>
+        <thead><tr>{% for c in q.cols %}<th>{{ c }}</th>{% endfor %}</tr></thead>
+        <tbody>{% for row in q.rows %}<tr>{% for c in q.cols %}<td class="{{ 'r' if row[c] is number }}">{{ row[c] if row[c] is not none else '—' }}</td>{% endfor %}</tr>
+        {% else %}<tr><td class="empty-row">No rows</td></tr>{% endfor %}</tbody></table></div>
+    {% if q.n > 12 %}<p class="hint" style="margin-top:6px">Showing 12 of {{ q.n }} rows.</p>{% endif %}
+</article>
+{% endfor %}
+{% endif %}
+{% endblock %}

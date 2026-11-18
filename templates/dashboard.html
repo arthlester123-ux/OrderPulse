@@ -1,0 +1,203 @@
+{% extends 'base.html' %}
+{% from '_icons.html' import icon %}
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="page-head">
+    <div>
+        <h1>E-Commerce Order Processing Analytics Dashboard</h1>
+        <p>A data-driven decision support system for monitoring orders, sales and fulfilment
+           {% if has_data %}· data from <strong>{{ date_min }}</strong> to <strong>{{ date_max }}</strong>{% endif %}</p>
+    </div>
+    {% if has_data %}
+    <div class="btn-row">
+        <a class="btn" href="{{ url_for('export_orders', **fq) }}">⬇ Export CSV</a>
+        <button class="btn" type="button" onclick="window.print()">🖨 Print / PDF</button>
+    </div>
+    {% endif %}
+</div>
+
+{% if empty %}
+<div class="card hero-empty">
+    <div style="color:var(--accent)">{{ icon('upload') }}</div>
+    <h2>No order data yet</h2>
+    <p>Upload a CSV file of orders to generate the dashboard, or load the built-in sample dataset
+       (1,500 realistic orders, Jan–Nov 2026) to explore the system right away.</p>
+    <div class="btn-row" style="justify-content:center">
+        <form method="post" action="{{ url_for('load_sample') }}">
+            <input type="hidden" name="_csrf" value="{{ csrf_token() }}">
+            <button class="btn primary" type="submit">Load sample dataset</button>
+        </form>
+        <a class="btn" href="{{ url_for('upload') }}">Upload CSV</a>
+    </div>
+</div>
+{% else %}
+
+{% include '_filters.html' %}
+{% set k = d.kpi %}
+
+{% if k.total_orders == 0 %}
+<div class="card hero-empty"><h2>No orders match these filters</h2><p>Try widening the date range or resetting the filters.</p>
+    <a class="btn primary" href="{{ url_for('dashboard') }}">Reset filters</a></div>
+{% else %}
+
+<!-- ============ KPI CARDS ============ -->
+<section class="kpis" aria-label="Key performance indicators">
+    <div class="kpi k-blue"><div class="label">{{ icon('orders') }} Total Orders</div>
+        <div class="value">{{ k.total_orders|num }}</div>
+        <div class="sub">{{ k.customers|num }} customers · {{ k.units|num }} units sold</div></div>
+    <div class="kpi k-blue"><div class="label">{{ icon('revenue') }} Total Revenue</div>
+        <div class="value" title="{{ k.revenue|peso2 }}">{{ k.revenue|peso }}</div>
+        <div class="sub">Net of cancellations · {{ k.lost_revenue|peso }} lost</div></div>
+    <div class="kpi k-green"><div class="label">{{ icon('delivered') }} Delivered Orders</div>
+        <div class="value">{{ k.delivered|num }}</div>
+        <div class="sub">{{ '%.1f'|format(k.delivery_rate) }}% of all orders</div></div>
+    <div class="kpi k-amber"><div class="label">{{ icon('pending') }} Pending Orders</div>
+        <div class="value">{{ k.pending|num }}</div>
+        <div class="sub">+ {{ k.processing }} processing · {{ k.shipped }} shipped</div></div>
+</section>
+<section class="kpis secondary" aria-label="Additional indicators">
+    <div class="kpi k-slate"><div class="label">{{ icon('cart') }} Avg. Order Value</div>
+        <div class="value">{{ k.aov|peso }}</div><div class="sub">Per non-cancelled order</div></div>
+    <div class="kpi k-green"><div class="label">{{ icon('truck') }} Fulfilment Success</div>
+        <div class="value">{{ '%.1f'|format(k.success_rate) }}%</div><div class="sub">Delivered ÷ (Delivered + Cancelled)</div></div>
+    <div class="kpi k-red"><div class="label">{{ icon('cancel') }} Cancellation Rate</div>
+        <div class="value">{{ '%.1f'|format(k.cancel_rate) }}%</div><div class="sub">{{ k.cancelled|num }} cancelled orders</div></div>
+    <div class="kpi k-red"><div class="label">{{ icon('alert') }} High-Risk Open Orders</div>
+        <div class="value">{{ d.risk.levels.High if d.risk else 0 }}</div>
+        <div class="sub">of {{ k.open_orders }} open orders · <a href="{{ url_for('risk', **fq) }}">view risk report →</a></div></div>
+</section>
+
+<!-- ============ INSIGHTS ============ -->
+<h2 class="section-title">Key insights</h2>
+<section class="insights" aria-label="Automatically generated insights">
+    {% for i in d.insights %}
+    <article class="insight lv-{{ i.level }}">
+        <div class="mark" aria-hidden="true">{{ {'info': 'i', 'good': '✓', 'warn': '!', 'bad': '✕'}[i.level] }}</div>
+        <div><h3>{{ i.title }}</h3><p>{{ i.text }}</p></div>
+    </article>
+    {% endfor %}
+</section>
+
+<!-- ============ CHARTS ============ -->
+<h2 class="section-title">Sales &amp; order performance</h2>
+<div class="grid g-3-2">
+    <div class="card">
+        <div class="card-head"><div><h2>Orders by status</h2><p class="hint">Where every order sits in the fulfilment pipeline</p></div></div>
+        <div class="chart-box short"><canvas id="statusChart" role="img" aria-label="Doughnut chart of orders by status"></canvas></div>
+        <table class="legend-table" style="margin-top:10px">
+            <tbody>
+            {% for s in d.status %}
+            <tr><td><span class="swatch" style="--c:var(--st-{{ s.status|lower }})"></span>{{ s.status }}</td>
+                <td class="r">{{ s.orders|num }}</td><td class="r">{{ '%.1f'|format(s.pct) }}%</td><td class="r">{{ s.value|peso }}</td></tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div class="card" data-chartcard>
+        <div class="card-head"><div><h2>Monthly sales trend</h2>
+            <p class="hint">Net revenue per month{% if d.trend.forecast %} · dashed line = 3-month linear forecast (R² {{ '%.2f'|format(d.trend.forecast_info.r2) }}){% endif %}. Hollow point = month still in progress.</p></div>
+            <button class="tbl-toggle" type="button">Table</button></div>
+        <div class="chart-box tall"><canvas id="trendChart" role="img" aria-label="Line chart of monthly net revenue with forecast"></canvas></div>
+        <div class="chart-table"></div>
+    </div>
+</div>
+
+<div class="grid g-1-1">
+    <div class="card" data-chartcard>
+        <div class="card-head"><div><h2>Top 10 products</h2><p class="hint">By net revenue (ORDER BY revenue DESC)</p></div><button class="tbl-toggle" type="button">Table</button></div>
+        <div class="chart-box tall"><canvas id="topProductsChart" role="img" aria-label="Bar chart of top 10 products by revenue"></canvas></div>
+        <div class="chart-table"></div>
+    </div>
+    <div class="card" data-chartcard>
+        <div class="card-head"><div><h2>Revenue by category</h2><p class="hint">Net revenue and share of total</p></div><button class="tbl-toggle" type="button">Table</button></div>
+        <div class="chart-box tall"><canvas id="categoryChart" role="img" aria-label="Bar chart of revenue by category"></canvas></div>
+        <div class="chart-table"></div>
+    </div>
+</div>
+
+<div class="grid g-2-1">
+    <div class="card" data-chartcard>
+        <div class="card-head"><div><h2>Order status mix per month</h2><p class="hint">Monthly order volume, split by status</p></div><button class="tbl-toggle" type="button">Table</button></div>
+        <div class="chart-box"><canvas id="statusMonthChart" role="img" aria-label="Stacked bar chart of monthly orders by status"></canvas></div>
+        <div class="chart-table"></div>
+    </div>
+    <div class="card" data-chartcard>
+        <div class="card-head"><div><h2>Orders by weekday</h2><p class="hint">When customers buy</p></div><button class="tbl-toggle" type="button">Table</button></div>
+        <div class="chart-box"><canvas id="weekdayChart" role="img" aria-label="Bar chart of orders by weekday"></canvas></div>
+        <div class="chart-table"></div>
+    </div>
+</div>
+
+<!-- ============ STATISTICS ============ -->
+<h2 class="section-title">Statistical analysis</h2>
+{% set s = d.order_stats %}{% set q = d.qty_stats %}
+<div class="grid g-1-1">
+    <div class="card">
+        <h2>Descriptive statistics</h2>
+        <p class="hint">Order value = quantity × price for non-cancelled orders (n = {{ s.count|num }})</p>
+        <div class="table-wrap"><table>
+            <thead><tr><th>Measure</th><th class="r">Order value</th><th class="r">Quantity per order</th></tr></thead>
+            <tbody>
+                <tr><td>Mean (average)</td><td class="r">{{ s.mean|peso2 }}</td><td class="r">{{ '%.2f'|format(q.mean) }}</td></tr>
+                <tr><td>Median (middle value)</td><td class="r">{{ s.median|peso2 }}</td><td class="r">{{ '%.0f'|format(q.median) }}</td></tr>
+                <tr><td>Mode (most common)</td><td class="r">{{ s.mode|peso2 }} <small>({{ s.mode_count }}×)</small></td><td class="r">{{ '%.0f'|format(q.mode) }} <small>({{ q.mode_count }}×)</small></td></tr>
+                <tr><td>Standard deviation</td><td class="r">{{ s.std|peso2 }}</td><td class="r">{{ '%.2f'|format(q.std) }}</td></tr>
+                <tr><td>Variance</td><td class="r">{{ '{:,.0f}'.format(s.variance) }}</td><td class="r">{{ '%.2f'|format(q.variance) }}</td></tr>
+                <tr><td>Minimum / Maximum</td><td class="r">{{ s.min|peso }} / {{ s.max|peso }}</td><td class="r">{{ '%.0f'|format(q.min) }} / {{ '%.0f'|format(q.max) }}</td></tr>
+                <tr><td>Q1 / Q3 (IQR)</td><td class="r">{{ s.q1|peso }} / {{ s.q3|peso }} ({{ s.iqr|peso }})</td><td class="r">{{ '%.0f'|format(q.q1) }} / {{ '%.0f'|format(q.q3) }}</td></tr>
+                <tr><td>Coefficient of variation</td><td class="r">{{ '%.1f'|format(s.cv) }}%</td><td class="r">{{ '%.1f'|format(q.cv) }}%</td></tr>
+                <tr><td>Skewness</td><td class="r">{{ '%.2f'|format(s.skew) }}</td><td class="r">{{ '%.2f'|format(q.skew) }}</td></tr>
+                <tr><td><strong>Fulfilment success rate</strong> <small>(pass-rate equivalent)</small></td><td class="r" colspan="2"><strong>{{ '%.1f'|format(k.success_rate) }}%</strong> of closed orders were delivered</td></tr>
+            </tbody></table></div>
+        <div class="stat-note">
+            <strong>Interpretation:</strong>
+            {% if s.mean > s.median * 1.05 %}The mean ({{ s.mean|peso }}) is higher than the median ({{ s.median|peso }}), so order values are <em>right-skewed</em>: a few large orders pull the average up and the typical customer spends closer to {{ s.median|peso }}.
+            {% else %}The mean ({{ s.mean|peso }}) and median ({{ s.median|peso }}) are close, so order values are fairly symmetric.{% endif %}
+            A coefficient of variation of {{ '%.0f'|format(s.cv) }}% means {{ 'order sizes vary widely' if s.cv > 60 else 'order sizes are fairly consistent' }}.
+        </div>
+    </div>
+    <div class="card" data-chartcard>
+        <div class="card-head"><div><h2>Order value distribution</h2><p class="hint">Histogram of order values (₱, non-cancelled orders)</p></div><button class="tbl-toggle" type="button">Table</button></div>
+        <div class="chart-box tall"><canvas id="histChart" role="img" aria-label="Histogram of order values"></canvas></div>
+        <div class="chart-table"></div>
+    </div>
+</div>
+
+<!-- ============ TABLES ============ -->
+<h2 class="section-title">Detail tables</h2>
+<div class="card" style="margin-bottom:16px">
+    <h2>Category performance</h2><p class="hint">Revenue share, volume and cancellation rate per category</p>
+    <div class="table-wrap"><table>
+        <thead><tr><th>Category</th><th class="r">Orders</th><th class="r">Units</th><th class="r">Net revenue</th><th>Share</th><th class="r">Avg order</th><th class="r">Cancel rate</th></tr></thead>
+        <tbody>
+        {% for c in d.category %}
+        <tr><td><strong>{{ c.category }}</strong></td><td class="r">{{ c.orders|num }}</td><td class="r">{{ c.units|num }}</td>
+            <td class="r">{{ c.revenue|peso }}</td>
+            <td><div class="bar-cell"><div class="bar"><i style="width:{{ c.share }}%"></i></div><span class="num">{{ '%.1f'|format(c.share) }}%</span></div></td>
+            <td class="r">{{ c.aov|peso }}</td>
+            <td class="r">{{ '%.1f'|format(c.cancel_rate) }}%{% if c.cancel_rate > k.cancel_rate * 1.2 %} <span title="Above average" style="color:var(--bad)">▲</span>{% endif %}</td></tr>
+        {% endfor %}
+        </tbody></table></div>
+</div>
+<div class="grid g-1-1">
+    <div class="card">
+        <h2>Bottom 10 products</h2><p class="hint">Lowest net revenue (ORDER BY revenue ASC) - review for promotion or delisting</p>
+        <div class="table-wrap"><table>
+            <thead><tr><th>#</th><th>Product</th><th>Category</th><th class="r">Units</th><th class="r">Revenue</th></tr></thead>
+            <tbody>{% for p in d.bottom_products %}
+            <tr><td>{{ loop.index }}</td><td>{{ p.product }}</td><td>{{ p.category }}</td><td class="r">{{ p.units|num }}</td><td class="r">{{ p.revenue|peso }}</td></tr>
+            {% endfor %}</tbody></table></div>
+    </div>
+    <div class="card">
+        <h2>Top 10 customers</h2><p class="hint">Highest total spend - your most valuable buyers</p>
+        <div class="table-wrap"><table>
+            <thead><tr><th>#</th><th>Customer</th><th class="r">Orders</th><th class="r">Total spent</th></tr></thead>
+            <tbody>{% for c in d.top_customers %}
+            <tr><td>{{ loop.index }}</td><td>{{ c.customer }}</td><td class="r">{{ c.orders|num }}</td><td class="r">{{ c.spent|peso }}</td></tr>
+            {% endfor %}</tbody></table></div>
+    </div>
+</div>
+{% endif %}
+{% endif %}
+{% endblock %}
