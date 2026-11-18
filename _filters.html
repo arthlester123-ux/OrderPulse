@@ -1,0 +1,34 @@
+{# Filter bar. Needs: f, date_min, date_max, categories, statuses. Optional: hide_status, extra_hidden #}
+<form class="filters" method="get" action="{{ url_for(request.endpoint) }}" id="filterForm"
+      data-min="{{ date_min or '' }}" data-max="{{ date_max or '' }}">
+    <label>From <input type="date" name="start" value="{{ f.start }}" min="{{ date_min }}" max="{{ date_max }}"></label>
+    <label>To <input type="date" name="end" value="{{ f.end }}" min="{{ date_min }}" max="{{ date_max }}"></label>
+    <label>Category
+        <select name="category">
+            <option value="">All categories</option>
+            {% for c in categories %}<option value="{{ c }}" {{ 'selected' if f.category == c }}>{{ c }}</option>{% endfor %}
+        </select>
+    </label>
+    {% if not hide_status %}
+    <label>Status
+        <select name="status">
+            <option value="">All statuses</option>
+            {% for s in statuses %}<option value="{{ s }}" {{ 'selected' if f.status == s }}>{{ s }}</option>{% endfor %}
+        </select>
+    </label>
+    {% endif %}
+    {% if q is defined and q %}<input type="hidden" name="q" value="{{ q }}">{% endif %}
+    <button class="btn primary" type="submit">Apply</button>
+    <a class="btn" href="{{ url_for(request.endpoint) }}">Reset</a>
+    <div class="presets" role="group" aria-label="Date presets">
+        <button type="button" class="chip" data-days="30">Last 30 days</button>
+        <button type="button" class="chip" data-days="90">Last 90 days</button>
+        <button type="button" class="chip" data-days="ytd">Year to date</button>
+        <button type="button" class="chip" data-days="all">All time</button>
+    </div>
+</form>
+{% if fq %}<p class="active-filters">Filtered view:
+    {% if f.start or f.end %}<strong>{{ f.start or date_min }} → {{ f.end or date_max }}</strong>{% endif %}
+    {% if f.category %} · category <strong>{{ f.category }}</strong>{% endif %}
+    {% if f.status %} · status <strong>{{ f.status }}</strong>{% endif %}
+</p>{% endif %}

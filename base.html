@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}OrderPulse{% endblock %} · E-Commerce Order Analytics</title>
+    <script>
+        try { var t = localStorage.getItem('op-theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+    </script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/chart.umd.js') }}"></script>
+</head>
+<body>
+<header class="topbar">
+    <canvas id="headerFX" aria-hidden="true"></canvas>
+    <div class="topbar-inner">
+        <a class="brand" href="{{ url_for('dashboard') }}">
+            <svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#fff" fill-opacity=".18"/><path d="M5 18h5l3-9 5 15 3-9h6" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span>OrderPulse<small>E-Commerce Order Analytics</small></span>
+        </a>
+        <nav class="main" aria-label="Main">
+            <a href="{{ url_for('dashboard', **(fq or {})) }}" class="{{ 'active' if page == 'dashboard' }}">Dashboard</a>
+            <a href="{{ url_for('orders', **(fq or {})) }}" class="{{ 'active' if page == 'orders' }}">Orders</a>
+            <a href="{{ url_for('risk', **(fq or {})) }}" class="{{ 'active' if page == 'risk' }}">Order Risk</a>
+            <a href="{{ url_for('queries', **(fq or {})) }}" class="{{ 'active' if page == 'queries' }}">SQL Queries</a>
+            <a href="{{ url_for('upload') }}" class="{{ 'active' if page == 'upload' }}">Upload CSV</a>
+        </nav>
+        <button class="icon-btn" id="themeBtn" type="button" title="Toggle dark mode" aria-label="Toggle dark mode">◐</button>
+    </div>
+</header>
+
+<main class="container">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% for cat, message in messages %}
+            <div class="flash {{ 'error' if cat == 'error' else 'success' }}" role="status">{{ '⚠' if cat == 'error' else '✓' }} {{ message }}</div>
+        {% endfor %}
+    {% endwith %}
+    {% block content %}{% endblock %}
+</main>
+<div class="foot">OrderPulse · Advanced Database Systems project<br> <b>Jasmine Concepcion | Mcbryan Matabang | Arth Lester Montesa</b></div>
+
+{% if chart_data is defined %}<script>window.dashboardData = {{ chart_data|tojson }};</script>{% endif %}
+{% if risk_chart is defined and risk_chart %}<script>window.riskData = {{ risk_chart|tojson }};</script>{% endif %}
+<script src="{{ url_for('static', filename='js/charts.js') }}"></script>
+</body>
+</html>

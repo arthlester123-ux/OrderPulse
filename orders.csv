@@ -1,0 +1,1501 @@
+order_id,customer,product,category,quantity,price,order_date,status
+ORD00001,Allan Rivera,Wireless Mouse,Electronics,1,500,2026-01-01,Delivered
+ORD00002,John Navarro,Vitamin C Serum,Beauty & Health,3,599,2026-01-01,Delivered
+ORD00003,Nicole Cruz,Leather Belt,Fashion,3,450,2026-01-01,Delivered
+ORD00004,Elmer Salazar,Hoodie Jacket,Fashion,1,808,2026-01-02,Delivered
+ORD00005,Nicole Cruz,Hiking Backpack,Sports & Outdoors,3,1799,2026-01-02,Cancelled
+ORD00006,Patrick Aquino,Power Bank 10000mAh,Electronics,1,899,2026-01-03,Delivered
+ORD00007,Dennis Lopez,Cotton T-Shirt,Fashion,1,350,2026-01-03,Delivered
+ORD00008,Hazel Pascual,Cotton T-Shirt,Fashion,1,368,2026-01-03,Delivered
+ORD00009,Dennis Lopez,Mechanical Keyboard,Electronics,2,2300,2026-01-03,Delivered
+ORD00010,Trisha Ramos,Wireless Mouse,Electronics,4,500,2026-01-03,Delivered
+ORD00011,Allan Rivera,Sunscreen SPF50,Beauty & Health,1,441,2026-01-04,Delivered
+ORD00012,Irene Manalo,Bed Sheet Set,Home & Living,1,1250,2026-01-04,Delivered
+ORD00013,Mika Valdez,Denim Jeans,Fashion,3,1100,2026-01-05,Delivered
+ORD00014,Aileen Salazar,Premium Coffee Beans 500g,Groceries,4,650,2026-01-05,Delivered
+ORD00015,Elmer Aguilar,Mechanical Keyboard,Electronics,2,2300,2026-01-05,Delivered
+ORD00016,Gabriel Navarro,Cotton T-Shirt,Fashion,3,350,2026-01-05,Delivered
+ORD00017,Elmer Aguilar,Mixed Nuts 1kg,Groceries,1,780,2026-01-06,Delivered
+ORD00018,Francis Aguilar,Vitamin C Serum,Beauty & Health,1,599,2026-01-06,Delivered
+ORD00019,Trisha Reyes,Wall Clock,Home & Living,2,380,2026-01-07,Delivered
+ORD00020,Francis Salazar,Wireless Mouse,Electronics,1,500,2026-01-07,Delivered
+ORD00021,Juan Santos,Wall Clock,Home & Living,1,380,2026-01-08,Delivered
+ORD00022,Carlo Bautista,Notebook Set (5pcs),Books & Stationery,2,250,2026-01-08,Delivered
+ORD00023,Vincent Reyes,Power Bank 10000mAh,Electronics,1,809,2026-01-09,Delivered
+ORD00024,Irene Valdez,Building Blocks 500pcs,Toys & Games,2,899,2026-01-09,Delivered
+ORD00025,Noel Manalo,Wireless Mouse,Electronics,1,500,2026-01-09,Delivered
+ORD00026,Gabriel Navarro,Notebook Set (5pcs),Books & Stationery,1,250,2026-01-09,Delivered
+ORD00027,Kristine Valdez,Denim Jeans,Fashion,2,1100,2026-01-10,Delivered
+ORD00028,Joshua Flores,Wireless Mouse,Electronics,3,500,2026-01-10,Delivered
+ORD00029,Camille Soriano,Running Shoes,Fashion,3,2199,2026-01-11,Delivered
+ORD00030,Liza Cruz,Multivitamins 60s,Beauty & Health,1,540,2026-01-11,Delivered
+ORD00031,Mika Valdez,Premium Coffee Beans 500g,Groceries,3,650,2026-01-11,Delivered
+ORD00032,John Ramos,Premium Coffee Beans 500g,Groceries,1,650,2026-01-12,Delivered
+ORD00033,Irene Dela Cruz,Wireless Mouse,Electronics,1,500,2026-01-12,Delivered
+ORD00034,Allan Rivera,Electric Kettle,Home & Living,1,780,2026-01-13,Delivered
+ORD00035,Joshua Flores,Gel Pen Pack,Books & Stationery,1,102,2026-01-13,Delivered
+ORD00036,Maria Flores,Bed Sheet Set,Home & Living,1,1250,2026-01-14,Delivered
+ORD00037,Camille Valdez,Bluetooth Earbuds,Electronics,1,1450,2026-01-14,Delivered
+ORD00038,Miguel Tolentino,Cotton T-Shirt,Fashion,2,350,2026-01-14,Delivered
+ORD00039,Bea Soriano,Vitamin C Serum,Beauty & Health,2,599,2026-01-14,Cancelled
+ORD00040,Vincent Castillo,Notebook Set (5pcs),Books & Stationery,2,250,2026-01-15,Delivered
+ORD00041,Vincent Mendoza,Cotton T-Shirt,Fashion,1,350,2026-01-15,Delivered
+ORD00042,Joshua Aquino,Wireless Mouse,Electronics,1,500,2026-01-15,Delivered
+ORD00043,Paolo Dela Cruz,Mixed Nuts 1kg,Groceries,1,819,2026-01-15,Delivered
+ORD00044,Francis Aguilar,Webcam 1080p,Electronics,1,1062,2026-01-15,Delivered
+ORD00045,Joshua Flores,Electric Kettle,Home & Living,1,780,2026-01-16,Delivered
+ORD00046,Dennis Castro,Dumbbell Set 10kg,Sports & Outdoors,4,1450,2026-01-16,Delivered
+ORD00047,Kristine Santos,Mechanical Keyboard,Electronics,1,2300,2026-01-16,Delivered
+ORD00048,Kristine Valdez,Wall Clock,Home & Living,2,380,2026-01-16,Delivered
+ORD00049,Miguel Castro,Denim Jeans,Fashion,2,935,2026-01-17,Delivered
+ORD00050,Sofia Manalo,Webcam 1080p,Electronics,1,1250,2026-01-18,Delivered
+ORD00051,Kristine Pascual,Power Bank 10000mAh,Electronics,1,809,2026-01-18,Delivered
+ORD00052,Vincent Domingo,LED Desk Lamp,Home & Living,1,649,2026-01-18,Cancelled
+ORD00053,Liza Salazar,Dumbbell Set 10kg,Sports & Outdoors,1,1450,2026-01-18,Delivered
+ORD00054,Francis Navarro,Hiking Backpack,Sports & Outdoors,1,1799,2026-01-19,Delivered
+ORD00055,Gabriel Pascual,Yoga Mat,Sports & Outdoors,2,682,2026-01-19,Delivered
+ORD00056,Francis Aguilar,Wireless Mouse,Electronics,1,525,2026-01-19,Delivered
+ORD00057,Nicole Cruz,Water Bottle 1L,Sports & Outdoors,1,339,2026-01-19,Delivered
+ORD00058,Allan Rivera,USB-C Charger 65W,Electronics,3,1150,2026-01-20,Delivered
+ORD00059,Francis Aguilar,Programming Book,Books & Stationery,1,1402,2026-01-20,Delivered
+ORD00060,Rey Rivera,Organic Honey 350ml,Groceries,1,390,2026-01-20,Delivered
+ORD00061,Allan Rivera,Gel Pen Pack,Books & Stationery,2,120,2026-01-21,Delivered
+ORD00062,Angel Cruz,Wireless Mouse,Electronics,3,500,2026-01-21,Delivered
+ORD00063,Joy Aguilar,Vitamin C Serum,Beauty & Health,2,509,2026-01-21,Processing
+ORD00064,Camille Soriano,Premium Coffee Beans 500g,Groceries,1,650,2026-01-22,Pending
+ORD00065,Carlo Bautista,Cotton T-Shirt,Fashion,1,350,2026-01-23,Delivered
+ORD00066,Gabriel Torres,Cotton T-Shirt,Fashion,1,350,2026-01-23,Delivered
+ORD00067,Gabriel Navarro,Dumbbell Set 10kg,Sports & Outdoors,1,1450,2026-01-24,Delivered
+ORD00068,Allan Tolentino,Organic Honey 350ml,Groceries,1,390,2026-01-24,Delivered
+ORD00069,Paolo Dela Cruz,Wireless Mouse,Electronics,1,500,2026-01-25,Delivered
+ORD00070,Liza Salazar,Premium Coffee Beans 500g,Groceries,2,650,2026-01-25,Delivered
+ORD00071,Joshua Manalo,Wireless Mouse,Electronics,1,500,2026-01-26,Delivered
+ORD00072,Maria Torres,Puzzle 1000pcs,Toys & Games,1,480,2026-01-26,Delivered
+ORD00073,Allan Rivera,Notebook Set (5pcs),Books & Stationery,1,250,2026-01-26,Delivered
+ORD00074,Dennis Salazar,Notebook Set (5pcs),Books & Stationery,4,250,2026-01-26,Delivered
+ORD00075,Liza Salazar,Building Blocks 500pcs,Toys & Games,2,809,2026-01-27,Cancelled
+ORD00076,Vincent Reyes,Wireless Mouse,Electronics,2,450,2026-01-27,Delivered
+ORD00077,Aileen Cruz,Board Game Classic,Toys & Games,1,1150,2026-01-28,Delivered
+ORD00078,Allan Rivera,Dumbbell Set 10kg,Sports & Outdoors,1,1450,2026-01-28,Cancelled
+ORD00079,Maria Flores,Vitamin C Serum,Beauty & Health,1,599,2026-01-28,Delivered
+ORD00080,Ramon Santos,Hair Dryer,Beauty & Health,2,1100,2026-01-29,Delivered
+ORD00081,Ana Mendoza,Gel Pen Pack,Books & Stationery,5,120,2026-01-29,Delivered
+ORD00082,Miguel Soriano,Facial Cleanser,Beauty & Health,1,310,2026-01-29,Delivered
+ORD00083,Carlo Soriano,Wall Clock,Home & Living,2,380,2026-01-29,Delivered
+ORD00084,Gabriel Bautista,USB-C Charger 65W,Electronics,1,1150,2026-01-29,Delivered
+ORD00085,Hazel Castro,Notebook Set (5pcs),Books & Stationery,2,250,2026-01-30,Delivered
+ORD00086,Trisha Tolentino,Mixed Nuts 1kg,Groceries,1,780,2026-01-31,Cancelled
+ORD00087,Hazel Castro,Canvas Sneakers,Fashion,1,1299,2026-01-31,Delivered
+ORD00088,Daniel Reyes,LED Desk Lamp,Home & Living,1,649,2026-01-31,Delivered
+ORD00089,Vincent Reyes,Yoga Mat,Sports & Outdoors,3,650,2026-02-01,Delivered
+ORD00090,Joy Navarro,LED Desk Lamp,Home & Living,1,584,2026-02-01,Delivered
+ORD00091,Allan Soriano,USB-C Charger 65W,Electronics,1,1150,2026-02-01,Cancelled
+ORD00092,Irene Navarro,Bluetooth Earbuds,Electronics,1,1450,2026-02-01,Delivered
+ORD00093,Gabriel Cruz,Electric Kettle,Home & Living,1,780,2026-02-01,Delivered
+ORD00094,Vincent Domingo,Vitamin C Serum,Beauty & Health,1,599,2026-02-02,Delivered
+ORD00095,Allan Dela Cruz,Denim Jeans,Fashion,2,1100,2026-02-02,Delivered
+ORD00096,Liza Salazar,Vitamin C Serum,Beauty & Health,1,599,2026-02-02,Delivered
+ORD00097,Liza Salazar,Premium Coffee Beans 500g,Groceries,2,650,2026-02-03,Delivered
+ORD00098,Joy Reyes,Cotton T-Shirt,Fashion,2,350,2026-02-03,Delivered
+ORD00099,Daniel Domingo,Hiking Backpack,Sports & Outdoors,1,1799,2026-02-03,Delivered
+ORD00100,Vincent Castillo,Yoga Mat,Sports & Outdoors,3,650,2026-02-03,Delivered
+ORD00101,Francis Aguilar,Vitamin C Serum,Beauty & Health,1,599,2026-02-04,Delivered
+ORD00102,Joshua Manalo,Mechanical Keyboard,Electronics,1,2300,2026-02-04,Delivered
+ORD00103,Sofia Navarro,Yoga Mat,Sports & Outdoors,1,650,2026-02-04,Delivered
+ORD00104,Liza Salazar,USB-C Charger 65W,Electronics,2,1208,2026-02-05,Delivered
+ORD00105,Irene Torres,Leather Belt,Fashion,1,450,2026-02-05,Delivered
+ORD00106,Irene Navarro,Canvas Sneakers,Fashion,2,1299,2026-02-06,Delivered
+ORD00107,Mark Castro,Cotton T-Shirt,Fashion,2,350,2026-02-06,Delivered
+ORD00108,Ramon Torres,Hair Dryer,Beauty & Health,1,1100,2026-02-07,Shipped
+ORD00109,Joy Navarro,Yoga Mat,Sports & Outdoors,1,650,2026-02-07,Delivered
+ORD00110,Irene Manalo,Puzzle 1000pcs,Toys & Games,1,480,2026-02-07,Delivered
+ORD00111,John Aguilar,Denim Jeans,Fashion,3,1100,2026-02-07,Delivered
+ORD00112,Hazel Pascual,Wireless Mouse,Electronics,3,500,2026-02-07,Cancelled
+ORD00113,Francis Aguilar,Hiking Backpack,Sports & Outdoors,2,1799,2026-02-09,Delivered
+ORD00114,Nicole Cruz,Hiking Backpack,Sports & Outdoors,1,1799,2026-02-09,Delivered
+ORD00115,John Reyes,Smart Watch,Electronics,4,1899,2026-02-10,Delivered
+ORD00116,Gabriel Castro,Dumbbell Set 10kg,Sports & Outdoors,1,1450,2026-02-10,Delivered
+ORD00117,Nicole Cruz,Vitamin C Serum,Beauty & Health,1,599,2026-02-10,Delivered
+ORD00118,Joshua Flores,Bluetooth Earbuds,Electronics,1,1450,2026-02-10,Delivered
+ORD00119,Joy Navarro,USB-C Charger 65W,Electronics,1,1208,2026-02-10,Processing
+ORD00120,Trisha Tolentino,Cotton T-Shirt,Fashion,2,350,2026-02-11,Delivered
+ORD00121,Hazel Pascual,Sunscreen SPF50,Beauty & Health,1,420,2026-02-11,Delivered
+ORD00122,Juan Valdez,Leather Belt,Fashion,1,450,2026-02-12,Delivered
+ORD00123,Francis Navarro,Mechanical Keyboard,Electronics,3,2070,2026-02-12,Delivered
+ORD00124,Noel Cruz,Yoga Mat,Sports & Outdoors,2,650,2026-02-13,Delivered
+ORD00125,Allan Rivera,USB-C Charger 65W,Electronics,1,1150,2026-02-13,Delivered
+ORD00126,Hazel Pascual,Bluetooth Earbuds,Electronics,2,1450,2026-02-13,Delivered
+ORD00127,Francis Dela Cruz,Bed Sheet Set,Home & Living,2,1250,2026-02-14,Delivered
+ORD00128,Gabriel Valdez,Cotton T-Shirt,Fashion,4,350,2026-02-14,Delivered
+ORD00129,Irene Dela Cruz,Olive Oil 1L,Groceries,4,720,2026-02-14,Delivered
+ORD00130,Jasmine Tolentino,USB-C Charger 65W,Electronics,2,1150,2026-02-14,Delivered
+ORD00131,Hazel Pascual,Webcam 1080p,Electronics,2,1250,2026-02-14,Delivered
+ORD00132,Allan Pascual,Programming Book,Books & Stationery,5,1650,2026-02-15,Cancelled
+ORD00133,Dianne Aguilar,USB-C Charger 65W,Electronics,1,1208,2026-02-16,Delivered
+ORD00134,Vincent Domingo,Premium Coffee Beans 500g,Groceries,5,650,2026-02-16,Delivered
+ORD00135,Allan Rivera,Hair Dryer,Beauty & Health,2,1100,2026-02-17,Delivered
+ORD00136,Mika Valdez,LED Desk Lamp,Home & Living,1,649,2026-02-18,Delivered
+ORD00137,Allan Rivera,Vitamin C Serum,Beauty & Health,1,599,2026-02-18,Delivered
+ORD00138,Daniel Dela Cruz,Bed Sheet Set,Home & Living,3,1125,2026-02-19,Delivered
+ORD00139,Joshua Flores,Bed Sheet Set,Home & Living,1,1250,2026-02-19,Delivered
+ORD00140,Ramon Garcia,Building Blocks 500pcs,Toys & Games,1,899,2026-02-19,Delivered
+ORD00141,Mika Garcia,Premium Coffee Beans 500g,Groceries,1,682,2026-02-19,Delivered
+ORD00142,Francis Aguilar,Hair Dryer,Beauty & Health,1,1100,2026-02-19,Delivered
+ORD00143,Francis Aguilar,Building Blocks 500pcs,Toys & Games,2,899,2026-02-19,Delivered
+ORD00144,Nicole Cruz,Storage Organizer,Home & Living,1,420,2026-02-19,Delivered
+ORD00145,Trisha Flores,Hoodie Jacket,Fashion,3,950,2026-02-20,Processing
+ORD00146,Katrina Manalo,Webcam 1080p,Electronics,4,1250,2026-02-20,Delivered
+ORD00147,Gabriel Pascual,Denim Jeans,Fashion,2,1100,2026-02-20,Delivered
+ORD00148,Trisha Ramos,Yoga Mat,Sports & Outdoors,2,650,2026-02-20,Delivered
+ORD00149,Liza Salazar,Bluetooth Earbuds,Electronics,1,1450,2026-02-20,Delivered
+ORD00150,Irene Manalo,Vitamin C Serum,Beauty & Health,1,599,2026-02-20,Delivered
+ORD00151,Daniel Reyes,Wireless Mouse,Electronics,1,500,2026-02-21,Delivered
+ORD00152,Vincent Valdez,Building Blocks 500pcs,Toys & Games,2,899,2026-02-21,Processing
+ORD00153,Francis Aguilar,USB-C Charger 65W,Electronics,2,1150,2026-02-21,Delivered
+ORD00154,Rey Salazar,Power Bank 10000mAh,Electronics,3,899,2026-02-21,Cancelled
+ORD00155,Joy Aquino,Bluetooth Earbuds,Electronics,1,1450,2026-02-22,Delivered
+ORD00156,Gabriel Bautista,Vitamin C Serum,Beauty & Health,2,599,2026-02-22,Delivered
+ORD00157,Vincent Valdez,Bed Sheet Set,Home & Living,1,1062,2026-02-22,Delivered
+ORD00158,Liza Salazar,Electric Kettle,Home & Living,1,819,2026-02-22,Delivered
+ORD00159,Gabriel Torres,Storage Organizer,Home & Living,1,441,2026-02-23,Delivered
+ORD00160,Noel Cruz,Gel Pen Pack,Books & Stationery,3,120,2026-02-24,Delivered
+ORD00161,Liza Salazar,Bluetooth Earbuds,Electronics,1,1450,2026-02-24,Delivered
+ORD00162,Sofia Navarro,Hiking Backpack,Sports & Outdoors,2,1799,2026-02-24,Cancelled
+ORD00163,Allan Rivera,Leather Belt,Fashion,1,450,2026-02-24,Delivered
+ORD00164,Francis Aguilar,LED Desk Lamp,Home & Living,1,649,2026-02-25,Delivered
+ORD00165,Mika Navarro,Cotton T-Shirt,Fashion,5,350,2026-02-26,Cancelled
+ORD00166,Francis Aguilar,Hiking Backpack,Sports & Outdoors,1,1799,2026-02-27,Delivered
+ORD00167,Gabriel Salazar,Vitamin C Serum,Beauty & Health,1,539,2026-02-27,Delivered
+ORD00168,Kristine Garcia,Bluetooth Earbuds,Electronics,1,1232,2026-02-27,Delivered
+ORD00169,Gabriel Valdez,Facial Cleanser,Beauty & Health,2,310,2026-02-28,Delivered
+ORD00170,Vincent Reyes,Canvas Sneakers,Fashion,2,1169,2026-02-28,Delivered
+ORD00171,Nicole Cruz,Board Game Classic,Toys & Games,2,1150,2026-03-01,Delivered
+ORD00172,Angel Domingo,Cotton T-Shirt,Fashion,3,350,2026-03-01,Delivered
+ORD00173,Miguel Soriano,Premium Coffee Beans 500g,Groceries,1,650,2026-03-01,Delivered
+ORD00174,Ramon Santos,Wall Clock,Home & Living,1,380,2026-03-02,Delivered
+ORD00175,Nicole Cruz,Wireless Mouse,Electronics,1,500,2026-03-02,Delivered
+ORD00176,Vincent Dela Cruz,Wireless Mouse,Electronics,1,500,2026-03-03,Delivered
+ORD00177,Allan Rivera,Mixed Nuts 1kg,Groceries,1,780,2026-03-03,Delivered
+ORD00178,Patrick Castro,Electric Kettle,Home & Living,1,780,2026-03-03,Delivered
+ORD00179,Francis Flores,Cotton T-Shirt,Fashion,1,350,2026-03-03,Delivered
+ORD00180,Ramon Dela Cruz,Dumbbell Set 10kg,Sports & Outdoors,1,1232,2026-03-03,Delivered
+ORD00181,Angel Cruz,Cotton T-Shirt,Fashion,1,350,2026-03-03,Delivered
+ORD00182,John Reyes,Building Blocks 500pcs,Toys & Games,1,899,2026-03-03,Cancelled
+ORD00183,Juan Navarro,Dumbbell Set 10kg,Sports & Outdoors,1,1450,2026-03-03,Delivered
+ORD00184,Joy Aquino,Mechanical Keyboard,Electronics,1,2300,2026-03-04,Delivered
+ORD00185,Joshua Aquino,LED Desk Lamp,Home & Living,2,681,2026-03-04,Delivered
+ORD00186,Maria Aguilar,Yoga Mat,Sports & Outdoors,1,650,2026-03-05,Delivered
+ORD00187,Vincent Reyes,Wireless Mouse,Electronics,1,500,2026-03-05,Delivered
+ORD00188,Dianne Torres,Bluetooth Earbuds,Electronics,2,1450,2026-03-05,Delivered
+ORD00189,Carlo Soriano,Bluetooth Earbuds,Electronics,1,1450,2026-03-06,Delivered
+ORD00190,Jose Flores,Bluetooth Earbuds,Electronics,2,1450,2026-03-06,Delivered
+ORD00191,Vincent Reyes,Cotton T-Shirt,Fashion,1,350,2026-03-07,Delivered
+ORD00192,Jericho Castillo,LED Desk Lamp,Home & Living,1,649,2026-03-07,Delivered
+ORD00193,Katrina Cruz,Premium Coffee Beans 500g,Groceries,1,650,2026-03-07,Shipped
+ORD00194,Kristine Aquino,Gel Pen Pack,Books & Stationery,3,102,2026-03-08,Delivered
+ORD00195,Camille Soriano,Wireless Mouse,Electronics,4,525,2026-03-08,Delivered
+ORD00196,Liza Salazar,Vitamin C Serum,Beauty & Health,2,599,2026-03-08,Delivered
+ORD00197,Allan Rivera,Multivitamins 60s,Beauty & Health,1,540,2026-03-09,Delivered
+ORD00198,Carlo Soriano,Running Shoes,Fashion,1,2199,2026-03-09,Delivered
+ORD00199,Gabriel Flores,Hoodie Jacket,Fashion,2,950,2026-03-09,Delivered
+ORD00200,Dianne Castillo,Air Fryer 4L,Home & Living,2,3200,2026-03-10,Cancelled
+ORD00201,Gabriel Reyes,Building Blocks 500pcs,Toys & Games,1,899,2026-03-10,Delivered
+ORD00202,Ramon Dela Cruz,Sunscreen SPF50,Beauty & Health,1,420,2026-03-10,Delivered
+ORD00203,Carlo Soriano,Cotton T-Shirt,Fashion,3,350,2026-03-10,Cancelled
+ORD00204,John Domingo,Wireless Mouse,Electronics,5,500,2026-03-11,Delivered
+ORD00205,Miguel Soriano,Premium Coffee Beans 500g,Groceries,6,650,2026-03-11,Delivered
+ORD00206,Joshua Flores,Jump Rope,Sports & Outdoors,2,198,2026-03-11,Delivered
+ORD00207,Nicole Domingo,Wireless Mouse,Electronics,4,500,2026-03-11,Delivered
+ORD00208,Liza Salazar,Notebook Set (5pcs),Books & Stationery,3,250,2026-03-11,Delivered
+ORD00209,Gabriel Valdez,Portable Speaker,Electronics,2,1350,2026-03-12,Delivered
+ORD00210,Patrick Mendoza,Canvas Sneakers,Fashion,1,1299,2026-03-12,Delivered
+ORD00211,Miguel Soriano,LED Desk Lamp,Home & Living,2,649,2026-03-12,Delivered
+ORD00212,Bea Cruz,Notebook Set (5pcs),Books & Stationery,1,250,2026-03-12,Delivered
+ORD00213,Allan Rivera,Premium Coffee Beans 500g,Groceries,2,585,2026-03-12,Delivered
+ORD00214,Katrina Soriano,Smart Watch,Electronics,3,1899,2026-03-12,Delivered
+ORD00215,Miguel Tolentino,Building Blocks 500pcs,Toys & Games,3,899,2026-03-13,Delivered
+ORD00216,Rhea Valdez,Power Bank 10000mAh,Electronics,1,899,2026-03-13,Delivered
+ORD00217,Joshua Aquino,Hoodie Jacket,Fashion,1,950,2026-03-13,Delivered
+ORD00218,Gabriel Valdez,Premium Coffee Beans 500g,Groceries,2,650,2026-03-13,Delivered
+ORD00219,Joshua Manalo,Water Bottle 1L,Sports & Outdoors,1,399,2026-03-13,Processing
+ORD00220,Allan Lopez,Gel Pen Pack,Books & Stationery,2,120,2026-03-14,Delivered
+ORD00221,Maria Flores,Wireless Mouse,Electronics,2,450,2026-03-14,Delivered
+ORD00222,Gabriel Salazar,Board Game Classic,Toys & Games,2,1035,2026-03-14,Shipped
+ORD00223,Aileen Cruz,Notebook Set (5pcs),Books & Stationery,1,250,2026-03-15,Delivered
+ORD00224,Kristine Santos,Programming Book,Books & Stationery,1,1650,2026-03-15,Delivered
+ORD00225,Kristine Tolentino,Multivitamins 60s,Beauty & Health,1,567,2026-03-15,Delivered
+ORD00226,Nicole Bautista,Webcam 1080p,Electronics,5,1250,2026-03-15,Delivered
+ORD00227,Bea Soriano,Electric Kettle,Home & Living,2,780,2026-03-15,Delivered
+ORD00228,Ramon Dela Cruz,Sunscreen SPF50,Beauty & Health,3,420,2026-03-16,Delivered
+ORD00229,Allan Villanueva,Canvas Sneakers,Fashion,2,1299,2026-03-16,Delivered
+ORD00230,Dennis Salazar,Hoodie Jacket,Fashion,1,855,2026-03-16,Cancelled
+ORD00231,Patrick Ramos,Wireless Mouse,Electronics,1,525,2026-03-16,Delivered
+ORD00232,Liza Salazar,Hoodie Jacket,Fashion,2,950,2026-03-17,Delivered
+ORD00233,Allan Castro,Hiking Backpack,Sports & Outdoors,2,1799,2026-03-17,Cancelled
+ORD00234,John Navarro,Facial Cleanser,Beauty & Health,4,310,2026-03-17,Delivered
+ORD00235,Juan Santos,Premium Coffee Beans 500g,Groceries,4,650,2026-03-17,Delivered
+ORD00236,Aileen Torres,Storage Organizer,Home & Living,2,420,2026-03-17,Delivered
+ORD00237,Gabriel Valdez,Smart Watch,Electronics,2,1899,2026-03-18,Delivered
+ORD00238,Rhea Soriano,Yoga Mat,Sports & Outdoors,1,650,2026-03-18,Delivered
+ORD00239,Francis Aguilar,Electric Kettle,Home & Living,1,780,2026-03-18,Delivered
+ORD00240,Vincent Reyes,Notebook Set (5pcs),Books & Stationery,4,250,2026-03-18,Delivered
+ORD00241,Nicole Cruz,Wireless Mouse,Electronics,3,500,2026-03-19,Delivered
+ORD00242,Dennis Castro,Hair Dryer,Beauty & Health,1,1100,2026-03-20,Delivered
+ORD00243,Vincent Reyes,Cotton T-Shirt,Fashion,3,350,2026-03-20,Delivered
+ORD00244,Juan Navarro,Cotton T-Shirt,Fashion,1,350,2026-03-20,Delivered
+ORD00245,Gabriel Bautista,Wireless Mouse,Electronics,2,500,2026-03-20,Delivered
+ORD00246,Aileen Ramos,Board Game Classic,Toys & Games,1,1150,2026-03-21,Delivered
+ORD00247,Trisha Tolentino,LED Desk Lamp,Home & Living,1,649,2026-03-21,Delivered
+ORD00248,Francis Tolentino,Planner 2026,Books & Stationery,2,380,2026-03-21,Delivered
+ORD00249,Rey Rivera,Cotton T-Shirt,Fashion,1,350,2026-03-21,Delivered
+ORD00250,Patrick Castro,Building Blocks 500pcs,Toys & Games,2,899,2026-03-21,Delivered
+ORD00251,Joshua Aquino,Vitamin C Serum,Beauty & Health,1,599,2026-03-22,Processing
+ORD00252,Nicole Cruz,Vitamin C Serum,Beauty & Health,3,599,2026-03-22,Delivered
+ORD00253,Irene Torres,Premium Coffee Beans 500g,Groceries,3,552,2026-03-22,Delivered
+ORD00254,Liza Salazar,Power Bank 10000mAh,Electronics,1,899,2026-03-22,Delivered
+ORD00255,John Castillo,Air Fryer 4L,Home & Living,2,3200,2026-03-22,Delivered
+ORD00256,Allan Soriano,Wall Clock,Home & Living,1,380,2026-03-23,Cancelled
+ORD00257,Allan Rivera,Electric Kettle,Home & Living,1,780,2026-03-24,Delivered
+ORD00258,Francis Salazar,Wireless Mouse,Electronics,2,500,2026-03-24,Delivered
+ORD00259,John Castillo,Premium Coffee Beans 500g,Groceries,1,682,2026-03-24,Delivered
+ORD00260,Liza Garcia,Bluetooth Earbuds,Electronics,2,1522,2026-03-25,Pending
+ORD00261,Joshua Aquino,Cotton T-Shirt,Fashion,3,350,2026-03-25,Delivered
+ORD00262,Katrina Dela Cruz,Cotton T-Shirt,Fashion,5,350,2026-03-25,Delivered
+ORD00263,Irene Manalo,Board Game Classic,Toys & Games,1,1150,2026-03-25,Delivered
+ORD00264,Nicole Cruz,Building Blocks 500pcs,Toys & Games,1,809,2026-03-25,Delivered
+ORD00265,Kristine Pascual,USB-C Charger 65W,Electronics,2,1150,2026-03-25,Delivered
+ORD00266,Francis Aguilar,Sunscreen SPF50,Beauty & Health,1,420,2026-03-26,Delivered
+ORD00267,Daniel Aguilar,Wireless Mouse,Electronics,1,500,2026-03-26,Delivered
+ORD00268,Joy Navarro,Denim Jeans,Fashion,2,1100,2026-03-26,Shipped
+ORD00269,Maria Manalo,Puzzle 1000pcs,Toys & Games,3,480,2026-03-26,Delivered
+ORD00270,Nicole Cruz,Mechanical Keyboard,Electronics,1,2300,2026-03-26,Delivered
+ORD00271,Jose Flores,Bed Sheet Set,Home & Living,4,1250,2026-03-27,Delivered
+ORD00272,Jose Tolentino,Yoga Mat,Sports & Outdoors,1,650,2026-03-27,Delivered
+ORD00273,Joshua Aguilar,LED Desk Lamp,Home & Living,1,649,2026-03-27,Delivered
+ORD00274,Nicole Cruz,Planner 2026,Books & Stationery,2,380,2026-03-28,Delivered
+ORD00275,Francis Navarro,USB-C Charger 65W,Electronics,1,978,2026-03-28,Cancelled
+ORD00276,Camille Navarro,Sunscreen SPF50,Beauty & Health,2,420,2026-03-29,Delivered
+ORD00277,Joy Reyes,Puzzle 1000pcs,Toys & Games,3,480,2026-03-29,Delivered
+ORD00278,John Pascual,Leather Belt,Fashion,2,450,2026-03-29,Delivered
+ORD00279,Noel Cruz,Webcam 1080p,Electronics,2,1250,2026-03-29,Delivered
+ORD00280,Allan Soriano,Running Shoes,Fashion,1,2199,2026-03-29,Delivered
+ORD00281,Jericho Aquino,Building Blocks 500pcs,Toys & Games,1,899,2026-03-29,Shipped
+ORD00282,Joy Navarro,Dumbbell Set 10kg,Sports & Outdoors,2,1450,2026-03-30,Delivered
+ORD00283,Miguel Tolentino,Planner 2026,Books & Stationery,2,380,2026-03-30,Delivered
+ORD00284,Noel Manalo,Webcam 1080p,Electronics,2,1250,2026-03-30,Delivered
+ORD00285,Hazel Valdez,Vitamin C Serum,Beauty & Health,1,599,2026-03-31,Delivered
+ORD00286,Gabriel Aquino,Wall Clock,Home & Living,1,380,2026-03-31,Cancelled
+ORD00287,Joy Navarro,Yoga Mat,Sports & Outdoors,2,650,2026-03-31,Delivered
+ORD00288,John Navarro,Dumbbell Set 10kg,Sports & Outdoors,1,1450,2026-03-31,Delivered
+ORD00289,Noel Cruz,Electric Kettle,Home & Living,1,780,2026-03-31,Delivered
+ORD00290,Joshua Flores,Facial Cleanser,Beauty & Health,1,310,2026-03-31,Delivered
+ORD00291,Angel Castillo,Bluetooth Earbuds,Electronics,2,1450,2026-03-31,Delivered
+ORD00292,Aileen Salazar,LED Desk Lamp,Home & Living,1,681,2026-04-01,Delivered
+ORD00293,Katrina Pascual,Mechanical Keyboard,Electronics,2,2300,2026-04-02,Delivered
+ORD00294,Hazel Manalo,LED Desk Lamp,Home & Living,1,649,2026-04-02,Delivered
+ORD00295,Patrick Castro,Yoga Mat,Sports & Outdoors,1,650,2026-04-02,Delivered
+ORD00296,Allan Rivera,Leather Belt,Fashion,2,450,2026-04-02,Delivered
+ORD00297,Gabriel Cruz,Mixed Nuts 1kg,Groceries,4,780,2026-04-03,Delivered
+ORD00298,Liza Salazar,Cotton T-Shirt,Fashion,1,350,2026-04-03,Delivered
+ORD00299,Aileen Torres,Premium Coffee Beans 500g,Groceries,4,650,2026-04-03,Delivered
+ORD00300,Trisha Tolentino,Wireless Mouse,Electronics,4,500,2026-04-04,Delivered
+ORD00301,Ramon Ramos,Gel Pen Pack,Books & Stationery,1,120,2026-04-04,Delivered
+ORD00302,Dianne Pascual,Programming Book,Books & Stationery,4,1650,2026-04-04,Delivered
+ORD00303,Vincent Reyes,Hiking Backpack,Sports & Outdoors,1,1799,2026-04-04,Delivered
+ORD00304,Ramon Ramos,Multivitamins 60s,Beauty & Health,1,486,2026-04-04,Delivered
+ORD00305,Francis Flores,Bluetooth Earbuds,Electronics,1,1450,2026-04-04,Delivered
+ORD00306,Miguel Soriano,Building Blocks 500pcs,Toys & Games,2,809,2026-04-04,Delivered
+ORD00307,Dennis Salazar,Electric Kettle,Home & Living,1,780,2026-04-04,Delivered
+ORD00308,Joy Ramos,Yoga Mat,Sports & Outdoors,1,552,2026-04-04,Cancelled
+ORD00309,Allan Tolentino,Denim Jeans,Fashion,5,1100,2026-04-04,Delivered
+ORD00310,Camille Soriano,USB-C Charger 65W,Electronics,1,1150,2026-04-04,Delivered
+ORD00311,Dennis Castro,Cotton T-Shirt,Fashion,2,350,2026-04-04,Delivered
+ORD00312,Camille Soriano,Bluetooth Earbuds,Electronics,1,1450,2026-04-04,Delivered
+ORD00313,Nicole Villanueva,Notebook Set (5pcs),Books & Stationery,1,250,2026-04-04,Delivered
+ORD00314,Nicole Cruz,Dumbbell Set 10kg,Sports & Outdoors,2,1450,2026-04-04,Delivered
+ORD00315,Joshua Flores,Air Fryer 4L,Home & Living,2,2720,2026-04-04,Cancelled
+ORD00316,Dennis Flores,Olive Oil 1L,Groceries,2,720,2026-04-04,Delivered
+ORD00317,Daniel Aguilar,Cotton T-Shirt,Fashion,3,350,2026-04-04,Delivered
+ORD00318,Bea Santos,Organic Honey 350ml,Groceries,3,390,2026-04-04,Delivered
+ORD00319,Nicole Cruz,Wireless Mouse,Electronics,1,500,2026-04-04,Delivered
+ORD00320,Hazel Castro,Sunscreen SPF50,Beauty & Health,2,420,2026-04-05,Delivered
+ORD00321,Gabriel Navarro,Cotton T-Shirt,Fashion,1,350,2026-04-05,Delivered
+ORD00322,Joshua Flores,Gel Pen Pack,Books & Stationery,1,120,2026-04-05,Delivered
+ORD00323,Jose Tolentino,Webcam 1080p,Electronics,2,1250,2026-04-05,Delivered
+ORD00324,Nicole Cruz,Yoga Mat,Sports & Outdoors,1,650,2026-04-06,Delivered
+ORD00325,Juan Santos,Vitamin C Serum,Beauty & Health,3,599,2026-04-06,Delivered
+ORD00326,Trisha Flores,Wall Clock,Home & Living,2,380,2026-04-06,Delivered
+ORD00327,Francis Navarro,Bluetooth Earbuds,Electronics,3,1450,2026-04-06,Delivered
+ORD00328,Nicole Cruz,Notebook Set (5pcs),Books & Stationery,1,250,2026-04-06,Delivered
+ORD00329,Francis Tolentino,LED Desk Lamp,Home & Living,1,649,2026-04-06,Delivered
+ORD00330,Angel Cruz,Hoodie Jacket,Fashion,1,950,2026-04-06,Cancelled
+ORD00331,Hazel Ramos,Hair Dryer,Beauty & Health,1,1100,2026-04-06,Delivered
+ORD00332,Ana Mendoza,Bluetooth Earbuds,Electronics,2,1450,2026-04-07,Delivered
+ORD00333,Aileen Salazar,Wall Clock,Home & Living,1,342,2026-04-07,Processing
+ORD00334,Patrick Aquino,LED Desk Lamp,Home & Living,3,649,2026-04-07,Delivered
+ORD00335,Maria Aguilar,Organic Honey 350ml,Groceries,4,390,2026-04-07,Delivered
+ORD00336,Aileen Salazar,Portable Speaker,Electronics,1,1350,2026-04-07,Delivered
+ORD00337,Kristine Santos,Building Blocks 500pcs,Toys & Games,3,899,2026-04-08,Cancelled
+ORD00338,Kristine Santos,Yoga Mat,Sports & Outdoors,1,650,2026-04-08,Delivered
+ORD00339,Maria Manalo,Cotton T-Shirt,Fashion,1,298,2026-04-08,Delivered
+ORD00340,Gabriel Castro,Denim Jeans,Fashion,2,1100,2026-04-08,Delivered
+ORD00341,Carlo Santos,LED Desk Lamp,Home & Living,1,681,2026-04-08,Cancelled
+ORD00342,Nicole Cruz,Premium Coffee Beans 500g,Groceries,1,650,2026-04-09,Delivered
+ORD00343,Gabriel Navarro,LED Desk Lamp,Home & Living,1,649,2026-04-09,Delivered
+ORD00344,Joshua Aquino,Smart Watch,Electronics,2,1899,2026-04-09,Delivered
+ORD00345,Allan Lopez,Wireless Mouse,Electronics,2,500,2026-04-10,Shipped
+ORD00346,Rhea Lopez,Vitamin C Serum,Beauty & Health,1,629,2026-04-10,Delivered
+ORD00347,Bea Reyes,Yoga Mat,Sports & Outdoors,2,650,2026-04-10,Delivered
+ORD00348,Camille Valdez,Bluetooth Earbuds,Electronics,1,1450,2026-04-10,Delivered
+ORD00349,Rey Valdez,Bluetooth Earbuds,Electronics,1,1450,2026-04-10,Delivered
+ORD00350,Kristine Aquino,Denim Jeans,Fashion,1,1100,2026-04-11,Delivered
+ORD00351,Bea Aquino,Organic Honey 350ml,Groceries,1,390,2026-04-11,Delivered
+ORD00352,Elmer Salazar,Premium Coffee Beans 500g,Groceries,2,650,2026-04-11,Delivered
+ORD00353,Trisha Flores,Cotton T-Shirt,Fashion,5,350,2026-04-11,Delivered
+ORD00354,Liza Salazar,Power Bank 10000mAh,Electronics,1,899,2026-04-11,Delivered
+ORD00355,Aileen Ramos,Smart Watch,Electronics,1,1709,2026-04-12,Delivered
+ORD00356,Nicole Bautista,Bed Sheet Set,Home & Living,1,1250,2026-04-12,Delivered
+ORD00357,Miguel Bautista,Wireless Mouse,Electronics,1,500,2026-04-12,Delivered
+ORD00358,Gabriel Navarro,Running Shoes,Fashion,1,2199,2026-04-13,Cancelled
+ORD00359,Aileen Ramos,Wireless Mouse,Electronics,4,500,2026-04-13,Delivered
+ORD00360,Vincent Reyes,Mechanical Keyboard,Electronics,1,2300,2026-04-13,Delivered
+ORD00361,Mika Valdez,Premium Coffee Beans 500g,Groceries,2,650,2026-04-13,Delivered
+ORD00362,Joy Ramos,Smart Watch,Electronics,1,1899,2026-04-13,Delivered
+ORD00363,Vincent Valdez,Cotton T-Shirt,Fashion,4,350,2026-04-14,Delivered
+ORD00364,Noel Cruz,Organic Honey 350ml,Groceries,2,390,2026-04-14,Delivered
+ORD00365,Grace Mendoza,Wireless Mouse,Electronics,2,500,2026-04-14,Delivered
+ORD00366,Rhea Bautista,Denim Jeans,Fashion,4,1100,2026-04-14,Cancelled
+ORD00367,Bea Reyes,Wireless Mouse,Electronics,2,500,2026-04-14,Delivered
+ORD00368,Nicole Cruz,Yoga Mat,Sports & Outdoors,1,682,2026-04-15,Delivered
+ORD00369,Joshua Aguilar,Denim Jeans,Fashion,5,1100,2026-04-15,Delivered
+ORD00370,Aileen Ramos,Hoodie Jacket,Fashion,1,950,2026-04-15,Delivered
+ORD00371,Noel Cruz,LED Desk Lamp,Home & Living,1,649,2026-04-15,Cancelled
+ORD00372,Daniel Castillo,Webcam 1080p,Electronics,2,1250,2026-04-15,Delivered
+ORD00373,Nicole Cruz,Board Game Classic,Toys & Games,1,1150,2026-04-15,Processing
+ORD00374,Trisha Ramos,Wireless Mouse,Electronics,1,500,2026-04-15,Cancelled
+ORD00375,Mika Aguilar,Electric Kettle,Home & Living,1,780,2026-04-16,Delivered
+ORD00376,Nicole Cruz,Yoga Mat,Sports & Outdoors,1,650,2026-04-16,Delivered
+ORD00377,Noel Cruz,Dumbbell Set 10kg,Sports & Outdoors,4,1450,2026-04-16,Delivered
+ORD00378,Trisha Tolentino,Bluetooth Earbuds,Electronics,1,1450,2026-04-16,Delivered
+ORD00379,Gabriel Bautista,Vitamin C Serum,Beauty & Health,1,599,2026-04-16,Delivered
+ORD00380,Juan Tolentino,Vitamin C Serum,Beauty & Health,1,599,2026-04-16,Delivered
+ORD00381,Katrina Flores,Power Bank 10000mAh,Electronics,1,899,2026-04-16,Delivered
+ORD00382,Joshua Manalo,Yoga Mat,Sports & Outdoors,1,650,2026-04-17,Delivered
+ORD00383,Rey Cruz,Power Bank 10000mAh,Electronics,1,899,2026-04-17,Delivered
+ORD00384,Katrina Dela Cruz,Yoga Mat,Sports & Outdoors,1,650,2026-04-18,Delivered
+ORD00385,Noel Cruz,LED Desk Lamp,Home & Living,1,649,2026-04-18,Delivered
+ORD00386,Gabriel Flores,Board Game Classic,Toys & Games,3,1150,2026-04-18,Delivered
+ORD00387,Joshua Flores,Notebook Set (5pcs),Books & Stationery,2,250,2026-04-18,Delivered
+ORD00388,Gabriel Castro,Notebook Set (5pcs),Books & Stationery,1,250,2026-04-18,Delivered
+ORD00389,Vincent Domingo,Power Bank 10000mAh,Electronics,1,944,2026-04-19,Delivered
+ORD00390,Patrick Castro,Bluetooth Earbuds,Electronics,2,1450,2026-04-19,Delivered
+ORD00391,Bea Aquino,Sunscreen SPF50,Beauty & Health,4,420,2026-04-19,Delivered
+ORD00392,Trisha Reyes,Wireless Mouse,Electronics,2,500,2026-04-19,Delivered
+ORD00393,Elmer Ramos,Notebook Set (5pcs),Books & Stationery,2,250,2026-04-19,Delivered
+ORD00394,Katrina Reyes,Wireless Mouse,Electronics,4,500,2026-04-20,Delivered
+ORD00395,Vincent Domingo,Sunscreen SPF50,Beauty & Health,1,420,2026-04-20,Delivered
+ORD00396,Joshua Flores,Wireless Mouse,Electronics,3,500,2026-04-21,Delivered
+ORD00397,Miguel Bautista,Premium Coffee Beans 500g,Groceries,2,650,2026-04-21,Delivered
+ORD00398,Allan Villanueva,Board Game Classic,Toys & Games,3,1150,2026-04-21,Delivered
+ORD00399,Vincent Reyes,Wall Clock,Home & Living,1,323,2026-04-21,Delivered
+ORD00400,Jasmine Tolentino,Yoga Mat,Sports & Outdoors,2,650,2026-04-21,Delivered
+ORD00401,Daniel Dela Cruz,Vitamin C Serum,Beauty & Health,1,599,2026-04-21,Delivered
+ORD00402,Liza Salazar,Running Shoes,Fashion,2,1869,2026-04-22,Cancelled
+ORD00403,Nicole Cruz,LED Desk Lamp,Home & Living,2,649,2026-04-22,Delivered
+ORD00404,Nicole Cruz,Leather Belt,Fashion,2,450,2026-04-22,Delivered
+ORD00405,Gabriel Navarro,Air Fryer 4L,Home & Living,2,3200,2026-04-22,Delivered
+ORD00406,Maria Torres,Vitamin C Serum,Beauty & Health,2,509,2026-04-22,Delivered
+ORD00407,Noel Bautista,Hair Dryer,Beauty & Health,1,1100,2026-04-22,Delivered
+ORD00408,Mark Santos,Organic Honey 350ml,Groceries,1,390,2026-04-23,Delivered
+ORD00409,Joshua Manalo,Mixed Nuts 1kg,Groceries,4,780,2026-04-23,Delivered
+ORD00410,Bea Aquino,Vitamin C Serum,Beauty & Health,3,599,2026-04-23,Delivered
+ORD00411,Rey Salazar,RC Car,Toys & Games,2,1399,2026-04-23,Delivered
+ORD00412,Juan Lopez,Denim Jeans,Fashion,1,1100,2026-04-23,Delivered
+ORD00413,Grace Garcia,Wireless Mouse,Electronics,1,500,2026-04-24,Delivered
+ORD00414,Joshua Aquino,Premium Coffee Beans 500g,Groceries,1,650,2026-04-24,Delivered
+ORD00415,Dianne Santos,Hair Dryer,Beauty & Health,1,1100,2026-04-24,Delivered
+ORD00416,Juan Aquino,Power Bank 10000mAh,Electronics,1,899,2026-04-24,Delivered
+ORD00417,Nicole Soriano,Running Shoes,Fashion,1,2199,2026-04-25,Delivered
+ORD00418,Allan Rivera,Wireless Mouse,Electronics,1,525,2026-04-25,Delivered
+ORD00419,Trisha Ramos,Mixed Nuts 1kg,Groceries,4,780,2026-04-25,Cancelled
+ORD00420,Joy Navarro,Dumbbell Set 10kg,Sports & Outdoors,1,1450,2026-04-25,Delivered
+ORD00421,Jericho Castillo,Board Game Classic,Toys & Games,1,1150,2026-04-26,Delivered
+ORD00422,Mika Valdez,Running Shoes,Fashion,1,2199,2026-04-26,Delivered
+ORD00423,Aileen Ramos,Cotton T-Shirt,Fashion,1,350,2026-04-27,Delivered
+ORD00424,Allan Pascual,Vitamin C Serum,Beauty & Health,1,599,2026-04-27,Delivered
+ORD00425,Joshua Aquino,Gel Pen Pack,Books & Stationery,3,120,2026-04-28,Delivered
+ORD00426,Daniel Reyes,Bluetooth Earbuds,Electronics,1,1450,2026-04-28,Delivered
+ORD00427,Gabriel Cruz,Vitamin C Serum,Beauty & Health,1,599,2026-04-28,Delivered
+ORD00428,Mika Cruz,Notebook Set (5pcs),Books & Stationery,1,250,2026-04-28,Delivered
+ORD00429,Mika Valdez,Programming Book,Books & Stationery,1,1485,2026-04-28,Delivered
+ORD00430,Angel Cruz,Running Shoes,Fashion,2,2199,2026-04-29,Delivered
+ORD00431,Kristine Aquino,Wireless Mouse,Electronics,1,500,2026-04-29,Delivered
+ORD00432,Allan Rivera,Smart Watch,Electronics,1,1899,2026-04-29,Delivered
+ORD00433,Joshua Aguilar,Running Shoes,Fashion,3,2309,2026-04-29,Delivered
+ORD00434,Ramon Pascual,Power Bank 10000mAh,Electronics,1,899,2026-04-29,Delivered
+ORD00435,Dianne Aquino,Yoga Mat,Sports & Outdoors,2,650,2026-04-29,Delivered
+ORD00436,Joshua Aquino,Wall Clock,Home & Living,1,323,2026-04-30,Delivered
+ORD00437,John Castillo,Vitamin C Serum,Beauty & Health,1,599,2026-04-30,Delivered
+ORD00438,Katrina Domingo,Wall Clock,Home & Living,1,380,2026-04-30,Delivered
+ORD00439,Nicole Cruz,Building Blocks 500pcs,Toys & Games,1,899,2026-04-30,Delivered
+ORD00440,Aileen Ramos,Air Fryer 4L,Home & Living,4,3200,2026-05-01,Delivered
+ORD00441,Bea Reyes,Bluetooth Earbuds,Electronics,2,1450,2026-05-01,Delivered
+ORD00442,Mika Garcia,Wireless Mouse,Electronics,5,500,2026-05-01,Delivered
+ORD00443,Elmer Domingo,USB-C Charger 65W,Electronics,1,1208,2026-05-02,Delivered
+ORD00444,Nicole Cruz,Webcam 1080p,Electronics,4,1062,2026-05-02,Delivered
+ORD00445,Hazel Pascual,Mixed Nuts 1kg,Groceries,3,780,2026-05-02,Delivered
+ORD00446,Dennis Salazar,Bluetooth Earbuds,Electronics,5,1450,2026-05-02,Delivered
+ORD00447,Aileen Rivera,LED Desk Lamp,Home & Living,1,649,2026-05-03,Delivered
+ORD00448,Katrina Soriano,Running Shoes,Fashion,4,1869,2026-05-03,Delivered
+ORD00449,Katrina Reyes,Programming Book,Books & Stationery,3,1650,2026-05-03,Delivered
+ORD00450,Joshua Aquino,Cotton T-Shirt,Fashion,4,350,2026-05-03,Delivered
+ORD00451,Carlo Santos,Cotton T-Shirt,Fashion,2,350,2026-05-03,Delivered
+ORD00452,Daniel Castillo,Smart Watch,Electronics,1,1994,2026-05-04,Delivered
+ORD00453,Daniel Castillo,Webcam 1080p,Electronics,1,1250,2026-05-05,Delivered
+ORD00454,Noel Cruz,Hiking Backpack,Sports & Outdoors,4,1799,2026-05-05,Delivered
+ORD00455,Gabriel Navarro,Organic Honey 350ml,Groceries,1,332,2026-05-05,Cancelled
+ORD00456,Francis Aguilar,Vitamin C Serum,Beauty & Health,1,599,2026-05-05,Delivered
+ORD00457,Dennis Flores,Jump Rope,Sports & Outdoors,4,220,2026-05-05,Delivered
+ORD00458,Vincent Castillo,Wireless Mouse,Electronics,1,500,2026-05-05,Delivered
+ORD00459,Rey Salazar,Notebook Set (5pcs),Books & Stationery,2,250,2026-05-05,Delivered
+ORD00460,Francis Dela Cruz,Notebook Set (5pcs),Books & Stationery,1,250,2026-05-05,Cancelled
+ORD00461,John Pascual,Premium Coffee Beans 500g,Groceries,4,650,2026-05-05,Delivered
+ORD00462,Gabriel Torres,Premium Coffee Beans 500g,Groceries,4,650,2026-05-05,Pending
+ORD00463,Joshua Aguilar,Premium Coffee Beans 500g,Groceries,1,585,2026-05-06,Delivered
+ORD00464,Katrina Pascual,Cotton T-Shirt,Fashion,1,350,2026-05-06,Delivered
+ORD00465,Angel Cruz,Wireless Mouse,Electronics,1,500,2026-05-06,Delivered
+ORD00466,Joshua Aguilar,Organic Honey 350ml,Groceries,1,390,2026-05-06,Delivered
+ORD00467,Paolo Torres,Mechanical Keyboard,Electronics,1,2300,2026-05-06,Delivered
+ORD00468,Mika Rivera,Cotton T-Shirt,Fashion,2,350,2026-05-06,Delivered
+ORD00469,Irene Soriano,Air Fryer 4L,Home & Living,3,3200,2026-05-07,Delivered
+ORD00470,Miguel Bautista,Power Bank 10000mAh,Electronics,1,899,2026-05-07,Delivered
+ORD00471,Patrick Aquino,Planner 2026,Books & Stationery,3,342,2026-05-07,Delivered
+ORD00472,Francis Flores,Sunscreen SPF50,Beauty & Health,1,420,2026-05-07,Delivered
+ORD00473,Bea Reyes,LED Desk Lamp,Home & Living,1,649,2026-05-08,Delivered
+ORD00474,Mika Aguilar,Running Shoes,Fashion,1,2199,2026-05-08,Delivered
+ORD00475,John Navarro,Storage Organizer,Home & Living,1,420,2026-05-08,Delivered
+ORD00476,Juan Navarro,Canvas Sneakers,Fashion,2,1299,2026-05-09,Delivered
+ORD00477,Allan Pascual,Sunscreen SPF50,Beauty & Health,5,441,2026-05-09,Delivered
+ORD00478,Allan Lopez,Portable Speaker,Electronics,1,1350,2026-05-09,Delivered
+ORD00479,Joshua Aquino,USB-C Charger 65W,Electronics,1,1150,2026-05-10,Delivered
+ORD00480,Mika Garcia,Power Bank 10000mAh,Electronics,2,944,2026-05-10,Delivered
+ORD00481,Daniel Dela Cruz,Bluetooth Earbuds,Electronics,1,1450,2026-05-10,Delivered
+ORD00482,Gabriel Navarro,Hiking Backpack,Sports & Outdoors,5,1799,2026-05-11,Delivered
+ORD00483,Nicole Cruz,Facial Cleanser,Beauty & Health,1,310,2026-05-11,Delivered
+ORD00484,Bea Soriano,Premium Coffee Beans 500g,Groceries,4,650,2026-05-11,Delivered
+ORD00485,Camille Valdez,Water Bottle 1L,Sports & Outdoors,1,399,2026-05-11,Delivered
+ORD00486,Vincent Reyes,USB-C Charger 65W,Electronics,1,1150,2026-05-12,Delivered
+ORD00487,Nicole Cruz,Building Blocks 500pcs,Toys & Games,2,899,2026-05-12,Delivered
+ORD00488,Gabriel Ramos,Building Blocks 500pcs,Toys & Games,2,899,2026-05-12,Delivered
+ORD00489,John Mendoza,Yoga Mat,Sports & Outdoors,1,585,2026-05-12,Delivered
+ORD00490,Gabriel Castro,Bluetooth Earbuds,Electronics,1,1450,2026-05-12,Delivered
+ORD00491,Jose Flores,Gel Pen Pack,Books & Stationery,3,120,2026-05-13,Cancelled
+ORD00492,Hazel Pascual,Water Bottle 1L,Sports & Outdoors,2,399,2026-05-13,Delivered
+ORD00493,Daniel Reyes,Wall Clock,Home & Living,1,380,2026-05-13,Delivered
+ORD00494,Camille Soriano,Yoga Mat,Sports & Outdoors,1,650,2026-05-14,Delivered
+ORD00495,Juan Tolentino,Canvas Sneakers,Fashion,3,1299,2026-05-14,Delivered
+ORD00496,Joshua Flores,Mixed Nuts 1kg,Groceries,2,780,2026-05-14,Delivered
+ORD00497,Maria Flores,Vitamin C Serum,Beauty & Health,2,599,2026-05-15,Delivered
+ORD00498,Bea Aquino,RC Car,Toys & Games,1,1259,2026-05-15,Delivered
+ORD00499,Patrick Aquino,Water Bottle 1L,Sports & Outdoors,1,399,2026-05-15,Delivered
+ORD00500,Aileen Rivera,Programming Book,Books & Stationery,3,1650,2026-05-15,Delivered
+ORD00501,Bea Tolentino,Cotton T-Shirt,Fashion,1,350,2026-05-15,Delivered
+ORD00502,Elmer Aguilar,Power Bank 10000mAh,Electronics,1,944,2026-05-16,Delivered
+ORD00503,Gabriel Flores,Wall Clock,Home & Living,1,380,2026-05-16,Delivered
+ORD00504,Liza Salazar,Canvas Sneakers,Fashion,2,1299,2026-05-16,Delivered
+ORD00505,Dianne Pascual,Sunscreen SPF50,Beauty & Health,3,420,2026-05-16,Cancelled
+ORD00506,Noel Cruz,Hiking Backpack,Sports & Outdoors,2,1889,2026-05-16,Delivered
+ORD00507,Joshua Flores,Leather Belt,Fashion,2,450,2026-05-16,Delivered
+ORD00508,Sofia Manalo,Mixed Nuts 1kg,Groceries,1,780,2026-05-17,Delivered
+ORD00509,Mika Valdez,Bed Sheet Set,Home & Living,1,1250,2026-05-17,Cancelled
+ORD00510,Francis Flores,Hair Dryer,Beauty & Health,1,935,2026-05-17,Delivered
+ORD00511,Gabriel Ramos,Canvas Sneakers,Fashion,1,1299,2026-05-17,Delivered
+ORD00512,Liza Salazar,Facial Cleanser,Beauty & Health,1,310,2026-05-18,Cancelled
+ORD00513,Nicole Cruz,Canvas Sneakers,Fashion,2,1299,2026-05-18,Delivered
+ORD00514,Joy Reyes,Dumbbell Set 10kg,Sports & Outdoors,1,1450,2026-05-18,Delivered
+ORD00515,Dennis Flores,Leather Belt,Fashion,2,450,2026-05-18,Delivered
+ORD00516,Nicole Bautista,Mixed Nuts 1kg,Groceries,2,780,2026-05-19,Delivered
+ORD00517,Katrina Dela Cruz,Bluetooth Earbuds,Electronics,3,1232,2026-05-19,Delivered
+ORD00518,Vincent Reyes,Vitamin C Serum,Beauty & Health,1,599,2026-05-19,Delivered
+ORD00519,Dianne Santos,Running Shoes,Fashion,2,2199,2026-05-19,Delivered
+ORD00520,Patrick Aquino,Cotton T-Shirt,Fashion,1,350,2026-05-19,Delivered
+ORD00521,Kristine Bautista,Denim Jeans,Fashion,1,1100,2026-05-20,Delivered
+ORD00522,Maria Manalo,Electric Kettle,Home & Living,1,819,2026-05-20,Delivered
+ORD00523,Gabriel Valdez,Denim Jeans,Fashion,3,1100,2026-05-20,Delivered
+ORD00524,Patrick Ramos,Olive Oil 1L,Groceries,1,648,2026-05-20,Delivered
+ORD00525,Gabriel Torres,Running Shoes,Fashion,3,2199,2026-05-20,Delivered
+ORD00526,Kristine Aquino,Vitamin C Serum,Beauty & Health,1,599,2026-05-21,Delivered
+ORD00527,Dianne Aquino,Wireless Mouse,Electronics,1,500,2026-05-21,Delivered
+ORD00528,Nicole Cruz,Premium Coffee Beans 500g,Groceries,3,650,2026-05-21,Delivered
+ORD00529,Kristine Bautista,Power Bank 10000mAh,Electronics,4,899,2026-05-21,Delivered
+ORD00530,Liza Salazar,Notebook Set (5pcs),Books & Stationery,3,250,2026-05-22,Delivered
+ORD00531,Ramon Torres,Denim Jeans,Fashion,2,1100,2026-05-22,Delivered
+ORD00532,Mika Valdez,Wireless Mouse,Electronics,2,500,2026-05-23,Delivered
+ORD00533,Vincent Aguilar,LED Desk Lamp,Home & Living,2,649,2026-05-23,Delivered
+ORD00534,Vincent Navarro,Wireless Mouse,Electronics,1,500,2026-05-23,Delivered
+ORD00535,Noel Manalo,Canvas Sneakers,Fashion,1,1299,2026-05-23,Delivered
+ORD00536,John Mendoza,Storage Organizer,Home & Living,2,420,2026-05-24,Delivered
+ORD00537,Gabriel Valdez,Vitamin C Serum,Beauty & Health,5,599,2026-05-24,Delivered
+ORD00538,Allan Tolentino,Cotton T-Shirt,Fashion,2,350,2026-05-24,Delivered
+ORD00539,Dennis Castro,Planner 2026,Books & Stationery,2,380,2026-05-25,Pending
+ORD00540,Jericho Dela Cruz,Dumbbell Set 10kg,Sports & Outdoors,1,1232,2026-05-25,Delivered
+ORD00541,Dennis Castro,Webcam 1080p,Electronics,1,1250,2026-05-25,Delivered
+ORD00542,John Pascual,Wireless Mouse,Electronics,3,425,2026-05-25,Delivered
+ORD00543,Allan Tolentino,Wireless Mouse,Electronics,1,500,2026-05-26,Delivered
+ORD00544,Liza Salazar,RC Car,Toys & Games,1,1259,2026-05-26,Delivered
+ORD00545,Katrina Manalo,Bluetooth Earbuds,Electronics,5,1450,2026-05-26,Delivered
+ORD00546,Irene Manalo,Notebook Set (5pcs),Books & Stationery,1,250,2026-05-27,Delivered
+ORD00547,Gabriel Cruz,Yoga Mat,Sports & Outdoors,3,650,2026-05-27,Delivered
+ORD00548,Aileen Salazar,RC Car,Toys & Games,2,1189,2026-05-27,Cancelled
+ORD00549,Irene Manalo,Electric Kettle,Home & Living,1,780,2026-05-27,Delivered
+ORD00550,Mark Castro,Mixed Nuts 1kg,Groceries,2,780,2026-05-27,Delivered
+ORD00551,Ana Castro,Running Shoes,Fashion,1,2199,2026-05-27,Delivered
+ORD00552,Ana Rivera,Mixed Nuts 1kg,Groceries,3,780,2026-05-27,Delivered
+ORD00553,Allan Rivera,LED Desk Lamp,Home & Living,1,649,2026-05-27,Delivered
+ORD00554,Kristine Aquino,Wall Clock,Home & Living,1,323,2026-05-28,Shipped
+ORD00555,Hazel Cruz,Notebook Set (5pcs),Books & Stationery,2,250,2026-05-28,Delivered
+ORD00556,Maria Aguilar,Power Bank 10000mAh,Electronics,2,764,2026-05-28,Processing
+ORD00557,Maria Cruz,Wall Clock,Home & Living,1,323,2026-05-28,Delivered
+ORD00558,Bea Tolentino,Leather Belt,Fashion,1,450,2026-05-29,Delivered
+ORD00559,Gabriel Bautista,USB-C Charger 65W,Electronics,2,1150,2026-05-29,Delivered
+ORD00560,Aileen Ramos,Cotton T-Shirt,Fashion,1,350,2026-05-30,Cancelled
+ORD00561,Elmer Aguilar,Water Bottle 1L,Sports & Outdoors,2,399,2026-05-30,Cancelled
+ORD00562,Allan Rivera,Planner 2026,Books & Stationery,2,380,2026-05-30,Cancelled
+ORD00563,Bea Soriano,LED Desk Lamp,Home & Living,2,649,2026-05-30,Delivered
+ORD00564,Camille Salazar,Notebook Set (5pcs),Books & Stationery,3,262,2026-05-31,Delivered
+ORD00565,Francis Aguilar,LED Desk Lamp,Home & Living,2,649,2026-05-31,Shipped
+ORD00566,Gabriel Bautista,Multivitamins 60s,Beauty & Health,1,540,2026-05-31,Delivered
+ORD00567,Allan Rivera,Wireless Mouse,Electronics,1,500,2026-05-31,Delivered
+ORD00568,Vincent Valdez,Yoga Mat,Sports & Outdoors,2,650,2026-06-01,Delivered
+ORD00569,Daniel Reyes,Canvas Sneakers,Fashion,3,1299,2026-06-01,Delivered
+ORD00570,Juan Santos,RC Car,Toys & Games,1,1399,2026-06-01,Delivered
+ORD00571,Nicole Cruz,Planner 2026,Books & Stationery,5,380,2026-06-01,Delivered
+ORD00572,Dianne Castillo,Canvas Sneakers,Fashion,4,1299,2026-06-01,Delivered
+ORD00573,Jasmine Tolentino,Water Bottle 1L,Sports & Outdoors,1,399,2026-06-01,Delivered
+ORD00574,Allan Castro,Wireless Mouse,Electronics,1,500,2026-06-01,Delivered
+ORD00575,Katrina Manalo,Yoga Mat,Sports & Outdoors,1,650,2026-06-02,Delivered
+ORD00576,Juan Lopez,Notebook Set (5pcs),Books & Stationery,1,250,2026-06-02,Delivered
+ORD00577,Allan Aquino,Power Bank 10000mAh,Electronics,2,764,2026-06-02,Delivered
+ORD00578,Jericho Aquino,Wireless Mouse,Electronics,4,500,2026-06-02,Delivered
+ORD00579,Joshua Aquino,Air Fryer 4L,Home & Living,1,3200,2026-06-02,Delivered
+ORD00580,Noel Cruz,Denim Jeans,Fashion,5,1100,2026-06-02,Delivered
+ORD00581,Patrick Mendoza,Canvas Sneakers,Fashion,3,1299,2026-06-03,Delivered
+ORD00582,Allan Castro,Canvas Sneakers,Fashion,1,1299,2026-06-03,Delivered
+ORD00583,Francis Salazar,Yoga Mat,Sports & Outdoors,1,650,2026-06-04,Delivered
+ORD00584,Rhea Lopez,Denim Jeans,Fashion,3,1100,2026-06-04,Cancelled
+ORD00585,Nicole Cruz,Denim Jeans,Fashion,1,1100,2026-06-04,Delivered
+ORD00586,Nicole Cruz,Wall Clock,Home & Living,4,323,2026-06-04,Delivered
+ORD00587,Aileen Dela Cruz,Premium Coffee Beans 500g,Groceries,2,650,2026-06-04,Delivered
+ORD00588,Noel Manalo,Cotton T-Shirt,Fashion,1,350,2026-06-05,Delivered
+ORD00589,Camille Soriano,Multivitamins 60s,Beauty & Health,1,540,2026-06-05,Delivered
+ORD00590,Elmer Ramos,Mechanical Keyboard,Electronics,3,2300,2026-06-05,Delivered
+ORD00591,Vincent Domingo,Notebook Set (5pcs),Books & Stationery,2,250,2026-06-05,Delivered
+ORD00592,Allan Rivera,Denim Jeans,Fashion,2,1100,2026-06-06,Delivered
+ORD00593,Gabriel Ramos,Premium Coffee Beans 500g,Groceries,1,682,2026-06-06,Delivered
+ORD00594,Joshua Torres,Cotton T-Shirt,Fashion,1,350,2026-06-06,Delivered
+ORD00595,Joshua Torres,Bluetooth Earbuds,Electronics,3,1450,2026-06-06,Delivered
+ORD00596,Paolo Pascual,Hair Dryer,Beauty & Health,1,1155,2026-06-06,Cancelled
+ORD00597,Grace Ramos,Bed Sheet Set,Home & Living,2,1250,2026-06-07,Delivered
+ORD00598,Hazel Manalo,Wall Clock,Home & Living,1,380,2026-06-07,Delivered
+ORD00599,Vincent Valdez,Wireless Mouse,Electronics,1,500,2026-06-07,Delivered
+ORD00600,John Mendoza,Facial Cleanser,Beauty & Health,4,279,2026-06-08,Delivered
+ORD00601,Joshua Flores,Power Bank 10000mAh,Electronics,2,899,2026-06-08,Pending
+ORD00602,Francis Aguilar,Webcam 1080p,Electronics,3,1250,2026-06-08,Delivered
+ORD00603,Dennis Soriano,Bluetooth Earbuds,Electronics,1,1450,2026-06-08,Delivered
+ORD00604,Joshua Aquino,Air Fryer 4L,Home & Living,2,2880,2026-06-08,Cancelled
+ORD00605,Vincent Domingo,Mechanical Keyboard,Electronics,1,2300,2026-06-09,Delivered
+ORD00606,Bea Castillo,USB-C Charger 65W,Electronics,1,1035,2026-06-09,Delivered
+ORD00607,Katrina Valdez,Hoodie Jacket,Fashion,3,998,2026-06-10,Delivered
+ORD00608,Grace Pascual,Yoga Mat,Sports & Outdoors,2,650,2026-06-10,Delivered
+ORD00609,Bea Tolentino,Olive Oil 1L,Groceries,1,720,2026-06-10,Delivered
+ORD00610,Nicole Cruz,Yoga Mat,Sports & Outdoors,3,650,2026-06-10,Cancelled
+ORD00611,Aileen Torres,Gel Pen Pack,Books & Stationery,1,120,2026-06-10,Delivered
+ORD00612,Ana Castro,Mixed Nuts 1kg,Groceries,2,780,2026-06-11,Delivered
+ORD00613,Gabriel Navarro,Bed Sheet Set,Home & Living,1,1312,2026-06-11,Delivered
+ORD00614,John Aguilar,Water Bottle 1L,Sports & Outdoors,3,399,2026-06-11,Delivered
+ORD00615,Vincent Reyes,Yoga Mat,Sports & Outdoors,1,650,2026-06-12,Delivered
+ORD00616,Mika Garcia,Premium Coffee Beans 500g,Groceries,4,682,2026-06-12,Delivered
+ORD00617,Mika Cruz,Air Fryer 4L,Home & Living,2,3200,2026-06-12,Cancelled
+ORD00618,Trisha Tolentino,Programming Book,Books & Stationery,5,1650,2026-06-12,Delivered
+ORD00619,Dennis Flores,Air Fryer 4L,Home & Living,1,3200,2026-06-12,Delivered
+ORD00620,Noel Bautista,Mechanical Keyboard,Electronics,4,2300,2026-06-12,Delivered
+ORD00621,Gabriel Ramos,Wireless Mouse,Electronics,3,450,2026-06-12,Delivered
+ORD00622,Vincent Reyes,Storage Organizer,Home & Living,2,420,2026-06-13,Delivered
+ORD00623,Aileen Salazar,Wireless Mouse,Electronics,1,500,2026-06-13,Delivered
+ORD00624,Vincent Aguilar,Webcam 1080p,Electronics,1,1250,2026-06-13,Delivered
+ORD00625,Nicole Cruz,Wireless Mouse,Electronics,1,425,2026-06-13,Delivered
+ORD00626,Kristine Pascual,Leather Belt,Fashion,1,450,2026-06-13,Delivered
+ORD00627,Allan Bautista,Hiking Backpack,Sports & Outdoors,1,1799,2026-06-13,Cancelled
+ORD00628,Katrina Dela Cruz,Programming Book,Books & Stationery,1,1650,2026-06-14,Delivered
+ORD00629,Vincent Reyes,Notebook Set (5pcs),Books & Stationery,1,212,2026-06-14,Delivered
+ORD00630,John Torres,Bed Sheet Set,Home & Living,1,1250,2026-06-14,Delivered
+ORD00631,Ana Rivera,USB-C Charger 65W,Electronics,2,1150,2026-06-14,Delivered
+ORD00632,Mika Navarro,Electric Kettle,Home & Living,1,780,2026-06-14,Pending
+ORD00633,Mika Aguilar,Vitamin C Serum,Beauty & Health,3,599,2026-06-14,Delivered
+ORD00634,Allan Aquino,RC Car,Toys & Games,1,1399,2026-06-15,Delivered
+ORD00635,Patrick Castro,LED Desk Lamp,Home & Living,1,681,2026-06-15,Delivered
+ORD00636,Carlo Pascual,Facial Cleanser,Beauty & Health,2,310,2026-06-15,Delivered
+ORD00637,Patrick Ramos,Vitamin C Serum,Beauty & Health,1,509,2026-06-15,Delivered
+ORD00638,Paolo Dela Cruz,Mechanical Keyboard,Electronics,2,2300,2026-06-16,Delivered
+ORD00639,Katrina Reyes,Organic Honey 350ml,Groceries,1,390,2026-06-16,Delivered
+ORD00640,Bea Cruz,Water Bottle 1L,Sports & Outdoors,2,359,2026-06-17,Delivered
+ORD00641,Katrina Soriano,Bed Sheet Set,Home & Living,4,1250,2026-06-17,Delivered
+ORD00642,Paolo Garcia,Air Fryer 4L,Home & Living,4,3200,2026-06-17,Delivered
+ORD00643,Katrina Manalo,Vitamin C Serum,Beauty & Health,1,599,2026-06-17,Delivered
+ORD00644,Katrina Soriano,Bluetooth Earbuds,Electronics,1,1232,2026-06-18,Delivered
+ORD00645,Joshua Flores,Vitamin C Serum,Beauty & Health,2,599,2026-06-18,Delivered
+ORD00646,Allan Rivera,Notebook Set (5pcs),Books & Stationery,6,250,2026-06-18,Delivered
+ORD00647,Vincent Castillo,Bluetooth Earbuds,Electronics,2,1450,2026-06-18,Delivered
+ORD00648,Vincent Domingo,Olive Oil 1L,Groceries,3,720,2026-06-18,Delivered
+ORD00649,Maria Dela Cruz,Yoga Mat,Sports & Outdoors,2,585,2026-06-18,Shipped
+ORD00650,Nicole Cruz,Sunscreen SPF50,Beauty & Health,3,378,2026-06-19,Delivered
+ORD00651,John Aguilar,USB-C Charger 65W,Electronics,2,1150,2026-06-19,Delivered
+ORD00652,Rhea Valdez,Bed Sheet Set,Home & Living,2,1062,2026-06-19,Delivered
+ORD00653,Nicole Bautista,Notebook Set (5pcs),Books & Stationery,1,250,2026-06-19,Pending
+ORD00654,Nicole Santos,Denim Jeans,Fashion,4,935,2026-06-20,Delivered
+ORD00655,Francis Pascual,Power Bank 10000mAh,Electronics,1,899,2026-06-20,Delivered
+ORD00656,Grace Villanueva,Cotton T-Shirt,Fashion,4,368,2026-06-20,Delivered
+ORD00657,Angel Cruz,Air Fryer 4L,Home & Living,1,3360,2026-06-20,Delivered
+ORD00658,Grace Mendoza,Wireless Mouse,Electronics,1,525,2026-06-20,Delivered
+ORD00659,Aileen Valdez,Planner 2026,Books & Stationery,3,399,2026-06-20,Cancelled
+ORD00660,Aileen Cruz,Cotton T-Shirt,Fashion,1,350,2026-06-20,Delivered
+ORD00661,Joy Ramos,Cotton T-Shirt,Fashion,1,350,2026-06-20,Delivered
+ORD00662,Bea Reyes,Portable Speaker,Electronics,1,1350,2026-06-20,Delivered
+ORD00663,Miguel Bautista,Bluetooth Earbuds,Electronics,1,1450,2026-06-21,Delivered
+ORD00664,Maria Torres,Yoga Mat,Sports & Outdoors,1,650,2026-06-21,Delivered
+ORD00665,Noel Manalo,Webcam 1080p,Electronics,1,1250,2026-06-21,Delivered
+ORD00666,Ana Rivera,Wall Clock,Home & Living,1,380,2026-06-21,Delivered
+ORD00667,Vincent Domingo,LED Desk Lamp,Home & Living,2,552,2026-06-21,Delivered
+ORD00668,Katrina Reyes,Denim Jeans,Fashion,1,990,2026-06-21,Delivered
+ORD00669,Liza Salazar,Water Bottle 1L,Sports & Outdoors,1,399,2026-06-21,Delivered
+ORD00670,Mika Valdez,Cotton T-Shirt,Fashion,1,350,2026-06-21,Delivered
+ORD00671,Miguel Bautista,Hiking Backpack,Sports & Outdoors,3,1799,2026-06-22,Delivered
+ORD00672,Allan Tolentino,Vitamin C Serum,Beauty & Health,4,599,2026-06-22,Delivered
+ORD00673,Mika Aguilar,LED Desk Lamp,Home & Living,1,649,2026-06-22,Delivered
+ORD00674,Bea Soriano,Premium Coffee Beans 500g,Groceries,1,650,2026-06-23,Delivered
+ORD00675,Aileen Salazar,Smart Watch,Electronics,1,1614,2026-06-23,Delivered
+ORD00676,Camille Navarro,Storage Organizer,Home & Living,2,420,2026-06-24,Delivered
+ORD00677,Kristine Flores,Canvas Sneakers,Fashion,1,1364,2026-06-24,Delivered
+ORD00678,Camille Soriano,Hair Dryer,Beauty & Health,2,1155,2026-06-24,Delivered
+ORD00679,Paolo Dela Cruz,Facial Cleanser,Beauty & Health,1,310,2026-06-24,Delivered
+ORD00680,Joshua Flores,Organic Honey 350ml,Groceries,4,390,2026-06-24,Delivered
+ORD00681,Ramon Ramos,LED Desk Lamp,Home & Living,2,649,2026-06-24,Delivered
+ORD00682,Maria Flores,Cotton T-Shirt,Fashion,1,350,2026-06-25,Delivered
+ORD00683,John Reyes,Premium Coffee Beans 500g,Groceries,2,650,2026-06-25,Delivered
+ORD00684,Mika Garcia,LED Desk Lamp,Home & Living,3,649,2026-06-25,Cancelled
+ORD00685,Rey Salazar,Jump Rope,Sports & Outdoors,1,220,2026-06-25,Delivered
+ORD00686,Allan Rivera,Leather Belt,Fashion,1,450,2026-06-25,Delivered
+ORD00687,Patrick Ramos,Electric Kettle,Home & Living,2,780,2026-06-25,Delivered
+ORD00688,John Navarro,Wireless Mouse,Electronics,1,500,2026-06-26,Delivered
+ORD00689,Maria Flores,Bluetooth Earbuds,Electronics,1,1305,2026-06-26,Delivered
+ORD00690,Bea Aquino,Organic Honey 350ml,Groceries,1,390,2026-06-26,Cancelled
+ORD00691,Joshua Aquino,Power Bank 10000mAh,Electronics,1,899,2026-06-26,Delivered
+ORD00692,Aileen Ramos,Cotton T-Shirt,Fashion,1,350,2026-06-26,Delivered
+ORD00693,John Aguilar,Facial Cleanser,Beauty & Health,2,310,2026-06-26,Delivered
+ORD00694,Allan Dela Cruz,Wall Clock,Home & Living,2,380,2026-06-26,Delivered
+ORD00695,Bea Tolentino,Wireless Mouse,Electronics,1,500,2026-06-26,Delivered
+ORD00696,Allan Tolentino,Mixed Nuts 1kg,Groceries,2,780,2026-06-26,Delivered
+ORD00697,Nicole Cruz,Notebook Set (5pcs),Books & Stationery,1,225,2026-06-26,Delivered
+ORD00698,Dianne Santos,Hiking Backpack,Sports & Outdoors,1,1889,2026-06-27,Delivered
+ORD00699,Mika Navarro,Air Fryer 4L,Home & Living,3,3200,2026-06-27,Delivered
+ORD00700,Nicole Cruz,Air Fryer 4L,Home & Living,1,2880,2026-06-27,Delivered
+ORD00701,Maria Manalo,Cotton T-Shirt,Fashion,1,350,2026-06-27,Delivered
+ORD00702,Hazel Valdez,Denim Jeans,Fashion,1,1100,2026-06-27,Cancelled
+ORD00703,Gabriel Santos,Hoodie Jacket,Fashion,1,950,2026-06-27,Delivered
+ORD00704,Irene Manalo,Jump Rope,Sports & Outdoors,4,187,2026-06-28,Delivered
+ORD00705,Carlo Santos,Bluetooth Earbuds,Electronics,1,1450,2026-06-28,Delivered
+ORD00706,Nicole Cruz,Cotton T-Shirt,Fashion,1,350,2026-06-28,Delivered
+ORD00707,John Cruz,Wireless Mouse,Electronics,1,500,2026-06-28,Delivered
+ORD00708,Joy Ramos,Olive Oil 1L,Groceries,4,720,2026-06-29,Delivered
+ORD00709,Bea Castillo,Dumbbell Set 10kg,Sports & Outdoors,1,1450,2026-06-29,Delivered
+ORD00710,Daniel Aguilar,Wireless Mouse,Electronics,1,500,2026-06-30,Delivered
+ORD00711,Ramon Torres,Hair Dryer,Beauty & Health,1,1100,2026-06-30,Delivered
+ORD00712,Vincent Aguilar,Olive Oil 1L,Groceries,3,720,2026-07-01,Cancelled
+ORD00713,Carlo Pascual,Air Fryer 4L,Home & Living,4,3200,2026-07-01,Delivered
+ORD00714,Nicole Cruz,USB-C Charger 65W,Electronics,1,1150,2026-07-01,Delivered
+ORD00715,Jericho Torres,Vitamin C Serum,Beauty & Health,1,599,2026-07-01,Delivered
+ORD00716,Nicole Cruz,Premium Coffee Beans 500g,Groceries,4,650,2026-07-01,Cancelled
+ORD00717,Carlo Soriano,Cotton T-Shirt,Fashion,2,350,2026-07-01,Delivered
+ORD00718,Francis Aguilar,Planner 2026,Books & Stationery,1,342,2026-07-02,Delivered
+ORD00719,Noel Cruz,Cotton T-Shirt,Fashion,2,368,2026-07-02,Delivered
+ORD00720,Paolo Pascual,Denim Jeans,Fashion,2,1100,2026-07-02,Delivered
+ORD00721,Joshua Flores,Organic Honey 350ml,Groceries,4,390,2026-07-02,Delivered
+ORD00722,Joshua Aquino,Webcam 1080p,Electronics,1,1062,2026-07-02,Delivered
+ORD00723,Dennis Flores,Board Game Classic,Toys & Games,2,1150,2026-07-02,Delivered
+ORD00724,Joy Ramos,Bluetooth Earbuds,Electronics,1,1450,2026-07-03,Delivered
+ORD00725,Sofia Navarro,Premium Coffee Beans 500g,Groceries,3,650,2026-07-03,Delivered
+ORD00726,Rey Rivera,Sunscreen SPF50,Beauty & Health,1,420,2026-07-03,Delivered
+ORD00727,Camille Salazar,Bluetooth Earbuds,Electronics,1,1450,2026-07-03,Delivered
+ORD00728,Gabriel Castro,Hair Dryer,Beauty & Health,2,1100,2026-07-03,Delivered
+ORD00729,Joshua Aquino,RC Car,Toys & Games,1,1399,2026-07-03,Delivered
+ORD00730,Hazel Cruz,Olive Oil 1L,Groceries,4,720,2026-07-04,Delivered
+ORD00731,Juan Lopez,Electric Kettle,Home & Living,3,780,2026-07-04,Delivered
+ORD00732,Maria Flores,Vitamin C Serum,Beauty & Health,1,599,2026-07-04,Cancelled
+ORD00733,Joshua Flores,Premium Coffee Beans 500g,Groceries,1,650,2026-07-04,Delivered
+ORD00734,Gabriel Cruz,Cotton T-Shirt,Fashion,2,350,2026-07-04,Delivered
+ORD00735,Mika Navarro,Notebook Set (5pcs),Books & Stationery,2,250,2026-07-04,Delivered
+ORD00736,Mark Castro,Multivitamins 60s,Beauty & Health,2,540,2026-07-04,Cancelled
+ORD00737,Joshua Aquino,Premium Coffee Beans 500g,Groceries,6,650,2026-07-04,Delivered
+ORD00738,Maria Cruz,Cotton T-Shirt,Fashion,1,350,2026-07-05,Delivered
+ORD00739,Katrina Reyes,Notebook Set (5pcs),Books & Stationery,1,262,2026-07-05,Delivered
+ORD00740,Irene Valdez,Leather Belt,Fashion,1,450,2026-07-05,Delivered
+ORD00741,Carlo Pascual,Programming Book,Books & Stationery,4,1650,2026-07-05,Delivered
+ORD00742,John Castillo,Portable Speaker,Electronics,4,1350,2026-07-05,Cancelled
+ORD00743,Juan Navarro,Cotton T-Shirt,Fashion,1,350,2026-07-06,Delivered
+ORD00744,Jose Flores,Water Bottle 1L,Sports & Outdoors,2,399,2026-07-06,Delivered
+ORD00745,Noel Bautista,Vitamin C Serum,Beauty & Health,1,599,2026-07-06,Delivered
+ORD00746,Joy Ramos,Gel Pen Pack,Books & Stationery,2,120,2026-07-06,Delivered
+ORD00747,Katrina Valdez,Yoga Mat,Sports & Outdoors,2,650,2026-07-06,Delivered
+ORD00748,Ana Rivera,Building Blocks 500pcs,Toys & Games,1,899,2026-07-07,Cancelled
+ORD00749,Patrick Aquino,Sunscreen SPF50,Beauty & Health,1,420,2026-07-07,Delivered
+ORD00750,Dianne Santos,Storage Organizer,Home & Living,1,420,2026-07-07,Delivered
+ORD00751,Mika Cruz,Vitamin C Serum,Beauty & Health,2,599,2026-07-07,Delivered
+ORD00752,Noel Cruz,Multivitamins 60s,Beauty & Health,2,540,2026-07-07,Delivered
+ORD00753,Allan Rivera,Power Bank 10000mAh,Electronics,1,899,2026-07-07,Delivered
+ORD00754,Bea Santos,Leather Belt,Fashion,1,382,2026-07-07,Delivered
+ORD00755,Dianne Santos,Yoga Mat,Sports & Outdoors,2,650,2026-07-07,Delivered
+ORD00756,Joshua Aquino,Multivitamins 60s,Beauty & Health,1,540,2026-07-07,Processing
+ORD00757,Kristine Tolentino,Running Shoes,Fashion,1,2199,2026-07-07,Cancelled
+ORD00758,Mark Soriano,Power Bank 10000mAh,Electronics,1,899,2026-07-08,Delivered
+ORD00759,Aileen Dela Cruz,Denim Jeans,Fashion,1,1100,2026-07-08,Delivered
+ORD00760,Joshua Flores,Notebook Set (5pcs),Books & Stationery,4,250,2026-07-08,Delivered
+ORD00761,Trisha Flores,Canvas Sneakers,Fashion,1,1299,2026-07-08,Delivered
+ORD00762,Gabriel Ramos,Water Bottle 1L,Sports & Outdoors,1,399,2026-07-08,Delivered
+ORD00763,Allan Lopez,Power Bank 10000mAh,Electronics,1,899,2026-07-09,Delivered
+ORD00764,Miguel Bautista,Yoga Mat,Sports & Outdoors,3,682,2026-07-09,Delivered
+ORD00765,Nicole Soriano,Facial Cleanser,Beauty & Health,1,310,2026-07-09,Delivered
+ORD00766,Gabriel Ramos,Yoga Mat,Sports & Outdoors,1,650,2026-07-09,Delivered
+ORD00767,Allan Aquino,Cotton T-Shirt,Fashion,2,350,2026-07-09,Delivered
+ORD00768,Gabriel Castro,Electric Kettle,Home & Living,3,780,2026-07-10,Delivered
+ORD00769,John Navarro,Premium Coffee Beans 500g,Groceries,1,650,2026-07-10,Processing
+ORD00770,Noel Cruz,Yoga Mat,Sports & Outdoors,4,585,2026-07-10,Delivered
+ORD00771,Joshua Aquino,Sunscreen SPF50,Beauty & Health,1,420,2026-07-11,Delivered
+ORD00772,Allan Rivera,Bluetooth Earbuds,Electronics,4,1305,2026-07-11,Delivered
+ORD00773,Joshua Aquino,Bluetooth Earbuds,Electronics,2,1450,2026-07-11,Delivered
+ORD00774,Noel Cruz,Wireless Mouse,Electronics,1,500,2026-07-11,Cancelled
+ORD00775,Miguel Tolentino,Cotton T-Shirt,Fashion,2,298,2026-07-11,Delivered
+ORD00776,Joshua Flores,Board Game Classic,Toys & Games,3,1035,2026-07-12,Delivered
+ORD00777,Daniel Dela Cruz,Wireless Mouse,Electronics,2,500,2026-07-12,Delivered
+ORD00778,Mika Garcia,Bluetooth Earbuds,Electronics,2,1450,2026-07-12,Delivered
+ORD00779,Katrina Reyes,LED Desk Lamp,Home & Living,1,649,2026-07-13,Cancelled
+ORD00780,Joshua Aquino,Facial Cleanser,Beauty & Health,1,310,2026-07-13,Delivered
+ORD00781,Liza Garcia,Wireless Mouse,Electronics,1,500,2026-07-13,Delivered
+ORD00782,Aileen Ramos,Electric Kettle,Home & Living,1,780,2026-07-13,Delivered
+ORD00783,Paolo Dela Cruz,Facial Cleanser,Beauty & Health,1,310,2026-07-13,Delivered
+ORD00784,Nicole Cruz,Cotton T-Shirt,Fashion,1,350,2026-07-13,Delivered
+ORD00785,Irene Torres,Premium Coffee Beans 500g,Groceries,2,682,2026-07-13,Delivered
+ORD00786,Kristine Valdez,Dumbbell Set 10kg,Sports & Outdoors,1,1450,2026-07-14,Delivered
+ORD00787,Bea Aquino,Facial Cleanser,Beauty & Health,2,310,2026-07-14,Delivered
+ORD00788,Gabriel Flores,Hoodie Jacket,Fashion,1,950,2026-07-15,Delivered
+ORD00789,Grace Mendoza,Denim Jeans,Fashion,1,1100,2026-07-15,Delivered
+ORD00790,Joshua Aquino,Building Blocks 500pcs,Toys & Games,2,899,2026-07-16,Cancelled
+ORD00791,Aileen Torres,Canvas Sneakers,Fashion,1,1364,2026-07-16,Delivered
+ORD00792,Hazel Cruz,Hair Dryer,Beauty & Health,2,1100,2026-07-16,Delivered
+ORD00793,Camille Navarro,Vitamin C Serum,Beauty & Health,1,539,2026-07-16,Delivered
+ORD00794,Juan Aquino,Wireless Mouse,Electronics,1,500,2026-07-16,Delivered
+ORD00795,Nicole Cruz,Power Bank 10000mAh,Electronics,1,899,2026-07-17,Delivered
+ORD00796,Liza Salazar,Canvas Sneakers,Fashion,5,1299,2026-07-17,Delivered
+ORD00797,Gabriel Torres,Leather Belt,Fashion,1,450,2026-07-17,Delivered
+ORD00798,Allan Rivera,Electric Kettle,Home & Living,1,780,2026-07-17,Cancelled
+ORD00799,Joshua Aquino,Jump Rope,Sports & Outdoors,1,220,2026-07-17,Delivered
+ORD00800,Noel Cruz,Smart Watch,Electronics,1,1614,2026-07-17,Delivered
+ORD00801,Joy Navarro,Bluetooth Earbuds,Electronics,2,1450,2026-07-17,Delivered
+ORD00802,Joshua Aquino,Leather Belt,Fashion,1,450,2026-07-18,Shipped
+ORD00803,Katrina Manalo,Bluetooth Earbuds,Electronics,1,1450,2026-07-18,Delivered
+ORD00804,John Domingo,Dumbbell Set 10kg,Sports & Outdoors,1,1450,2026-07-18,Delivered
+ORD00805,Elmer Aguilar,Denim Jeans,Fashion,1,1100,2026-07-18,Delivered
+ORD00806,Hazel Manalo,Yoga Mat,Sports & Outdoors,3,650,2026-07-18,Delivered
+ORD00807,Francis Aguilar,RC Car,Toys & Games,1,1399,2026-07-18,Delivered
+ORD00808,Paolo Pascual,Yoga Mat,Sports & Outdoors,1,650,2026-07-18,Delivered
+ORD00809,Allan Rivera,Electric Kettle,Home & Living,1,780,2026-07-19,Delivered
+ORD00810,Hazel Pascual,Organic Honey 350ml,Groceries,3,390,2026-07-19,Delivered
+ORD00811,Rhea Soriano,Programming Book,Books & Stationery,2,1650,2026-07-20,Delivered
+ORD00812,Nicole Cruz,Planner 2026,Books & Stationery,1,380,2026-07-20,Delivered
+ORD00813,Patrick Castro,Portable Speaker,Electronics,2,1350,2026-07-20,Delivered
+ORD00814,Irene Manalo,Bluetooth Earbuds,Electronics,1,1450,2026-07-20,Delivered
+ORD00815,Dianne Aquino,Notebook Set (5pcs),Books & Stationery,3,250,2026-07-21,Delivered
+ORD00816,Allan Soriano,Smart Watch,Electronics,1,1899,2026-07-21,Delivered
+ORD00817,Gabriel Torres,Webcam 1080p,Electronics,1,1250,2026-07-21,Delivered
+ORD00818,Juan Tolentino,LED Desk Lamp,Home & Living,1,649,2026-07-21,Delivered
+ORD00819,Kristine Garcia,Bluetooth Earbuds,Electronics,3,1450,2026-07-22,Delivered
+ORD00820,Aileen Salazar,Smart Watch,Electronics,5,1899,2026-07-22,Delivered
+ORD00821,Miguel Soriano,Gel Pen Pack,Books & Stationery,1,120,2026-07-22,Delivered
+ORD00822,Daniel Dela Cruz,LED Desk Lamp,Home & Living,2,649,2026-07-23,Delivered
+ORD00823,Francis Aguilar,Yoga Mat,Sports & Outdoors,1,650,2026-07-23,Delivered
+ORD00824,Patrick Cruz,Premium Coffee Beans 500g,Groceries,1,650,2026-07-23,Delivered
+ORD00825,Camille Soriano,Leather Belt,Fashion,2,450,2026-07-23,Delivered
+ORD00826,Noel Cruz,Water Bottle 1L,Sports & Outdoors,1,399,2026-07-23,Delivered
+ORD00827,Gabriel Castro,Organic Honey 350ml,Groceries,4,390,2026-07-23,Processing
+ORD00828,Trisha Flores,Notebook Set (5pcs),Books & Stationery,3,250,2026-07-24,Delivered
+ORD00829,Gabriel Cruz,Sunscreen SPF50,Beauty & Health,3,420,2026-07-24,Delivered
+ORD00830,Vincent Navarro,Planner 2026,Books & Stationery,4,380,2026-07-24,Delivered
+ORD00831,Joshua Aquino,Running Shoes,Fashion,1,2199,2026-07-25,Delivered
+ORD00832,Joshua Aquino,Storage Organizer,Home & Living,1,420,2026-07-25,Delivered
+ORD00833,Maria Cruz,Power Bank 10000mAh,Electronics,1,764,2026-07-25,Delivered
+ORD00834,Carlo Soriano,Mixed Nuts 1kg,Groceries,1,780,2026-07-25,Delivered
+ORD00835,Allan Tolentino,Leather Belt,Fashion,1,450,2026-07-25,Delivered
+ORD00836,Nicole Cruz,Portable Speaker,Electronics,5,1215,2026-07-25,Delivered
+ORD00837,Nicole Cruz,Sunscreen SPF50,Beauty & Health,1,420,2026-07-26,Delivered
+ORD00838,Gabriel Salazar,LED Desk Lamp,Home & Living,1,649,2026-07-26,Delivered
+ORD00839,Allan Lopez,Canvas Sneakers,Fashion,1,1299,2026-07-26,Delivered
+ORD00840,Angel Navarro,Storage Organizer,Home & Living,2,420,2026-07-26,Delivered
+ORD00841,Hazel Castro,Mixed Nuts 1kg,Groceries,2,780,2026-07-26,Delivered
+ORD00842,Joshua Aquino,Cotton T-Shirt,Fashion,1,350,2026-07-26,Delivered
+ORD00843,Joy Navarro,USB-C Charger 65W,Electronics,1,1150,2026-07-26,Delivered
+ORD00844,Allan Villanueva,Power Bank 10000mAh,Electronics,1,899,2026-07-26,Delivered
+ORD00845,Francis Torres,Hair Dryer,Beauty & Health,1,1155,2026-07-26,Delivered
+ORD00846,Mark Santos,Electric Kettle,Home & Living,1,819,2026-07-26,Delivered
+ORD00847,Joy Aguilar,Puzzle 1000pcs,Toys & Games,1,480,2026-07-27,Cancelled
+ORD00848,Liza Salazar,Mechanical Keyboard,Electronics,2,2300,2026-07-27,Delivered
+ORD00849,Jericho Dela Cruz,Bluetooth Earbuds,Electronics,2,1450,2026-07-27,Delivered
+ORD00850,Elmer Domingo,Mixed Nuts 1kg,Groceries,1,780,2026-07-27,Delivered
+ORD00851,Nicole Cruz,Denim Jeans,Fashion,2,1100,2026-07-27,Delivered
+ORD00852,Nicole Cruz,LED Desk Lamp,Home & Living,1,649,2026-07-27,Delivered
+ORD00853,Patrick Castro,Power Bank 10000mAh,Electronics,1,899,2026-07-27,Delivered
+ORD00854,Bea Aquino,LED Desk Lamp,Home & Living,1,649,2026-07-28,Delivered
+ORD00855,Maria Cruz,Olive Oil 1L,Groceries,6,720,2026-07-28,Cancelled
+ORD00856,Gabriel Torres,USB-C Charger 65W,Electronics,1,1150,2026-07-28,Delivered
+ORD00857,Carlo Soriano,Cotton T-Shirt,Fashion,1,350,2026-07-29,Delivered
+ORD00858,Nicole Cruz,Organic Honey 350ml,Groceries,1,390,2026-07-29,Delivered
+ORD00859,Allan Villanueva,Air Fryer 4L,Home & Living,2,3200,2026-07-29,Delivered
+ORD00860,Dennis Santos,Hiking Backpack,Sports & Outdoors,1,1799,2026-07-29,Delivered
+ORD00861,Sofia Navarro,Webcam 1080p,Electronics,1,1250,2026-07-30,Delivered
+ORD00862,Liza Salazar,Wall Clock,Home & Living,1,380,2026-07-30,Delivered
+ORD00863,Aileen Cruz,Multivitamins 60s,Beauty & Health,3,540,2026-07-30,Delivered
+ORD00864,Hazel Pascual,Portable Speaker,Electronics,3,1350,2026-07-30,Delivered
+ORD00865,Jericho Dela Cruz,Bed Sheet Set,Home & Living,1,1250,2026-07-30,Delivered
+ORD00866,John Navarro,Sunscreen SPF50,Beauty & Health,1,357,2026-07-31,Delivered
+ORD00867,John Ramos,Facial Cleanser,Beauty & Health,1,310,2026-07-31,Cancelled
+ORD00868,Dianne Castillo,Bed Sheet Set,Home & Living,3,1312,2026-07-31,Delivered
+ORD00869,Patrick Dela Cruz,Multivitamins 60s,Beauty & Health,1,540,2026-07-31,Delivered
+ORD00870,Jose Tolentino,Cotton T-Shirt,Fashion,1,350,2026-07-31,Delivered
+ORD00871,Liza Salazar,Mixed Nuts 1kg,Groceries,2,780,2026-07-31,Delivered
+ORD00872,Patrick Aquino,Running Shoes,Fashion,1,2199,2026-08-01,Delivered
+ORD00873,Ramon Valdez,Vitamin C Serum,Beauty & Health,1,599,2026-08-01,Cancelled
+ORD00874,Maria Flores,Running Shoes,Fashion,4,1869,2026-08-01,Delivered
+ORD00875,John Cruz,Facial Cleanser,Beauty & Health,3,310,2026-08-01,Cancelled
+ORD00876,Gabriel Aquino,Board Game Classic,Toys & Games,4,1150,2026-08-01,Delivered
+ORD00877,Irene Dela Cruz,Programming Book,Books & Stationery,1,1650,2026-08-02,Delivered
+ORD00878,Maria Flores,LED Desk Lamp,Home & Living,1,649,2026-08-02,Delivered
+ORD00879,Joshua Aquino,Air Fryer 4L,Home & Living,4,3200,2026-08-03,Delivered
+ORD00880,Dianne Santos,Sunscreen SPF50,Beauty & Health,1,420,2026-08-04,Delivered
+ORD00881,Mark Soriano,Webcam 1080p,Electronics,4,1250,2026-08-04,Delivered
+ORD00882,Jericho Castillo,Wireless Mouse,Electronics,1,500,2026-08-04,Cancelled
+ORD00883,Nicole Cruz,Cotton T-Shirt,Fashion,2,350,2026-08-04,Delivered
+ORD00884,Nicole Cruz,USB-C Charger 65W,Electronics,1,1208,2026-08-04,Delivered
+ORD00885,Miguel Tolentino,Bed Sheet Set,Home & Living,4,1250,2026-08-05,Delivered
+ORD00886,Trisha Flores,Vitamin C Serum,Beauty & Health,2,599,2026-08-05,Delivered
+ORD00887,Joshua Flores,Hair Dryer,Beauty & Health,2,1100,2026-08-05,Delivered
+ORD00888,John Mendoza,Cotton T-Shirt,Fashion,1,350,2026-08-05,Delivered
+ORD00889,Gabriel Navarro,Webcam 1080p,Electronics,2,1250,2026-08-06,Delivered
+ORD00890,Katrina Pascual,Wall Clock,Home & Living,2,323,2026-08-06,Delivered
+ORD00891,Liza Salazar,Cotton T-Shirt,Fashion,1,350,2026-08-06,Delivered
+ORD00892,Jericho Dela Cruz,Power Bank 10000mAh,Electronics,1,899,2026-08-06,Delivered
+ORD00893,Bea Aquino,Denim Jeans,Fashion,3,1100,2026-08-06,Delivered
+ORD00894,Bea Reyes,Denim Jeans,Fashion,2,1100,2026-08-06,Delivered
+ORD00895,Mika Garcia,Power Bank 10000mAh,Electronics,4,899,2026-08-06,Delivered
+ORD00896,Allan Rivera,Mechanical Keyboard,Electronics,2,2300,2026-08-07,Delivered
+ORD00897,Irene Dela Cruz,LED Desk Lamp,Home & Living,1,649,2026-08-07,Delivered
+ORD00898,Aileen Ramos,Bluetooth Earbuds,Electronics,1,1450,2026-08-07,Delivered
+ORD00899,Noel Cruz,Notebook Set (5pcs),Books & Stationery,4,250,2026-08-07,Delivered
+ORD00900,Bea Cruz,Running Shoes,Fashion,1,2199,2026-08-07,Delivered
+ORD00901,Liza Garcia,Hair Dryer,Beauty & Health,1,1100,2026-08-07,Delivered
+ORD00902,Joy Aguilar,Vitamin C Serum,Beauty & Health,1,599,2026-08-08,Delivered
+ORD00903,John Aguilar,Bed Sheet Set,Home & Living,1,1250,2026-08-08,Shipped
+ORD00904,Noel Cruz,Premium Coffee Beans 500g,Groceries,1,650,2026-08-08,Delivered
+ORD00905,Katrina Cruz,Facial Cleanser,Beauty & Health,1,279,2026-08-08,Delivered
+ORD00906,Noel Cruz,Planner 2026,Books & Stationery,1,380,2026-08-08,Delivered
+ORD00907,Joshua Flores,Sunscreen SPF50,Beauty & Health,1,420,2026-08-08,Delivered
+ORD00908,Jericho Valdez,Cotton T-Shirt,Fashion,1,350,2026-08-08,Delivered
+ORD00909,Dennis Lopez,Sunscreen SPF50,Beauty & Health,2,420,2026-08-08,Delivered
+ORD00910,Grace Garcia,Mechanical Keyboard,Electronics,1,2300,2026-08-08,Delivered
+ORD00911,Gabriel Cruz,Multivitamins 60s,Beauty & Health,3,540,2026-08-08,Delivered
+ORD00912,Francis Dela Cruz,Bluetooth Earbuds,Electronics,1,1450,2026-08-08,Delivered
+ORD00913,Daniel Dela Cruz,Puzzle 1000pcs,Toys & Games,1,480,2026-08-08,Delivered
+ORD00914,Kristine Flores,Wireless Mouse,Electronics,4,500,2026-08-08,Delivered
+ORD00915,Nicole Cruz,Sunscreen SPF50,Beauty & Health,1,420,2026-08-08,Delivered
+ORD00916,Nicole Cruz,Hair Dryer,Beauty & Health,2,1155,2026-08-08,Delivered
+ORD00917,Nicole Cruz,Organic Honey 350ml,Groceries,3,390,2026-08-08,Delivered
+ORD00918,Gabriel Reyes,Yoga Mat,Sports & Outdoors,1,650,2026-08-08,Delivered
+ORD00919,Aileen Salazar,USB-C Charger 65W,Electronics,1,1150,2026-08-08,Delivered
+ORD00920,Ana Mendoza,Premium Coffee Beans 500g,Groceries,1,650,2026-08-08,Delivered
+ORD00921,Noel Cruz,Premium Coffee Beans 500g,Groceries,3,650,2026-08-08,Pending
+ORD00922,Gabriel Navarro,Electric Kettle,Home & Living,3,780,2026-08-08,Delivered
+ORD00923,Juan Lopez,Cotton T-Shirt,Fashion,2,350,2026-08-08,Delivered
+ORD00924,Mika Garcia,Running Shoes,Fashion,1,2199,2026-08-08,Delivered
+ORD00925,Trisha Flores,Wireless Mouse,Electronics,1,500,2026-08-09,Delivered
+ORD00926,Trisha Reyes,Webcam 1080p,Electronics,1,1125,2026-08-09,Delivered
+ORD00927,Nicole Cruz,Gel Pen Pack,Books & Stationery,4,120,2026-08-09,Delivered
+ORD00928,Jericho Dela Cruz,Wireless Mouse,Electronics,1,500,2026-08-09,Delivered
+ORD00929,Nicole Cruz,Denim Jeans,Fashion,2,990,2026-08-09,Delivered
+ORD00930,Allan Rivera,Cotton T-Shirt,Fashion,1,350,2026-08-10,Delivered
+ORD00931,Maria Torres,Cotton T-Shirt,Fashion,3,350,2026-08-10,Delivered
+ORD00932,Allan Lopez,Mixed Nuts 1kg,Groceries,1,780,2026-08-10,Delivered
+ORD00933,Carlo Soriano,Gel Pen Pack,Books & Stationery,2,102,2026-08-10,Delivered
+ORD00934,Jasmine Tolentino,Cotton T-Shirt,Fashion,3,350,2026-08-10,Delivered
+ORD00935,Juan Lopez,Wireless Mouse,Electronics,3,500,2026-08-11,Delivered
+ORD00936,Jericho Torres,Electric Kettle,Home & Living,2,780,2026-08-11,Delivered
+ORD00937,Carlo Villanueva,Gel Pen Pack,Books & Stationery,4,120,2026-08-11,Delivered
+ORD00938,Rhea Dela Cruz,Organic Honey 350ml,Groceries,3,390,2026-08-11,Delivered
+ORD00939,Gabriel Valdez,Portable Speaker,Electronics,1,1350,2026-08-11,Delivered
+ORD00940,Jericho Santos,Mixed Nuts 1kg,Groceries,1,780,2026-08-11,Delivered
+ORD00941,Jericho Castillo,Vitamin C Serum,Beauty & Health,1,599,2026-08-11,Delivered
+ORD00942,Noel Cruz,Yoga Mat,Sports & Outdoors,2,650,2026-08-12,Cancelled
+ORD00943,John Cruz,Dumbbell Set 10kg,Sports & Outdoors,1,1450,2026-08-12,Delivered
+ORD00944,Vincent Reyes,Webcam 1080p,Electronics,3,1250,2026-08-12,Delivered
+ORD00945,Gabriel Navarro,Mixed Nuts 1kg,Groceries,1,780,2026-08-12,Delivered
+ORD00946,Nicole Cruz,Bluetooth Earbuds,Electronics,1,1450,2026-08-12,Delivered
+ORD00947,Sofia Navarro,Canvas Sneakers,Fashion,2,1104,2026-08-13,Cancelled
+ORD00948,Dianne Castillo,Cotton T-Shirt,Fashion,2,368,2026-08-13,Delivered
+ORD00949,Joshua Flores,Gel Pen Pack,Books & Stationery,1,120,2026-08-13,Delivered
+ORD00950,Mika Cruz,Electric Kettle,Home & Living,1,780,2026-08-13,Delivered
+ORD00951,Hazel Pascual,Cotton T-Shirt,Fashion,1,350,2026-08-13,Delivered
+ORD00952,Nicole Cruz,Hair Dryer,Beauty & Health,2,1100,2026-08-13,Delivered
+ORD00953,Maria Flores,USB-C Charger 65W,Electronics,1,1150,2026-08-14,Delivered
+ORD00954,Joshua Aquino,Wireless Mouse,Electronics,1,500,2026-08-14,Delivered
+ORD00955,Juan Lopez,LED Desk Lamp,Home & Living,2,649,2026-08-14,Delivered
+ORD00956,Joshua Flores,Vitamin C Serum,Beauty & Health,1,599,2026-08-15,Delivered
+ORD00957,Nicole Cruz,Dumbbell Set 10kg,Sports & Outdoors,1,1450,2026-08-15,Delivered
+ORD00958,Dianne Aquino,Mechanical Keyboard,Electronics,1,2300,2026-08-15,Delivered
+ORD00959,Nicole Santos,Bed Sheet Set,Home & Living,1,1125,2026-08-15,Delivered
+ORD00960,Bea Reyes,Power Bank 10000mAh,Electronics,1,899,2026-08-15,Delivered
+ORD00961,Nicole Cruz,Power Bank 10000mAh,Electronics,1,899,2026-08-15,Delivered
+ORD00962,Vincent Dela Cruz,Running Shoes,Fashion,1,2199,2026-08-16,Delivered
+ORD00963,Allan Castro,Air Fryer 4L,Home & Living,1,2720,2026-08-16,Delivered
+ORD00964,Ana Castro,Vitamin C Serum,Beauty & Health,4,599,2026-08-16,Delivered
+ORD00965,Dianne Aguilar,Electric Kettle,Home & Living,3,780,2026-08-16,Delivered
+ORD00966,Gabriel Salazar,Portable Speaker,Electronics,3,1350,2026-08-16,Delivered
+ORD00967,Jericho Castillo,Cotton T-Shirt,Fashion,2,350,2026-08-16,Cancelled
+ORD00968,Noel Cruz,Electric Kettle,Home & Living,2,819,2026-08-16,Delivered
+ORD00969,Vincent Reyes,Bluetooth Earbuds,Electronics,3,1450,2026-08-16,Delivered
+ORD00970,Daniel Domingo,Wireless Mouse,Electronics,1,500,2026-08-16,Delivered
+ORD00971,Nicole Soriano,Water Bottle 1L,Sports & Outdoors,1,399,2026-08-16,Delivered
+ORD00972,Paolo Garcia,Electric Kettle,Home & Living,1,780,2026-08-16,Delivered
+ORD00973,Francis Dela Cruz,Building Blocks 500pcs,Toys & Games,4,899,2026-08-16,Delivered
+ORD00974,Miguel Bautista,LED Desk Lamp,Home & Living,1,649,2026-08-16,Delivered
+ORD00975,Joshua Aquino,Hoodie Jacket,Fashion,3,950,2026-08-17,Pending
+ORD00976,Joshua Aquino,Canvas Sneakers,Fashion,2,1299,2026-08-17,Delivered
+ORD00977,Katrina Flores,Hoodie Jacket,Fashion,1,998,2026-08-17,Delivered
+ORD00978,Rhea Dela Cruz,Cotton T-Shirt,Fashion,1,350,2026-08-18,Delivered
+ORD00979,Irene Manalo,Bluetooth Earbuds,Electronics,3,1450,2026-08-18,Cancelled
+ORD00980,Joy Santos,Building Blocks 500pcs,Toys & Games,5,899,2026-08-18,Delivered
+ORD00981,Katrina Soriano,Denim Jeans,Fashion,4,1100,2026-08-19,Delivered
+ORD00982,Gabriel Santos,Mixed Nuts 1kg,Groceries,4,780,2026-08-19,Delivered
+ORD00983,Dennis Castro,Notebook Set (5pcs),Books & Stationery,3,250,2026-08-19,Delivered
+ORD00984,Rhea Lopez,Bed Sheet Set,Home & Living,2,1250,2026-08-19,Delivered
+ORD00985,Noel Cruz,Bluetooth Earbuds,Electronics,1,1450,2026-08-19,Delivered
+ORD00986,Nicole Bautista,Bed Sheet Set,Home & Living,2,1312,2026-08-19,Delivered
+ORD00987,Noel Cruz,Denim Jeans,Fashion,1,1100,2026-08-20,Delivered
+ORD00988,Vincent Reyes,RC Car,Toys & Games,3,1399,2026-08-20,Delivered
+ORD00989,Allan Rivera,Portable Speaker,Electronics,1,1215,2026-08-20,Delivered
+ORD00990,Francis Aguilar,LED Desk Lamp,Home & Living,1,649,2026-08-20,Cancelled
+ORD00991,Carlo Soriano,Denim Jeans,Fashion,2,1155,2026-08-20,Delivered
+ORD00992,Jericho Dela Cruz,Wireless Mouse,Electronics,1,500,2026-08-21,Delivered
+ORD00993,Liza Salazar,Air Fryer 4L,Home & Living,1,2880,2026-08-21,Delivered
+ORD00994,Patrick Castro,Hoodie Jacket,Fashion,2,950,2026-08-21,Cancelled
+ORD00995,Patrick Dela Cruz,Puzzle 1000pcs,Toys & Games,1,480,2026-08-21,Delivered
+ORD00996,Joshua Aquino,Denim Jeans,Fashion,5,1100,2026-08-22,Delivered
+ORD00997,Joshua Aquino,Bluetooth Earbuds,Electronics,1,1450,2026-08-22,Cancelled
+ORD00998,Aileen Rivera,Premium Coffee Beans 500g,Groceries,1,650,2026-08-22,Delivered
+ORD00999,Ramon Dela Cruz,Mixed Nuts 1kg,Groceries,5,663,2026-08-22,Delivered
+ORD01000,Allan Rivera,Sunscreen SPF50,Beauty & Health,3,420,2026-08-22,Delivered
+ORD01001,Joshua Aquino,Premium Coffee Beans 500g,Groceries,4,650,2026-08-22,Delivered
+ORD01002,Dennis Lopez,Gel Pen Pack,Books & Stationery,3,120,2026-08-22,Delivered
+ORD01003,Paolo Dela Cruz,Wireless Mouse,Electronics,2,500,2026-08-22,Delivered
+ORD01004,Katrina Reyes,Leather Belt,Fashion,2,405,2026-08-22,Delivered
+ORD01005,Gabriel Torres,Leather Belt,Fashion,1,450,2026-08-22,Cancelled
+ORD01006,Allan Rivera,Hair Dryer,Beauty & Health,2,1100,2026-08-23,Delivered
+ORD01007,Grace Villanueva,LED Desk Lamp,Home & Living,2,649,2026-08-23,Processing
+ORD01008,Aileen Cruz,Premium Coffee Beans 500g,Groceries,2,650,2026-08-23,Delivered
+ORD01009,Liza Salazar,Leather Belt,Fashion,2,472,2026-08-24,Delivered
+ORD01010,Trisha Navarro,Puzzle 1000pcs,Toys & Games,4,480,2026-08-24,Delivered
+ORD01011,Jasmine Tolentino,Cotton T-Shirt,Fashion,2,350,2026-08-24,Delivered
+ORD01012,Hazel Cruz,Portable Speaker,Electronics,3,1350,2026-08-24,Delivered
+ORD01013,Ramon Domingo,Multivitamins 60s,Beauty & Health,4,540,2026-08-24,Delivered
+ORD01014,Nicole Cruz,Canvas Sneakers,Fashion,1,1299,2026-08-24,Delivered
+ORD01015,Bea Aquino,Sunscreen SPF50,Beauty & Health,1,357,2026-08-24,Delivered
+ORD01016,Irene Valdez,Bluetooth Earbuds,Electronics,1,1450,2026-08-24,Delivered
+ORD01017,John Ramos,Electric Kettle,Home & Living,2,780,2026-08-24,Cancelled
+ORD01018,Gabriel Torres,Hair Dryer,Beauty & Health,1,1100,2026-08-24,Delivered
+ORD01019,Francis Aguilar,Bluetooth Earbuds,Electronics,1,1450,2026-08-25,Delivered
+ORD01020,John Pascual,Premium Coffee Beans 500g,Groceries,1,650,2026-08-25,Delivered
+ORD01021,Allan Tolentino,Canvas Sneakers,Fashion,3,1299,2026-08-26,Delivered
+ORD01022,John Cruz,USB-C Charger 65W,Electronics,2,1208,2026-08-26,Delivered
+ORD01023,Elmer Ramos,Hoodie Jacket,Fashion,1,950,2026-08-26,Delivered
+ORD01024,John Navarro,LED Desk Lamp,Home & Living,1,681,2026-08-26,Delivered
+ORD01025,Paolo Pascual,Running Shoes,Fashion,2,2309,2026-08-26,Delivered
+ORD01026,Joshua Aquino,Planner 2026,Books & Stationery,1,380,2026-08-26,Delivered
+ORD01027,Miguel Castro,Water Bottle 1L,Sports & Outdoors,1,399,2026-08-26,Cancelled
+ORD01028,Nicole Domingo,Air Fryer 4L,Home & Living,1,3200,2026-08-26,Delivered
+ORD01029,Liza Salazar,LED Desk Lamp,Home & Living,2,552,2026-08-27,Delivered
+ORD01030,Kristine Bautista,Wireless Mouse,Electronics,1,450,2026-08-27,Delivered
+ORD01031,Dianne Santos,Denim Jeans,Fashion,2,1100,2026-08-28,Delivered
+ORD01032,Angel Castillo,Denim Jeans,Fashion,2,990,2026-08-29,Delivered
+ORD01033,Aileen Rivera,Premium Coffee Beans 500g,Groceries,5,585,2026-08-29,Delivered
+ORD01034,Maria Aguilar,Multivitamins 60s,Beauty & Health,1,540,2026-08-29,Delivered
+ORD01035,Gabriel Flores,Running Shoes,Fashion,1,2199,2026-08-29,Delivered
+ORD01036,Jericho Dela Cruz,Running Shoes,Fashion,1,2199,2026-08-29,Delivered
+ORD01037,Nicole Cruz,Power Bank 10000mAh,Electronics,2,899,2026-08-29,Delivered
+ORD01038,Allan Rivera,Organic Honey 350ml,Groceries,2,390,2026-08-29,Delivered
+ORD01039,Nicole Cruz,Canvas Sneakers,Fashion,3,1364,2026-08-30,Delivered
+ORD01040,Nicole Cruz,Mixed Nuts 1kg,Groceries,1,819,2026-08-30,Delivered
+ORD01041,Patrick Dela Cruz,Jump Rope,Sports & Outdoors,1,231,2026-08-30,Delivered
+ORD01042,Vincent Castillo,Canvas Sneakers,Fashion,1,1299,2026-08-30,Delivered
+ORD01043,Ramon Domingo,Sunscreen SPF50,Beauty & Health,1,420,2026-08-30,Delivered
+ORD01044,Joshua Aquino,Olive Oil 1L,Groceries,1,612,2026-08-31,Delivered
+ORD01045,Paolo Dela Cruz,Vitamin C Serum,Beauty & Health,1,629,2026-08-31,Delivered
+ORD01046,Miguel Salazar,Dumbbell Set 10kg,Sports & Outdoors,1,1450,2026-09-01,Delivered
+ORD01047,Ana Castro,Canvas Sneakers,Fashion,2,1299,2026-09-01,Delivered
+ORD01048,Paolo Dela Cruz,Building Blocks 500pcs,Toys & Games,1,899,2026-09-01,Pending
+ORD01049,Irene Navarro,Wireless Mouse,Electronics,2,500,2026-09-01,Delivered
+ORD01050,Mark Castro,Vitamin C Serum,Beauty & Health,1,599,2026-09-01,Delivered
+ORD01051,Noel Cruz,Facial Cleanser,Beauty & Health,1,279,2026-09-01,Cancelled
+ORD01052,Dennis Castro,Building Blocks 500pcs,Toys & Games,3,899,2026-09-01,Delivered
+ORD01053,Elmer Salazar,Gel Pen Pack,Books & Stationery,2,120,2026-09-01,Delivered
+ORD01054,Nicole Cruz,Hiking Backpack,Sports & Outdoors,1,1529,2026-09-01,Cancelled
+ORD01055,Daniel Aguilar,Running Shoes,Fashion,1,1869,2026-09-02,Delivered
+ORD01056,Ana Mendoza,Vitamin C Serum,Beauty & Health,1,599,2026-09-02,Delivered
+ORD01057,Katrina Manalo,Programming Book,Books & Stationery,3,1650,2026-09-02,Delivered
+ORD01058,Hazel Castro,Sunscreen SPF50,Beauty & Health,2,420,2026-09-02,Delivered
+ORD01059,Patrick Ramos,Storage Organizer,Home & Living,1,420,2026-09-03,Delivered
+ORD01060,Joshua Aquino,Wall Clock,Home & Living,3,380,2026-09-03,Delivered
+ORD01061,Nicole Cruz,LED Desk Lamp,Home & Living,1,649,2026-09-03,Delivered
+ORD01062,Joshua Villanueva,Wireless Mouse,Electronics,1,500,2026-09-03,Delivered
+ORD01063,Jericho Castillo,Yoga Mat,Sports & Outdoors,1,650,2026-09-03,Delivered
+ORD01064,Kristine Pascual,Jump Rope,Sports & Outdoors,3,220,2026-09-03,Delivered
+ORD01065,Joy Aguilar,Mixed Nuts 1kg,Groceries,1,702,2026-09-04,Delivered
+ORD01066,Katrina Reyes,Denim Jeans,Fashion,1,935,2026-09-04,Delivered
+ORD01067,Maria Aguilar,Cotton T-Shirt,Fashion,5,350,2026-09-04,Delivered
+ORD01068,Gabriel Torres,Bluetooth Earbuds,Electronics,1,1450,2026-09-05,Delivered
+ORD01069,Rey Valdez,Vitamin C Serum,Beauty & Health,1,599,2026-09-05,Delivered
+ORD01070,Camille Navarro,Wireless Mouse,Electronics,1,500,2026-09-05,Delivered
+ORD01071,Daniel Castillo,Jump Rope,Sports & Outdoors,3,187,2026-09-05,Delivered
+ORD01072,Daniel Domingo,Portable Speaker,Electronics,1,1350,2026-09-05,Delivered
+ORD01073,Noel Cruz,Hair Dryer,Beauty & Health,2,1100,2026-09-05,Delivered
+ORD01074,Nicole Villanueva,Vitamin C Serum,Beauty & Health,1,599,2026-09-05,Delivered
+ORD01075,Francis Torres,Dumbbell Set 10kg,Sports & Outdoors,1,1450,2026-09-06,Delivered
+ORD01076,Francis Torres,Canvas Sneakers,Fashion,1,1299,2026-09-06,Delivered
+ORD01077,Ramon Valdez,Air Fryer 4L,Home & Living,1,3200,2026-09-07,Delivered
+ORD01078,Hazel Pascual,Water Bottle 1L,Sports & Outdoors,1,399,2026-09-07,Delivered
+ORD01079,Allan Bautista,Wireless Mouse,Electronics,1,500,2026-09-07,Delivered
+ORD01080,Maria Flores,Storage Organizer,Home & Living,1,420,2026-09-07,Delivered
+ORD01081,Juan Lopez,Bluetooth Earbuds,Electronics,3,1450,2026-09-08,Delivered
+ORD01082,Vincent Reyes,Bed Sheet Set,Home & Living,1,1250,2026-09-08,Delivered
+ORD01083,Maria Torres,Cotton T-Shirt,Fashion,2,350,2026-09-08,Delivered
+ORD01084,Noel Cruz,Mechanical Keyboard,Electronics,1,2300,2026-09-08,Delivered
+ORD01085,Gabriel Valdez,Hair Dryer,Beauty & Health,1,1100,2026-09-09,Delivered
+ORD01086,Bea Santos,Cotton T-Shirt,Fashion,1,350,2026-09-09,Delivered
+ORD01087,Vincent Castillo,Cotton T-Shirt,Fashion,1,350,2026-09-09,Delivered
+ORD01088,Maria Flores,Smart Watch,Electronics,2,1899,2026-09-09,Cancelled
+ORD01089,Carlo Villanueva,Cotton T-Shirt,Fashion,1,350,2026-09-09,Delivered
+ORD01090,Allan Rivera,Wireless Mouse,Electronics,2,500,2026-09-09,Delivered
+ORD01091,Dennis Flores,Wireless Mouse,Electronics,2,500,2026-09-09,Delivered
+ORD01092,Noel Cruz,Vitamin C Serum,Beauty & Health,1,599,2026-09-09,Delivered
+ORD01093,Allan Soriano,Hair Dryer,Beauty & Health,2,1100,2026-09-09,Delivered
+ORD01094,Noel Cruz,Puzzle 1000pcs,Toys & Games,3,480,2026-09-09,Delivered
+ORD01095,Allan Rivera,Mixed Nuts 1kg,Groceries,6,780,2026-09-09,Delivered
+ORD01096,Ramon Torres,Wireless Mouse,Electronics,2,500,2026-09-10,Delivered
+ORD01097,Vincent Dela Cruz,Cotton T-Shirt,Fashion,1,315,2026-09-10,Delivered
+ORD01098,Joshua Torres,Wireless Mouse,Electronics,3,500,2026-09-11,Delivered
+ORD01099,Joy Navarro,Sunscreen SPF50,Beauty & Health,3,420,2026-09-11,Delivered
+ORD01100,Gabriel Navarro,Air Fryer 4L,Home & Living,1,3200,2026-09-12,Delivered
+ORD01101,Daniel Aguilar,Organic Honey 350ml,Groceries,3,390,2026-09-12,Delivered
+ORD01102,Joshua Aquino,Vitamin C Serum,Beauty & Health,1,599,2026-09-12,Delivered
+ORD01103,Bea Castillo,Denim Jeans,Fashion,5,935,2026-09-12,Delivered
+ORD01104,Noel Cruz,Portable Speaker,Electronics,2,1350,2026-09-13,Delivered
+ORD01105,Sofia Garcia,Cotton T-Shirt,Fashion,2,350,2026-09-13,Delivered
+ORD01106,Angel Domingo,Wall Clock,Home & Living,1,380,2026-09-13,Delivered
+ORD01107,Patrick Aquino,Power Bank 10000mAh,Electronics,2,899,2026-09-13,Delivered
+ORD01108,Nicole Cruz,Power Bank 10000mAh,Electronics,1,899,2026-09-13,Delivered
+ORD01109,Jose Flores,Denim Jeans,Fashion,1,1100,2026-09-13,Delivered
+ORD01110,Bea Castillo,Puzzle 1000pcs,Toys & Games,1,432,2026-09-14,Delivered
+ORD01111,Elmer Salazar,Mechanical Keyboard,Electronics,3,2300,2026-09-14,Delivered
+ORD01112,Gabriel Flores,Bluetooth Earbuds,Electronics,1,1305,2026-09-14,Delivered
+ORD01113,Bea Aquino,Storage Organizer,Home & Living,2,420,2026-09-14,Delivered
+ORD01114,Ana Mendoza,Bluetooth Earbuds,Electronics,1,1450,2026-09-14,Delivered
+ORD01115,Nicole Cruz,Leather Belt,Fashion,2,450,2026-09-15,Delivered
+ORD01116,Jericho Torres,Wireless Mouse,Electronics,2,500,2026-09-15,Delivered
+ORD01117,Bea Soriano,Cotton T-Shirt,Fashion,3,350,2026-09-15,Delivered
+ORD01118,Vincent Reyes,Bluetooth Earbuds,Electronics,1,1450,2026-09-15,Delivered
+ORD01119,Angel Domingo,Hoodie Jacket,Fashion,1,950,2026-09-16,Delivered
+ORD01120,Joshua Villanueva,Air Fryer 4L,Home & Living,1,3200,2026-09-16,Delivered
+ORD01121,Rey Valdez,Mechanical Keyboard,Electronics,1,2300,2026-09-16,Cancelled
+ORD01122,Gabriel Torres,Mixed Nuts 1kg,Groceries,1,663,2026-09-16,Delivered
+ORD01123,Kristine Aquino,Wireless Mouse,Electronics,4,500,2026-09-16,Delivered
+ORD01124,Bea Cruz,Bluetooth Earbuds,Electronics,1,1450,2026-09-17,Delivered
+ORD01125,Katrina Reyes,Mixed Nuts 1kg,Groceries,4,780,2026-09-17,Delivered
+ORD01126,Katrina Flores,Webcam 1080p,Electronics,3,1250,2026-09-17,Delivered
+ORD01127,Aileen Rivera,Cotton T-Shirt,Fashion,1,315,2026-09-18,Delivered
+ORD01128,Grace Garcia,Bluetooth Earbuds,Electronics,1,1450,2026-09-18,Delivered
+ORD01129,Camille Valdez,Vitamin C Serum,Beauty & Health,1,599,2026-09-18,Delivered
+ORD01130,Dennis Salazar,Denim Jeans,Fashion,3,990,2026-09-18,Delivered
+ORD01131,Sofia Navarro,Sunscreen SPF50,Beauty & Health,1,420,2026-09-19,Delivered
+ORD01132,Gabriel Bautista,Hair Dryer,Beauty & Health,2,1100,2026-09-19,Delivered
+ORD01133,Gabriel Valdez,Building Blocks 500pcs,Toys & Games,1,899,2026-09-19,Delivered
+ORD01134,Joshua Flores,Cotton T-Shirt,Fashion,1,350,2026-09-19,Cancelled
+ORD01135,Noel Manalo,Bed Sheet Set,Home & Living,1,1250,2026-09-20,Delivered
+ORD01136,Katrina Pascual,Wall Clock,Home & Living,2,380,2026-09-20,Delivered
+ORD01137,Joy Reyes,Cotton T-Shirt,Fashion,2,368,2026-09-20,Delivered
+ORD01138,Trisha Navarro,Sunscreen SPF50,Beauty & Health,1,420,2026-09-20,Delivered
+ORD01139,Rey Salazar,LED Desk Lamp,Home & Living,1,552,2026-09-21,Delivered
+ORD01140,Grace Ramos,Portable Speaker,Electronics,1,1350,2026-09-22,Cancelled
+ORD01141,Irene Torres,Hair Dryer,Beauty & Health,2,1155,2026-09-22,Delivered
+ORD01142,Paolo Dela Cruz,Bluetooth Earbuds,Electronics,1,1450,2026-09-22,Delivered
+ORD01143,Joshua Villanueva,Cotton T-Shirt,Fashion,1,350,2026-09-23,Cancelled
+ORD01144,Nicole Santos,LED Desk Lamp,Home & Living,1,649,2026-09-23,Delivered
+ORD01145,Gabriel Navarro,Mixed Nuts 1kg,Groceries,1,780,2026-09-23,Delivered
+ORD01146,Nicole Cruz,Puzzle 1000pcs,Toys & Games,3,480,2026-09-23,Delivered
+ORD01147,Jericho Valdez,Cotton T-Shirt,Fashion,1,350,2026-09-23,Delivered
+ORD01148,Joshua Aquino,Power Bank 10000mAh,Electronics,1,899,2026-09-23,Delivered
+ORD01149,Francis Torres,Premium Coffee Beans 500g,Groceries,2,650,2026-09-23,Delivered
+ORD01150,Rhea Navarro,USB-C Charger 65W,Electronics,5,1150,2026-09-23,Delivered
+ORD01151,Daniel Navarro,Power Bank 10000mAh,Electronics,1,899,2026-09-24,Delivered
+ORD01152,Patrick Castro,Cotton T-Shirt,Fashion,1,350,2026-09-24,Delivered
+ORD01153,Nicole Soriano,Cotton T-Shirt,Fashion,2,350,2026-09-24,Cancelled
+ORD01154,Patrick Aquino,Planner 2026,Books & Stationery,5,380,2026-09-24,Delivered
+ORD01155,Mika Aguilar,Building Blocks 500pcs,Toys & Games,2,764,2026-09-24,Delivered
+ORD01156,Maria Torres,Yoga Mat,Sports & Outdoors,1,682,2026-09-24,Delivered
+ORD01157,Noel Cruz,Building Blocks 500pcs,Toys & Games,5,899,2026-09-24,Delivered
+ORD01158,Liza Salazar,Air Fryer 4L,Home & Living,1,3200,2026-09-24,Delivered
+ORD01159,Katrina Reyes,Wireless Mouse,Electronics,1,500,2026-09-25,Delivered
+ORD01160,Liza Salazar,Denim Jeans,Fashion,1,1100,2026-09-25,Delivered
+ORD01161,Noel Cruz,USB-C Charger 65W,Electronics,2,1150,2026-09-25,Delivered
+ORD01162,Irene Manalo,Bluetooth Earbuds,Electronics,2,1305,2026-09-25,Delivered
+ORD01163,Katrina Pascual,Gel Pen Pack,Books & Stationery,1,120,2026-09-25,Delivered
+ORD01164,Joshua Flores,Portable Speaker,Electronics,1,1350,2026-09-26,Delivered
+ORD01165,Liza Cruz,Air Fryer 4L,Home & Living,5,3200,2026-09-26,Cancelled
+ORD01166,Vincent Reyes,Mechanical Keyboard,Electronics,1,2300,2026-09-26,Delivered
+ORD01167,Joshua Aquino,Portable Speaker,Electronics,4,1350,2026-09-26,Delivered
+ORD01168,John Pascual,Board Game Classic,Toys & Games,4,1150,2026-09-27,Delivered
+ORD01169,Gabriel Cruz,USB-C Charger 65W,Electronics,1,1035,2026-09-27,Delivered
+ORD01170,Joshua Flores,Notebook Set (5pcs),Books & Stationery,4,250,2026-09-27,Pending
+ORD01171,Trisha Ramos,LED Desk Lamp,Home & Living,1,649,2026-09-27,Delivered
+ORD01172,Gabriel Torres,Mixed Nuts 1kg,Groceries,1,663,2026-09-28,Delivered
+ORD01173,Aileen Cruz,LED Desk Lamp,Home & Living,1,584,2026-09-28,Delivered
+ORD01174,Mika Navarro,Air Fryer 4L,Home & Living,4,3200,2026-09-29,Delivered
+ORD01175,Allan Bautista,USB-C Charger 65W,Electronics,2,1150,2026-09-29,Delivered
+ORD01176,Liza Salazar,Portable Speaker,Electronics,1,1350,2026-09-29,Delivered
+ORD01177,Nicole Cruz,Vitamin C Serum,Beauty & Health,1,599,2026-09-29,Delivered
+ORD01178,Camille Valdez,Premium Coffee Beans 500g,Groceries,1,650,2026-09-29,Delivered
+ORD01179,Francis Rivera,Programming Book,Books & Stationery,6,1650,2026-09-30,Delivered
+ORD01180,Camille Soriano,Building Blocks 500pcs,Toys & Games,3,899,2026-09-30,Delivered
+ORD01181,Liza Salazar,Hair Dryer,Beauty & Health,2,1100,2026-09-30,Delivered
+ORD01182,Joshua Flores,Building Blocks 500pcs,Toys & Games,1,899,2026-09-30,Delivered
+ORD01183,Kristine Bautista,Bed Sheet Set,Home & Living,1,1250,2026-09-30,Delivered
+ORD01184,Angel Cruz,Programming Book,Books & Stationery,4,1650,2026-09-30,Delivered
+ORD01185,Juan Valdez,Yoga Mat,Sports & Outdoors,2,650,2026-09-30,Delivered
+ORD01186,Dennis Lopez,Dumbbell Set 10kg,Sports & Outdoors,2,1450,2026-10-01,Delivered
+ORD01187,Francis Aguilar,Cotton T-Shirt,Fashion,1,350,2026-10-01,Delivered
+ORD01188,Trisha Reyes,Vitamin C Serum,Beauty & Health,1,599,2026-10-01,Delivered
+ORD01189,Francis Aguilar,Bluetooth Earbuds,Electronics,1,1450,2026-10-01,Delivered
+ORD01190,Gabriel Torres,Wireless Mouse,Electronics,1,500,2026-10-01,Delivered
+ORD01191,Nicole Cruz,Bed Sheet Set,Home & Living,1,1250,2026-10-01,Delivered
+ORD01192,Angel Cruz,Facial Cleanser,Beauty & Health,1,310,2026-10-02,Delivered
+ORD01193,Vincent Reyes,Bluetooth Earbuds,Electronics,3,1305,2026-10-02,Delivered
+ORD01194,Patrick Castro,Canvas Sneakers,Fashion,2,1299,2026-10-02,Delivered
+ORD01195,Joy Navarro,Smart Watch,Electronics,1,1994,2026-10-02,Delivered
+ORD01196,Mika Garcia,Electric Kettle,Home & Living,1,780,2026-10-02,Delivered
+ORD01197,Francis Aguilar,Portable Speaker,Electronics,2,1350,2026-10-02,Cancelled
+ORD01198,Joshua Aguilar,LED Desk Lamp,Home & Living,2,649,2026-10-03,Delivered
+ORD01199,Joy Santos,Denim Jeans,Fashion,1,1100,2026-10-03,Delivered
+ORD01200,Gabriel Pascual,Wireless Mouse,Electronics,3,500,2026-10-03,Delivered
+ORD01201,Nicole Cruz,Sunscreen SPF50,Beauty & Health,1,420,2026-10-03,Delivered
+ORD01202,Katrina Pascual,Webcam 1080p,Electronics,1,1250,2026-10-03,Delivered
+ORD01203,Carlo Soriano,Vitamin C Serum,Beauty & Health,1,599,2026-10-03,Delivered
+ORD01204,Joy Santos,Denim Jeans,Fashion,5,1100,2026-10-03,Cancelled
+ORD01205,Nicole Cruz,Wireless Mouse,Electronics,2,425,2026-10-03,Delivered
+ORD01206,Daniel Domingo,Mixed Nuts 1kg,Groceries,4,780,2026-10-03,Delivered
+ORD01207,Nicole Cruz,Bed Sheet Set,Home & Living,1,1250,2026-10-04,Delivered
+ORD01208,Miguel Soriano,Bluetooth Earbuds,Electronics,5,1450,2026-10-04,Cancelled
+ORD01209,Gabriel Navarro,RC Car,Toys & Games,1,1399,2026-10-04,Delivered
+ORD01210,Gabriel Navarro,Notebook Set (5pcs),Books & Stationery,2,212,2026-10-04,Delivered
+ORD01211,Miguel Castro,Cotton T-Shirt,Fashion,1,350,2026-10-04,Delivered
+ORD01212,Joy Santos,Cotton T-Shirt,Fashion,5,350,2026-10-04,Delivered
+ORD01213,Nicole Cruz,Dumbbell Set 10kg,Sports & Outdoors,2,1232,2026-10-04,Delivered
+ORD01214,Allan Rivera,Gel Pen Pack,Books & Stationery,2,120,2026-10-04,Delivered
+ORD01215,Carlo Soriano,Vitamin C Serum,Beauty & Health,1,599,2026-10-04,Delivered
+ORD01216,Grace Villanueva,Wireless Mouse,Electronics,5,500,2026-10-05,Delivered
+ORD01217,Joshua Villanueva,Vitamin C Serum,Beauty & Health,2,599,2026-10-06,Delivered
+ORD01218,Nicole Cruz,USB-C Charger 65W,Electronics,1,1150,2026-10-06,Cancelled
+ORD01219,Joshua Aquino,Hiking Backpack,Sports & Outdoors,1,1799,2026-10-06,Delivered
+ORD01220,Dennis Salazar,Running Shoes,Fashion,1,1979,2026-10-06,Delivered
+ORD01221,Grace Villanueva,Water Bottle 1L,Sports & Outdoors,2,359,2026-10-06,Delivered
+ORD01222,Rhea Bautista,Denim Jeans,Fashion,2,1100,2026-10-06,Delivered
+ORD01223,Allan Rivera,Wireless Mouse,Electronics,2,500,2026-10-06,Delivered
+ORD01224,Maria Flores,Mechanical Keyboard,Electronics,1,2300,2026-10-06,Delivered
+ORD01225,Dianne Aquino,Wall Clock,Home & Living,2,380,2026-10-06,Cancelled
+ORD01226,Rhea Lopez,Wireless Mouse,Electronics,2,500,2026-10-06,Delivered
+ORD01227,Mika Domingo,Bluetooth Earbuds,Electronics,1,1450,2026-10-07,Delivered
+ORD01228,Daniel Aguilar,Wireless Mouse,Electronics,2,500,2026-10-07,Delivered
+ORD01229,Gabriel Navarro,Gel Pen Pack,Books & Stationery,3,120,2026-10-07,Delivered
+ORD01230,Carlo Villanueva,Cotton T-Shirt,Fashion,1,350,2026-10-08,Delivered
+ORD01231,Nicole Cruz,Canvas Sneakers,Fashion,1,1299,2026-10-08,Delivered
+ORD01232,Francis Dela Cruz,Organic Honey 350ml,Groceries,1,390,2026-10-08,Delivered
+ORD01233,Katrina Flores,Portable Speaker,Electronics,2,1350,2026-10-08,Delivered
+ORD01234,Nicole Cruz,Yoga Mat,Sports & Outdoors,2,650,2026-10-08,Delivered
+ORD01235,Gabriel Navarro,Facial Cleanser,Beauty & Health,1,310,2026-10-08,Delivered
+ORD01236,Dennis Soriano,LED Desk Lamp,Home & Living,1,649,2026-10-09,Delivered
+ORD01237,Aileen Cruz,Vitamin C Serum,Beauty & Health,1,509,2026-10-09,Delivered
+ORD01238,Carlo Pascual,Cotton T-Shirt,Fashion,1,350,2026-10-09,Cancelled
+ORD01239,Camille Salazar,Portable Speaker,Electronics,3,1350,2026-10-09,Delivered
+ORD01240,Irene Manalo,Leather Belt,Fashion,1,450,2026-10-09,Delivered
+ORD01241,Gabriel Cruz,Board Game Classic,Toys & Games,4,1150,2026-10-10,Delivered
+ORD01242,Jericho Aquino,Cotton T-Shirt,Fashion,4,368,2026-10-10,Delivered
+ORD01243,Camille Soriano,Webcam 1080p,Electronics,1,1062,2026-10-10,Delivered
+ORD01244,Liza Salazar,Wireless Mouse,Electronics,1,500,2026-10-10,Delivered
+ORD01245,Francis Rivera,Dumbbell Set 10kg,Sports & Outdoors,1,1450,2026-10-10,Delivered
+ORD01246,Francis Aguilar,Portable Speaker,Electronics,5,1350,2026-10-10,Cancelled
+ORD01247,Allan Castro,Yoga Mat,Sports & Outdoors,1,650,2026-10-10,Cancelled
+ORD01248,Nicole Cruz,Wireless Mouse,Electronics,1,500,2026-10-10,Delivered
+ORD01249,Nicole Cruz,Denim Jeans,Fashion,1,1155,2026-10-10,Delivered
+ORD01250,Joshua Torres,Vitamin C Serum,Beauty & Health,1,599,2026-10-10,Delivered
+ORD01251,Vincent Reyes,Premium Coffee Beans 500g,Groceries,2,682,2026-10-10,Delivered
+ORD01252,Miguel Castro,Bluetooth Earbuds,Electronics,1,1450,2026-10-10,Delivered
+ORD01253,Paolo Dela Cruz,Smart Watch,Electronics,1,1899,2026-10-10,Delivered
+ORD01254,Joshua Aquino,Webcam 1080p,Electronics,2,1250,2026-10-10,Delivered
+ORD01255,Francis Aguilar,Notebook Set (5pcs),Books & Stationery,1,250,2026-10-10,Delivered
+ORD01256,Mika Domingo,Multivitamins 60s,Beauty & Health,2,540,2026-10-10,Delivered
+ORD01257,Joshua Aquino,Wall Clock,Home & Living,1,380,2026-10-10,Delivered
+ORD01258,Gabriel Torres,Hoodie Jacket,Fashion,1,950,2026-10-10,Delivered
+ORD01259,Miguel Salazar,Vitamin C Serum,Beauty & Health,1,599,2026-10-10,Delivered
+ORD01260,Jasmine Tolentino,Dumbbell Set 10kg,Sports & Outdoors,3,1450,2026-10-10,Cancelled
+ORD01261,Bea Soriano,Dumbbell Set 10kg,Sports & Outdoors,1,1450,2026-10-10,Delivered
+ORD01262,Katrina Flores,Olive Oil 1L,Groceries,2,720,2026-10-10,Delivered
+ORD01263,Vincent Reyes,Bluetooth Earbuds,Electronics,1,1450,2026-10-11,Delivered
+ORD01264,Nicole Cruz,Premium Coffee Beans 500g,Groceries,1,650,2026-10-11,Delivered
+ORD01265,Carlo Soriano,Yoga Mat,Sports & Outdoors,1,650,2026-10-11,Cancelled
+ORD01266,Gabriel Cruz,Canvas Sneakers,Fashion,1,1299,2026-10-11,Delivered
+ORD01267,Nicole Cruz,LED Desk Lamp,Home & Living,2,649,2026-10-11,Delivered
+ORD01268,Gabriel Ramos,Denim Jeans,Fashion,2,1100,2026-10-11,Delivered
+ORD01269,Joshua Torres,Power Bank 10000mAh,Electronics,1,899,2026-10-11,Delivered
+ORD01270,Dianne Santos,Portable Speaker,Electronics,2,1350,2026-10-12,Delivered
+ORD01271,Nicole Cruz,Power Bank 10000mAh,Electronics,1,899,2026-10-12,Delivered
+ORD01272,Noel Cruz,Premium Coffee Beans 500g,Groceries,1,650,2026-10-12,Delivered
+ORD01273,Joshua Aquino,Yoga Mat,Sports & Outdoors,3,650,2026-10-12,Delivered
+ORD01274,Miguel Soriano,Hiking Backpack,Sports & Outdoors,2,1799,2026-10-12,Delivered
+ORD01275,Juan Santos,LED Desk Lamp,Home & Living,1,584,2026-10-12,Delivered
+ORD01276,Paolo Torres,LED Desk Lamp,Home & Living,1,649,2026-10-13,Delivered
+ORD01277,Jericho Flores,Cotton T-Shirt,Fashion,2,350,2026-10-13,Delivered
+ORD01278,Rhea Tolentino,Denim Jeans,Fashion,1,1100,2026-10-13,Delivered
+ORD01279,Francis Aguilar,Wireless Mouse,Electronics,1,500,2026-10-14,Delivered
+ORD01280,Noel Rivera,Board Game Classic,Toys & Games,1,1150,2026-10-14,Delivered
+ORD01281,Noel Manalo,Storage Organizer,Home & Living,2,441,2026-10-14,Delivered
+ORD01282,Nicole Soriano,Wireless Mouse,Electronics,1,500,2026-10-14,Cancelled
+ORD01283,Nicole Cruz,Premium Coffee Beans 500g,Groceries,3,650,2026-10-14,Delivered
+ORD01284,Liza Cruz,Facial Cleanser,Beauty & Health,2,310,2026-10-14,Delivered
+ORD01285,Paolo Valdez,Facial Cleanser,Beauty & Health,3,310,2026-10-14,Delivered
+ORD01286,Vincent Reyes,Wireless Mouse,Electronics,1,500,2026-10-15,Delivered
+ORD01287,Katrina Soriano,Webcam 1080p,Electronics,1,1250,2026-10-15,Delivered
+ORD01288,Daniel Aguilar,Cotton T-Shirt,Fashion,3,350,2026-10-15,Delivered
+ORD01289,Gabriel Castro,Gel Pen Pack,Books & Stationery,4,120,2026-10-15,Delivered
+ORD01290,Jericho Aquino,Cotton T-Shirt,Fashion,3,350,2026-10-15,Delivered
+ORD01291,Joy Navarro,Jump Rope,Sports & Outdoors,2,220,2026-10-15,Delivered
+ORD01292,Liza Salazar,Premium Coffee Beans 500g,Groceries,2,650,2026-10-16,Delivered
+ORD01293,Joshua Aquino,Canvas Sneakers,Fashion,1,1299,2026-10-16,Cancelled
+ORD01294,Allan Tolentino,Vitamin C Serum,Beauty & Health,1,509,2026-10-16,Processing
+ORD01295,Gabriel Salazar,Premium Coffee Beans 500g,Groceries,4,650,2026-10-16,Delivered
+ORD01296,Mika Valdez,Cotton T-Shirt,Fashion,3,350,2026-10-16,Delivered
+ORD01297,Gabriel Castro,Notebook Set (5pcs),Books & Stationery,2,250,2026-10-16,Delivered
+ORD01298,Maria Flores,Electric Kettle,Home & Living,1,819,2026-10-16,Delivered
+ORD01299,Rey Rivera,Bluetooth Earbuds,Electronics,3,1522,2026-10-16,Delivered
+ORD01300,Gabriel Cruz,Storage Organizer,Home & Living,1,420,2026-10-17,Delivered
+ORD01301,Dennis Lopez,Facial Cleanser,Beauty & Health,1,310,2026-10-17,Delivered
+ORD01302,Liza Salazar,Sunscreen SPF50,Beauty & Health,3,420,2026-10-17,Delivered
+ORD01303,Camille Navarro,Gel Pen Pack,Books & Stationery,2,120,2026-10-17,Delivered
+ORD01304,Juan Navarro,Portable Speaker,Electronics,2,1350,2026-10-17,Delivered
+ORD01305,Gabriel Valdez,Premium Coffee Beans 500g,Groceries,2,650,2026-10-17,Delivered
+ORD01306,Mika Valdez,Cotton T-Shirt,Fashion,3,350,2026-10-17,Delivered
+ORD01307,Aileen Salazar,Building Blocks 500pcs,Toys & Games,1,899,2026-10-18,Delivered
+ORD01308,Miguel Salazar,Premium Coffee Beans 500g,Groceries,3,650,2026-10-18,Delivered
+ORD01309,Maria Torres,Cotton T-Shirt,Fashion,1,350,2026-10-18,Delivered
+ORD01310,Francis Aguilar,Bluetooth Earbuds,Electronics,1,1450,2026-10-18,Delivered
+ORD01311,Francis Salazar,Running Shoes,Fashion,1,1979,2026-10-18,Delivered
+ORD01312,Allan Rivera,Premium Coffee Beans 500g,Groceries,1,650,2026-10-18,Delivered
+ORD01313,Gabriel Bautista,Cotton T-Shirt,Fashion,1,350,2026-10-18,Delivered
+ORD01314,Gabriel Cruz,Electric Kettle,Home & Living,2,780,2026-10-18,Delivered
+ORD01315,Gabriel Bautista,Bluetooth Earbuds,Electronics,2,1450,2026-10-18,Delivered
+ORD01316,Joshua Aquino,Gel Pen Pack,Books & Stationery,1,108,2026-10-19,Delivered
+ORD01317,Joshua Aquino,Organic Honey 350ml,Groceries,1,390,2026-10-19,Delivered
+ORD01318,Joshua Flores,Bed Sheet Set,Home & Living,3,1062,2026-10-19,Delivered
+ORD01319,Joy Navarro,Olive Oil 1L,Groceries,2,720,2026-10-19,Delivered
+ORD01320,Vincent Reyes,Cotton T-Shirt,Fashion,1,350,2026-10-19,Delivered
+ORD01321,Allan Villanueva,Power Bank 10000mAh,Electronics,2,899,2026-10-19,Delivered
+ORD01322,Grace Ramos,Puzzle 1000pcs,Toys & Games,4,480,2026-10-20,Delivered
+ORD01323,John Navarro,Vitamin C Serum,Beauty & Health,4,599,2026-10-20,Delivered
+ORD01324,Hazel Castro,LED Desk Lamp,Home & Living,1,649,2026-10-20,Delivered
+ORD01325,Kristine Pascual,Organic Honey 350ml,Groceries,1,390,2026-10-20,Shipped
+ORD01326,Gabriel Torres,Wireless Mouse,Electronics,1,500,2026-10-20,Delivered
+ORD01327,Bea Reyes,Premium Coffee Beans 500g,Groceries,2,650,2026-10-20,Delivered
+ORD01328,Gabriel Ramos,Vitamin C Serum,Beauty & Health,1,599,2026-10-20,Delivered
+ORD01329,Allan Tolentino,LED Desk Lamp,Home & Living,5,649,2026-10-21,Delivered
+ORD01330,Nicole Cruz,Power Bank 10000mAh,Electronics,1,899,2026-10-21,Cancelled
+ORD01331,Trisha Flores,Mechanical Keyboard,Electronics,1,2300,2026-10-21,Delivered
+ORD01332,Joshua Flores,Premium Coffee Beans 500g,Groceries,3,650,2026-10-22,Delivered
+ORD01333,Miguel Bautista,LED Desk Lamp,Home & Living,5,649,2026-10-22,Delivered
+ORD01334,Jericho Castillo,Sunscreen SPF50,Beauty & Health,2,420,2026-10-22,Delivered
+ORD01335,Allan Tolentino,USB-C Charger 65W,Electronics,1,1035,2026-10-22,Delivered
+ORD01336,Mika Garcia,LED Desk Lamp,Home & Living,1,649,2026-10-22,Cancelled
+ORD01337,Hazel Manalo,Denim Jeans,Fashion,1,1100,2026-10-22,Delivered
+ORD01338,Rey Salazar,Programming Book,Books & Stationery,1,1650,2026-10-22,Delivered
+ORD01339,Patrick Castro,Running Shoes,Fashion,4,2199,2026-10-22,Pending
+ORD01340,Gabriel Cruz,Cotton T-Shirt,Fashion,1,350,2026-10-22,Cancelled
+ORD01341,Joshua Aguilar,Storage Organizer,Home & Living,3,420,2026-10-22,Delivered
+ORD01342,Patrick Castro,Vitamin C Serum,Beauty & Health,1,509,2026-10-22,Delivered
+ORD01343,Joshua Flores,Smart Watch,Electronics,1,1899,2026-10-22,Delivered
+ORD01344,Nicole Cruz,Olive Oil 1L,Groceries,3,720,2026-10-22,Delivered
+ORD01345,Kristine Valdez,Yoga Mat,Sports & Outdoors,1,650,2026-10-22,Delivered
+ORD01346,John Navarro,Premium Coffee Beans 500g,Groceries,1,650,2026-10-24,Delivered
+ORD01347,Nicole Cruz,Wireless Mouse,Electronics,1,500,2026-10-24,Delivered
+ORD01348,Nicole Cruz,Storage Organizer,Home & Living,1,420,2026-10-24,Delivered
+ORD01349,Nicole Cruz,Yoga Mat,Sports & Outdoors,1,650,2026-10-24,Delivered
+ORD01350,Jose Flores,Dumbbell Set 10kg,Sports & Outdoors,1,1450,2026-10-24,Delivered
+ORD01351,Joshua Aguilar,USB-C Charger 65W,Electronics,3,978,2026-10-24,Processing
+ORD01352,Camille Soriano,Notebook Set (5pcs),Books & Stationery,2,250,2026-10-25,Delivered
+ORD01353,Irene Manalo,Canvas Sneakers,Fashion,2,1299,2026-10-25,Pending
+ORD01354,Nicole Cruz,Cotton T-Shirt,Fashion,1,315,2026-10-25,Delivered
+ORD01355,Kristine Santos,Premium Coffee Beans 500g,Groceries,5,650,2026-10-25,Delivered
+ORD01356,Noel Manalo,Wireless Mouse,Electronics,1,500,2026-10-26,Delivered
+ORD01357,Trisha Ramos,Bed Sheet Set,Home & Living,1,1250,2026-10-26,Delivered
+ORD01358,Ana Rivera,Electric Kettle,Home & Living,1,780,2026-10-26,Delivered
+ORD01359,Dianne Santos,Premium Coffee Beans 500g,Groceries,3,650,2026-10-26,Delivered
+ORD01360,Maria Manalo,Canvas Sneakers,Fashion,1,1299,2026-10-26,Delivered
+ORD01361,Irene Manalo,Vitamin C Serum,Beauty & Health,1,599,2026-10-26,Delivered
+ORD01362,Francis Aguilar,LED Desk Lamp,Home & Living,1,584,2026-10-27,Delivered
+ORD01363,Kristine Pascual,Vitamin C Serum,Beauty & Health,1,629,2026-10-27,Delivered
+ORD01364,Gabriel Flores,Denim Jeans,Fashion,3,1155,2026-10-28,Delivered
+ORD01365,Maria Cruz,LED Desk Lamp,Home & Living,2,649,2026-10-28,Delivered
+ORD01366,Dennis Castro,Notebook Set (5pcs),Books & Stationery,3,250,2026-10-28,Delivered
+ORD01367,Dennis Soriano,Puzzle 1000pcs,Toys & Games,1,480,2026-10-28,Delivered
+ORD01368,Ana Rivera,Dumbbell Set 10kg,Sports & Outdoors,1,1305,2026-10-28,Delivered
+ORD01369,Sofia Navarro,Denim Jeans,Fashion,1,990,2026-10-28,Delivered
+ORD01370,Kristine Garcia,Power Bank 10000mAh,Electronics,4,899,2026-10-29,Delivered
+ORD01371,Carlo Pascual,Bed Sheet Set,Home & Living,2,1250,2026-10-29,Delivered
+ORD01372,Joshua Aquino,Premium Coffee Beans 500g,Groceries,4,650,2026-10-29,Delivered
+ORD01373,Ana Mendoza,Air Fryer 4L,Home & Living,1,3200,2026-10-29,Delivered
+ORD01374,Noel Cruz,Yoga Mat,Sports & Outdoors,2,552,2026-10-29,Delivered
+ORD01375,Liza Cruz,Premium Coffee Beans 500g,Groceries,5,650,2026-10-29,Delivered
+ORD01376,Noel Cruz,LED Desk Lamp,Home & Living,1,649,2026-10-30,Delivered
+ORD01377,Gabriel Torres,Water Bottle 1L,Sports & Outdoors,1,399,2026-10-30,Delivered
+ORD01378,Irene Manalo,Webcam 1080p,Electronics,2,1250,2026-10-30,Delivered
+ORD01379,John Castillo,RC Car,Toys & Games,2,1259,2026-10-30,Delivered
+ORD01380,Nicole Santos,Cotton T-Shirt,Fashion,1,350,2026-10-30,Delivered
+ORD01381,Dianne Torres,Smart Watch,Electronics,2,1899,2026-10-30,Delivered
+ORD01382,Maria Cruz,Canvas Sneakers,Fashion,1,1364,2026-10-30,Delivered
+ORD01383,Joshua Aquino,Vitamin C Serum,Beauty & Health,2,599,2026-10-31,Delivered
+ORD01384,Vincent Dela Cruz,Puzzle 1000pcs,Toys & Games,2,480,2026-10-31,Delivered
+ORD01385,Jericho Castillo,USB-C Charger 65W,Electronics,1,1150,2026-10-31,Cancelled
+ORD01386,Gabriel Torres,USB-C Charger 65W,Electronics,1,1150,2026-10-31,Delivered
+ORD01387,Camille Soriano,Wall Clock,Home & Living,2,380,2026-10-31,Delivered
+ORD01388,Kristine Bautista,Gel Pen Pack,Books & Stationery,3,120,2026-10-31,Delivered
+ORD01389,Trisha Tolentino,Bluetooth Earbuds,Electronics,1,1450,2026-10-31,Delivered
+ORD01390,Ramon Santos,Organic Honey 350ml,Groceries,2,390,2026-10-31,Delivered
+ORD01391,Nicole Cruz,Power Bank 10000mAh,Electronics,1,944,2026-10-31,Delivered
+ORD01392,Katrina Valdez,Premium Coffee Beans 500g,Groceries,2,650,2026-11-01,Delivered
+ORD01393,Nicole Cruz,Premium Coffee Beans 500g,Groceries,1,650,2026-11-01,Delivered
+ORD01394,Maria Manalo,Wireless Mouse,Electronics,1,500,2026-11-01,Delivered
+ORD01395,Katrina Cruz,LED Desk Lamp,Home & Living,1,649,2026-11-01,Delivered
+ORD01396,Aileen Rivera,Sunscreen SPF50,Beauty & Health,1,420,2026-11-01,Delivered
+ORD01397,Aileen Rivera,Mechanical Keyboard,Electronics,1,2300,2026-11-02,Delivered
+ORD01398,Liza Salazar,LED Desk Lamp,Home & Living,1,649,2026-11-02,Delivered
+ORD01399,Hazel Ramos,Power Bank 10000mAh,Electronics,1,899,2026-11-02,Delivered
+ORD01400,Vincent Mendoza,Board Game Classic,Toys & Games,1,1150,2026-11-02,Delivered
+ORD01401,Juan Tolentino,Multivitamins 60s,Beauty & Health,2,540,2026-11-02,Delivered
+ORD01402,Nicole Cruz,Wireless Mouse,Electronics,1,500,2026-11-03,Delivered
+ORD01403,Joshua Flores,LED Desk Lamp,Home & Living,2,649,2026-11-03,Delivered
+ORD01404,Rhea Valdez,Yoga Mat,Sports & Outdoors,5,585,2026-11-03,Delivered
+ORD01405,Maria Flores,Wireless Mouse,Electronics,2,500,2026-11-03,Delivered
+ORD01406,Elmer Aguilar,Facial Cleanser,Beauty & Health,1,310,2026-11-03,Delivered
+ORD01407,Dennis Soriano,Bluetooth Earbuds,Electronics,5,1450,2026-11-03,Delivered
+ORD01408,Dianne Santos,Canvas Sneakers,Fashion,1,1299,2026-11-04,Delivered
+ORD01409,Joshua Aquino,Yoga Mat,Sports & Outdoors,1,650,2026-11-04,Delivered
+ORD01410,Daniel Domingo,Jump Rope,Sports & Outdoors,3,220,2026-11-04,Delivered
+ORD01411,John Castillo,Smart Watch,Electronics,1,1614,2026-11-04,Delivered
+ORD01412,Elmer Ramos,Sunscreen SPF50,Beauty & Health,3,420,2026-11-04,Delivered
+ORD01413,Kristine Aquino,Denim Jeans,Fashion,1,1100,2026-11-04,Delivered
+ORD01414,Nicole Cruz,Wireless Mouse,Electronics,1,500,2026-11-05,Delivered
+ORD01415,Dennis Castro,LED Desk Lamp,Home & Living,5,649,2026-11-05,Delivered
+ORD01416,Paolo Torres,Puzzle 1000pcs,Toys & Games,1,432,2026-11-05,Delivered
+ORD01417,Nicole Cruz,LED Desk Lamp,Home & Living,2,681,2026-11-05,Delivered
+ORD01418,Paolo Garcia,LED Desk Lamp,Home & Living,1,649,2026-11-05,Delivered
+ORD01419,Daniel Castillo,Cotton T-Shirt,Fashion,1,315,2026-11-05,Delivered
+ORD01420,Hazel Pascual,Wireless Mouse,Electronics,3,500,2026-11-05,Delivered
+ORD01421,Gabriel Flores,Bed Sheet Set,Home & Living,2,1250,2026-11-05,Shipped
+ORD01422,Joshua Aquino,Smart Watch,Electronics,2,1899,2026-11-05,Delivered
+ORD01423,Kristine Aquino,Vitamin C Serum,Beauty & Health,1,599,2026-11-05,Delivered
+ORD01424,Vincent Mendoza,USB-C Charger 65W,Electronics,1,1150,2026-11-05,Delivered
+ORD01425,Gabriel Aquino,Yoga Mat,Sports & Outdoors,5,650,2026-11-06,Delivered
+ORD01426,Gabriel Flores,Premium Coffee Beans 500g,Groceries,1,650,2026-11-06,Delivered
+ORD01427,Gabriel Torres,USB-C Charger 65W,Electronics,1,1150,2026-11-06,Delivered
+ORD01428,Joshua Manalo,Multivitamins 60s,Beauty & Health,3,540,2026-11-06,Delivered
+ORD01429,Joshua Manalo,Premium Coffee Beans 500g,Groceries,3,650,2026-11-06,Shipped
+ORD01430,Katrina Cruz,Mechanical Keyboard,Electronics,3,2300,2026-11-06,Delivered
+ORD01431,Jericho Castillo,Electric Kettle,Home & Living,1,780,2026-11-07,Shipped
+ORD01432,Jasmine Castro,Sunscreen SPF50,Beauty & Health,2,420,2026-11-07,Shipped
+ORD01433,Mika Cruz,Denim Jeans,Fashion,1,1100,2026-11-07,Shipped
+ORD01434,Nicole Cruz,Facial Cleanser,Beauty & Health,1,310,2026-11-07,Delivered
+ORD01435,Nicole Cruz,Wall Clock,Home & Living,1,380,2026-11-07,Delivered
+ORD01436,Angel Castillo,Portable Speaker,Electronics,4,1350,2026-11-08,Cancelled
+ORD01437,Jasmine Tolentino,Wireless Mouse,Electronics,1,500,2026-11-08,Delivered
+ORD01438,Sofia Navarro,Yoga Mat,Sports & Outdoors,1,650,2026-11-08,Delivered
+ORD01439,Vincent Dela Cruz,Premium Coffee Beans 500g,Groceries,2,650,2026-11-08,Shipped
+ORD01440,Maria Flores,Running Shoes,Fashion,2,2199,2026-11-08,Shipped
+ORD01441,Noel Cruz,Bluetooth Earbuds,Electronics,1,1450,2026-11-09,Cancelled
+ORD01442,Mika Cruz,Bluetooth Earbuds,Electronics,2,1450,2026-11-09,Delivered
+ORD01443,Joshua Flores,Mixed Nuts 1kg,Groceries,4,819,2026-11-09,Delivered
+ORD01444,Nicole Cruz,Bluetooth Earbuds,Electronics,1,1450,2026-11-09,Delivered
+ORD01445,Kristine Santos,Power Bank 10000mAh,Electronics,2,899,2026-11-09,Delivered
+ORD01446,John Castillo,Wireless Mouse,Electronics,1,500,2026-11-09,Delivered
+ORD01447,Carlo Santos,LED Desk Lamp,Home & Living,1,649,2026-11-09,Delivered
+ORD01448,Rhea Soriano,Programming Book,Books & Stationery,1,1650,2026-11-09,Cancelled
+ORD01449,Ramon Valdez,Bluetooth Earbuds,Electronics,1,1450,2026-11-09,Delivered
+ORD01450,Hazel Pascual,Multivitamins 60s,Beauty & Health,1,540,2026-11-10,Delivered
+ORD01451,Francis Navarro,Electric Kettle,Home & Living,1,780,2026-11-10,Delivered
+ORD01452,Liza Salazar,Building Blocks 500pcs,Toys & Games,2,899,2026-11-10,Cancelled
+ORD01453,Mika Garcia,Wireless Mouse,Electronics,2,500,2026-11-10,Delivered
+ORD01454,Gabriel Navarro,Running Shoes,Fashion,1,2199,2026-11-10,Delivered
+ORD01455,Joy Aquino,Canvas Sneakers,Fashion,4,1104,2026-11-10,Delivered
+ORD01456,Allan Rivera,Puzzle 1000pcs,Toys & Games,1,480,2026-11-10,Cancelled
+ORD01457,Paolo Dela Cruz,LED Desk Lamp,Home & Living,2,649,2026-11-10,Delivered
+ORD01458,Nicole Cruz,Electric Kettle,Home & Living,1,780,2026-11-10,Cancelled
+ORD01459,Patrick Aquino,Notebook Set (5pcs),Books & Stationery,1,250,2026-11-11,Processing
+ORD01460,Patrick Castro,Mixed Nuts 1kg,Groceries,3,780,2026-11-11,Shipped
+ORD01461,Bea Cruz,Gel Pen Pack,Books & Stationery,3,120,2026-11-11,Shipped
+ORD01462,Mika Valdez,Cotton T-Shirt,Fashion,1,350,2026-11-11,Processing
+ORD01463,Allan Castro,USB-C Charger 65W,Electronics,3,1150,2026-11-11,Delivered
+ORD01464,Irene Navarro,Denim Jeans,Fashion,5,1100,2026-11-11,Delivered
+ORD01465,Juan Lopez,Cotton T-Shirt,Fashion,1,350,2026-11-11,Processing
+ORD01466,Francis Torres,Mechanical Keyboard,Electronics,3,2300,2026-11-11,Shipped
+ORD01467,Rey Rivera,Bluetooth Earbuds,Electronics,1,1305,2026-11-11,Delivered
+ORD01468,Kristine Pascual,Wireless Mouse,Electronics,3,500,2026-11-11,Processing
+ORD01469,Vincent Dela Cruz,Denim Jeans,Fashion,1,1100,2026-11-11,Cancelled
+ORD01470,Miguel Bautista,Building Blocks 500pcs,Toys & Games,1,899,2026-11-11,Processing
+ORD01471,Katrina Reyes,Storage Organizer,Home & Living,2,420,2026-11-11,Shipped
+ORD01472,Trisha Tolentino,Denim Jeans,Fashion,1,1100,2026-11-11,Shipped
+ORD01473,Carlo Bautista,Smart Watch,Electronics,5,1899,2026-11-11,Cancelled
+ORD01474,Joshua Aquino,Bed Sheet Set,Home & Living,5,1312,2026-11-12,Pending
+ORD01475,Bea Cruz,Jump Rope,Sports & Outdoors,1,220,2026-11-12,Shipped
+ORD01476,Allan Rivera,Notebook Set (5pcs),Books & Stationery,4,250,2026-11-12,Shipped
+ORD01477,Allan Dela Cruz,Notebook Set (5pcs),Books & Stationery,4,250,2026-11-12,Shipped
+ORD01478,Noel Cruz,Cotton T-Shirt,Fashion,1,350,2026-11-12,Shipped
+ORD01479,Miguel Soriano,Bluetooth Earbuds,Electronics,3,1450,2026-11-12,Processing
+ORD01480,Rhea Valdez,Mechanical Keyboard,Electronics,4,2300,2026-11-12,Processing
+ORD01481,Jasmine Castro,Premium Coffee Beans 500g,Groceries,5,650,2026-11-13,Delivered
+ORD01482,Allan Aquino,Gel Pen Pack,Books & Stationery,3,120,2026-11-13,Processing
+ORD01483,Gabriel Cruz,Organic Honey 350ml,Groceries,1,390,2026-11-13,Processing
+ORD01484,Allan Rivera,Bluetooth Earbuds,Electronics,1,1450,2026-11-13,Shipped
+ORD01485,Irene Manalo,Wireless Mouse,Electronics,2,500,2026-11-13,Delivered
+ORD01486,Maria Aguilar,Building Blocks 500pcs,Toys & Games,2,899,2026-11-14,Processing
+ORD01487,Daniel Reyes,Air Fryer 4L,Home & Living,1,3200,2026-11-14,Processing
+ORD01488,Camille Valdez,Sunscreen SPF50,Beauty & Health,3,420,2026-11-14,Pending
+ORD01489,Liza Salazar,Facial Cleanser,Beauty & Health,2,310,2026-11-14,Processing
+ORD01490,Allan Lopez,Hair Dryer,Beauty & Health,1,1100,2026-11-14,Processing
+ORD01491,Dennis Lopez,Puzzle 1000pcs,Toys & Games,1,480,2026-11-14,Processing
+ORD01492,Carlo Villanueva,Facial Cleanser,Beauty & Health,1,310,2026-11-14,Pending
+ORD01493,Nicole Cruz,Cotton T-Shirt,Fashion,2,350,2026-11-15,Pending
+ORD01494,Grace Mendoza,Building Blocks 500pcs,Toys & Games,1,899,2026-11-15,Pending
+ORD01495,Kristine Aquino,Water Bottle 1L,Sports & Outdoors,1,399,2026-11-15,Processing
+ORD01496,Gabriel Bautista,Denim Jeans,Fashion,3,1100,2026-11-15,Pending
+ORD01497,Mika Aguilar,Leather Belt,Fashion,2,450,2026-11-15,Pending
+ORD01498,Joy Navarro,Mixed Nuts 1kg,Groceries,1,780,2026-11-15,Pending
+ORD01499,Ramon Garcia,Hoodie Jacket,Fashion,1,950,2026-11-15,Processing
+ORD01500,Gabriel Valdez,Hair Dryer,Beauty & Health,1,1100,2026-11-15,Pending
